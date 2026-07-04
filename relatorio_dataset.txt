@@ -1,0 +1,340 @@
+RELATÓRIO DO DATASET
+
+Arquivo bruto: data_imoveis_vitoria_vila_velha.csv
+Cidades esperadas: Vitória, Vila Velha
+Registros brutos: 3997
+Registros no dataset de modelagem: 3608
+Registros removidos: 389
+Taxa de retenção: 90.27%
+
+Remoções por primeiro motivo identificado:
+motivo_remocao
+sem_area_m2                  284
+area_suspeita                 34
+preco_m2_suspeito             22
+preco_suspeito                19
+cidade_fora_do_grupo          11
+quartos_ausente_ou_zero        6
+area_m2_invalida               6
+banheiros_ausente_ou_zero      4
+sem_preco_venda                3
+Name: count, dtype: int64
+
+Deduplicação:
+Entrada na deduplicação: 3608
+Removidos por id_anuncio duplicado: 0
+Removidos por url duplicada: 0
+Total removido por deduplicação forte: 0
+Possíveis duplicatas por chave exata, não removidas: 840
+Possíveis duplicatas por chave com preço arredondado, não removidas: 1192
+Saída da deduplicação: 3608
+
+Registros removidos por ausência de área por cidade e tipo:
+cidade      tipo_imovel
+Vitória     casa           137
+Vila Velha  casa           105
+Viana       casa            36
+Vila Velha  apartamento      3
+Vitória     apartamento      3
+dtype: int64
+
+Registros brutos fora das cidades esperadas: 48
+cidade
+Viana    48
+Name: count, dtype: Int64
+
+Cobertura por cidade:
+cidade
+Vitória       1824
+Vila Velha    1784
+Name: count, dtype: Int64
+
+Cobertura por tipo de imóvel:
+tipo_imovel
+apartamento    1979
+casa           1629
+Name: count, dtype: Int64
+
+Cobertura por cidade e tipo de imóvel:
+cidade      tipo_imovel
+Vitória     apartamento    991
+Vila Velha  apartamento    988
+Vitória     casa           833
+Vila Velha  casa           796
+dtype: int64
+
+Top 30 bairros por quantidade de registros:
+bairro
+Jardim Camburi              710
+Praia de Itaparica          341
+Praia da Costa              250
+Itapuã                      232
+Mata da Praia               178
+Jardim da Penha             122
+Interlagos                  117
+Praia do Canto               99
+Jockey de Itaparica          73
+Fradinhos                    71
+Centro de Vila Velha         66
+Bento Ferreira               64
+Coqueiral de Itaparica       60
+Enseada do Suá               47
+Balneário Ponta da Fruta     47
+Morada do Sol                40
+Santa Paula I                38
+Centro                       37
+Ilha do Boi                  33
+Ponta da Fruta               32
+Riviera da Barra             30
+Praia do Suá                 27
+Maria Ortiz                  26
+República                    25
+Jucutuquara                  24
+Santa Lúcia                  24
+Goiabeiras                   24
+Santa Helena                 23
+São Conrado                  23
+Ataíde                       23
+Name: count, dtype: Int64
+
+Registros concentrados nos 10 bairros mais frequentes: 2193 (60.78%)
+
+Top 30 pares cidade/bairro por quantidade de registros:
+cidade      bairro                  
+Vitória     Jardim Camburi              710
+Vila Velha  Praia de Itaparica          341
+            Praia da Costa              250
+            Itapuã                      232
+Vitória     Mata da Praia               178
+            Jardim da Penha             122
+Vila Velha  Interlagos                  117
+Vitória     Praia do Canto               99
+Vila Velha  Jockey de Itaparica          73
+Vitória     Fradinhos                    71
+Vila Velha  Centro de Vila Velha         66
+Vitória     Bento Ferreira               64
+Vila Velha  Coqueiral de Itaparica       60
+            Balneário Ponta da Fruta     47
+Vitória     Enseada do Suá               47
+Vila Velha  Morada do Sol                40
+            Santa Paula I                38
+Vitória     Centro                       37
+            Ilha do Boi                  33
+Vila Velha  Ponta da Fruta               32
+            Riviera da Barra             30
+Vitória     Praia do Suá                 27
+            Maria Ortiz                  26
+            República                    25
+            Jucutuquara                  24
+            Goiabeiras                   24
+            Santa Lúcia                  24
+            Santa Helena                 23
+Vila Velha  São Conrado                  23
+            Ataíde                       23
+dtype: int64
+
+Top 30 pares cidade/tipo/bairro por quantidade de registros:
+cidade      tipo_imovel  bairro                  
+Vitória     apartamento  Jardim Camburi              530
+Vila Velha  apartamento  Praia de Itaparica          323
+                         Praia da Costa              209
+                         Itapuã                      199
+Vitória     casa         Jardim Camburi              180
+                         Mata da Praia               154
+Vila Velha  casa         Interlagos                  114
+Vitória     apartamento  Jardim da Penha             112
+                         Praia do Canto               91
+Vila Velha  apartamento  Jockey de Itaparica          73
+Vitória     casa         Fradinhos                    71
+Vila Velha  apartamento  Coqueiral de Itaparica       59
+Vitória     apartamento  Bento Ferreira               51
+Vila Velha  casa         Centro de Vila Velha         46
+                         Balneário Ponta da Fruta     46
+Vitória     apartamento  Enseada do Suá               43
+Vila Velha  casa         Praia da Costa               41
+                         Morada do Sol                40
+                         Santa Paula I                35
+Vitória     casa         Ilha do Boi                  33
+Vila Velha  casa         Itapuã                       33
+                         Ponta da Fruta               32
+                         Riviera da Barra             30
+Vitória     casa         Centro                       30
+                         Maria Ortiz                  26
+                         República                    25
+            apartamento  Mata da Praia                24
+            casa         Goiabeiras                   23
+                         Jucutuquara                  22
+            apartamento  Praia do Suá                 21
+dtype: int64
+
+Comparação entre preço/m² suspeito original e recalculado:
+preco_m2_suspeito_original  preco_m2_suspeito
+False                       False                3892
+True                        True                   65
+                            False                  39
+False                       True                    1
+dtype: int64
+
+Valores ausentes por coluna no dataset de modelagem:
+vagas                      127
+preco_venda                  0
+subtipo_imovel               0
+tipo_imovel                  0
+cidade                       0
+bairro                       0
+quartos                      0
+area_m2                      0
+banheiros                    0
+anunciante_profissional      0
+qtd_imagens                  0
+tem_suite                    0
+tem_piscina                  0
+tem_varanda                  0
+tem_gourmet                  0
+tem_lazer                    0
+tem_mobiliado                0
+tem_porteira_fechada         0
+tem_elevador                 0
+tem_cobertura                0
+tem_garden                   0
+tem_sol_manha                0
+tem_frente_mar               0
+area_suspeita                0
+preco_suspeito               0
+idade_anuncio_dias           0
+preco_m2                     0
+preco_m2_suspeito            0
+dtype: int64
+
+Resumo numérico:
+          preco_venda     area_m2      preco_m2   quartos  banheiros     vagas  qtd_imagens  idade_anuncio_dias
+count          3608.0      3608.0   3608.000000    3608.0     3608.0    3481.0       3608.0              3608.0
+mean   1562202.615576  173.587306  10359.280302   3.01469   2.478936  2.013215     15.80765           25.855322
+std    1468489.872218   135.21122   5878.919011  1.004319   1.249386  1.158848     5.395747            51.55122
+min           50000.0        10.0    702.510000       1.0        1.0       0.0          0.0                 0.0
+25%          700000.0        75.0   6179.780000       2.0        2.0       1.0         12.0                 1.0
+50%         1092500.0       126.0  10000.000000       3.0        2.0       2.0         19.0                 3.0
+75%         1800486.5       230.0  13888.890000       4.0        3.0       3.0         20.0                28.0
+max        15000000.0      1000.0  38203.090000       5.0        5.0       5.0         20.0               291.0
+
+Idade dos anúncios no bruto:
+> 90 dias: 298
+> 180 dias: 118
+> 365 dias: 0
+
+20 menores preços por m² no dataset filtrado:
+    cidade                bairro tipo_imovel   subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas
+   Vitória                Centro        casa casa_rua_publica       447500      637    702.51        3          2   <NA>
+   Vitória            Goiabeiras        casa casa_rua_publica       175000      240    729.17        3          1      1
+   Vitória             São Pedro        casa casa_rua_publica       150000      200    750.00        3          2   <NA>
+   Vitória             São Pedro        casa casa_rua_publica       120000      160    750.00        2          1   <NA>
+   Vitória             São Pedro        casa casa_rua_publica        90000      120    750.00        2          1      2
+Vila Velha       Morada da Barra        casa casa_rua_publica       235000      300    783.33        2          2      5
+   Vitória            Tabuazeiro        casa casa_rua_publica       190000      240    791.67        2          2   <NA>
+   Vitória             São Pedro        casa casa_rua_publica        98000      120    816.67        2          1      2
+   Vitória           Maria Ortiz        casa casa_rua_publica       190000      230    826.09        2          1      2
+Vila Velha          Vila Garrido        casa casa_rua_publica       410000      495    828.28        5          3      5
+   Vitória           Resistência        casa casa_rua_publica       100000      120    833.33        2          1      2
+Vila Velha Residencial Coqueiral        casa casa_rua_publica       100000      120    833.33        2          2   <NA>
+Vila Velha            Barramares        casa casa_rua_publica       250000      300    833.33        5          4      0
+Vila Velha    Zumbí dos Palmares        casa             casa       240000      280    857.14        5          3      2
+Vila Velha                  IBES        casa casa_rua_publica       200000      230    869.57        3          2      2
+Vila Velha    Jardim Guadalajara        casa casa_rua_publica       220000      250    880.00        3          1      3
+Vila Velha          Vila Batista        casa casa_rua_publica       150000      170    882.35        3          1   <NA>
+   Vitória           Jucutuquara        casa casa_rua_publica       160000      180    888.89        2          1      2
+   Vitória            Goiabeiras        casa casa_rua_publica       180000      200    900.00        2          1      1
+   Vitória            Goiabeiras        casa casa_rua_publica       180000      200    900.00        2          1      1
+
+20 maiores preços por m² no dataset filtrado:
+    cidade             bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas
+   Vitória     Praia do Canto apartamento    apartamento_padrao      8519290      223  38203.09        4          5      4
+   Vitória        Santa Luíza apartamento    apartamento_padrao      5980000      162  36913.58        4          5      3
+   Vitória    Jardim da Penha apartamento    apartamento_padrao      1349325       37  36468.24        2          1      1
+   Vitória    Jardim da Penha apartamento apartamento_cobertura     11434208      322  35509.96        4          1      4
+   Vitória     Praia do Canto apartamento    apartamento_padrao      4484871      128  35038.05        4          1      3
+   Vitória     Praia do Canto apartamento    apartamento_padrao      6557982      188  34882.88        4          2      3
+Vila Velha             Itapuã apartamento    apartamento_padrao      5085556      148  34361.86        4          1      4
+Vila Velha             Itapuã apartamento    apartamento_padrao      5033700      148  34011.49        4          1      4
+Vila Velha        São Conrado apartamento           loft_studio       679507       20  33975.35        1          1      0
+Vila Velha        São Conrado apartamento           loft_studio       679505       20  33975.25        1          1      0
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010888       30  33696.27        1          1      1
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010888       30  33696.27        1          1      1
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010877       30  33695.90        1          1      1
+   Vitória     Praia do Canto apartamento apartamento_cobertura     12500000      380  32894.74        4          5      3
+Vila Velha Praia de Itaparica apartamento           loft_studio       651370       20  32568.50        1          1      0
+Vila Velha Praia de Itaparica apartamento           loft_studio       651366       20  32568.30        1          1      0
+Vila Velha Praia de Itaparica apartamento           loft_studio       651357       20  32567.85        1          1      0
+Vila Velha Praia de Itaparica apartamento apartamento_cobertura      4900000      152  32236.84        4          1      4
+   Vitória     Praia do Canto apartamento    apartamento_padrao      8025000      250  32100.00        4          5      4
+Vila Velha Praia de Itaparica apartamento    apartamento_padrao       639900       20  31995.00        1          1   <NA>
+
+20 menores preços por m² no bruto:
+    cidade                   bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                                                                                        url
+Vila Velha                   Ataíde        casa   casa_rua_publica          380      727      0.52        1          1   <NA>                                                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-1501687138
+     Viana                  Ipanema        casa   casa_rua_publica       200000   380000      0.53        2          1      1                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-duplex-casa-em-ipanema-1503946038
+   Vitória                Fradinhos        casa   casa_rua_publica          250      300      0.83        2          1      2                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-linda-casa-em-caxixe-frio-venda-nova-do-imigrante-1505965545
+Vila Velha Balneário Ponta da Fruta        casa   casa_rua_publica          550      360      1.53        2          1      5                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-com-piscina-1514160908
+   Vitória               Goiabeiras        casa   casa_rua_publica       350000   200000      1.75        3          2   <NA>                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-goiabeiras-vitoria-1509404419
+   Vitória           Praia do Canto        casa   casa_rua_publica      7000000  3980000      1.76        5          5      5                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/terreno-de-3980-m-2-em-jacaraipe-serra-es-1493068457
+Vila Velha          Morada da Barra        casa   casa_rua_publica          280      150      1.87        4          2      1                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/duas-casas-em-vila-velha-1509180129
+Vila Velha              São Conrado        casa   casa_rua_publica          395      174      2.27        2          1      2                                                                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-sao-conrado-1510484562
+Vila Velha           Terra Vermelha        casa   casa_rua_publica          280       80      3.50        4          3      1 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-espacosa-e-bem-iluminada-br-localizacao-privilegiada-no-bairro-terra-vermelha-1505781124
+Vila Velha         Riviera da Barra        casa   casa_rua_publica          510       80      6.38        1          1      2                                                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-1509671982
+Vila Velha     Santa Mônica Popular        casa   casa_rua_publica         1600      240      6.67        4          3      2                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendesse-uma-predio-em-santa-monica-vila-velha-todo-escriturad-1500041836
+   Vitória              Maria Ortiz        casa   casa_rua_publica       670000   100000      6.70        2          1      1           https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-sao-duas-casas-mais-terraco-podendo-ainda-aumentar-a-quantidade-de-comodos-1503444368
+   Vitória          Jardim da Penha apartamento apartamento_padrao          560       63      8.89        2          2      1                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/2-quartos-em-jardim-da-penha-560-mil-1512327973
+Vila Velha           Praia da Costa apartamento apartamento_padrao         1490      115     12.96        4          3      2               https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-a-venda-4-quartos-2-suites-2-vagas-praia-da-costa-vila-velha-es-1515317766
+Vila Velha               Barramares        casa   casa_rua_publica       480000    30000     16.00        4          3      2                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-venda-espaco-conforto-e-area-gourmet-1501147552
+Vila Velha                  Aribiri        casa   casa_rua_publica       150000     6000     25.00        2          1      0                                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-sobrado-em-aribiri-vila-velha-es-1501295990
+Vila Velha     Centro de Vila Velha        casa   casa_rua_publica        11500      350     32.86        4          5      3                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-p-da-costa-alugo-vendo-1271124725
+Vila Velha            Barra do Jucu        casa   casa_rua_publica         2500       60     41.67        2          1      0                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casas-e-chales-de-madeira-1509654029
+Vila Velha               Interlagos        casa   casa_rua_publica      1950000    35964     54.22        4          4      2                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/seu-novo-lar-em-interlagos-sobrado-com-4-quartos-1507088934
+Vila Velha           Santa Paula II        casa    casa_condominio       350000     6000     58.33        2          1      1                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-santa-paula-ii-vila-velha-es-1501295986
+
+20 maiores preços por m² no bruto:
+    cidade             bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                                                                                   url
+   Vitória          Caratoíra        casa      casa_rua_publica       375000        1 375000.00        3          2   <NA> https://es.olx.com.br/norte-do-espirito-santo/imoveis/cida-rabelo-vende-santo-antonio-perto-do-santuario-casa-3qts-sala-duas-vagas-375-mil-1504617223
+   Vitória            Itararé        casa      casa_rua_publica       185000        1 185000.00        2          1      0                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/kitnet-e-ponto-comercial-1514825066
+Vila Velha     Praia da Costa apartamento    apartamento_padrao       550055        3 183351.67        3          2      1                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-perto-da-praia-em-itapoa-3-quartos-com-praticidade-1514980387
+Vila Velha     Praia da Costa        casa      casa_rua_publica      1460886        9 162320.67        3          2      1              https://es.olx.com.br/norte-do-espirito-santo/imoveis/3-quartos-no-terrace-praia-da-costa-parque-das-castanheiras-cod-26824-f-1506069325
+   Vitória              Romão        casa                  casa       120000        1 120000.00        2          1      0                                                                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ser-casa-1504040917
+Vila Velha             Itapuã apartamento    apartamento_padrao      1200000       10 120000.00        1          1   <NA> https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-apartamento-203-edificio-lordello-colnago-avenida-antonio-gil-veloso-n-2-1514721911
+Vila Velha             Itapuã apartamento    apartamento_padrao      6068332      148  41002.24        4          4      4                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/grand-canal-1514926487
+   Vitória     Praia do Canto apartamento    apartamento_padrao      8519290      223  38203.09        4          5      4          https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-no-balcony-residences-barro-vermelho-4-suites-ate-399m-dez-2028-1513426145
+   Vitória        Santa Luíza apartamento    apartamento_padrao      5980000      162  36913.58        4          5      3                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-4-suites-em-santa-luiza-vitoria-1504400162
+   Vitória    Jardim da Penha apartamento    apartamento_padrao      1349325       37  36468.24        2          1      1                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-em-jardim-da-penha-1514963786
+   Vitória    Jardim da Penha apartamento apartamento_cobertura     11434208      322  35509.96        4          1      4                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/cobertura-4-quartos-em-jardim-da-penha-1514654521
+   Vitória     Praia do Canto apartamento    apartamento_padrao      4484871      128  35038.05        4          1      3                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/lancamento-garden-4-suites-na-joaquim-lirio-na-praia-do-canto-1511848992
+   Vitória     Praia do Canto apartamento    apartamento_padrao      6557982      188  34882.88        4          2      3                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-4-quartos-em-praia-do-canto-1514652453
+Vila Velha             Itapuã apartamento    apartamento_padrao      5085556      148  34361.86        4          1      4                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-4-quartos-em-praia-da-costa-1514964684
+Vila Velha             Itapuã apartamento    apartamento_padrao      5033700      148  34011.49        4          1      4                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-4-quartos-em-praia-da-costa-1514652994
+Vila Velha        São Conrado apartamento           loft_studio       679507       20  33975.35        1          1      0      https://es.olx.com.br/norte-do-espirito-santo/imoveis/pronto-para-morar-studio-em-sao-conrado-vila-velha-com-areas-de-lazer-incriveis-1515411810
+Vila Velha        São Conrado apartamento           loft_studio       679505       20  33975.25        1          1      0                https://es.olx.com.br/norte-do-espirito-santo/imoveis/aproveite-a-vida-a-beira-mar-studio-moderno-em-sao-conrado-vila-velha-1515485638
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010888       30  33696.27        1          1      1                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/oportunidade-unica-studio-cobertura-em-praia-de-itaparica-com-lazer-1515522729
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010888       30  33696.27        1          1      1                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/exclusivo-studio-cobertura-em-praia-de-itaparica-com-lazer-completo-1515190725
+Vila Velha Praia de Itaparica apartamento           loft_studio      1010877       30  33695.90        1          1      1               https://es.olx.com.br/norte-do-espirito-santo/imoveis/invista-em-praia-de-itaparica-studio-cobertura-com-lazer-e-valorizacao-1515451864
+
+Amostra de registros removidos por preço/m² suspeito:
+   motivo_remocao     cidade                   bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                                                                                   url
+preco_m2_suspeito Vila Velha                   Itapuã apartamento apartamento_padrao      1200000       10 120000.00        1          1   <NA> https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-apartamento-203-edificio-lordello-colnago-avenida-antonio-gil-veloso-n-2-1514721911
+preco_m2_suspeito Vila Velha                   Itapuã apartamento apartamento_padrao      6068332      148  41002.24        4          4      4                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/grand-canal-1514926487
+preco_m2_suspeito Vila Velha Balneário Ponta da Fruta        casa               casa       230000      340    676.47        1          1      3                                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-balneario-de-ponta-da-fruta-1515309646
+preco_m2_suspeito Vila Velha          Cidade da Barra        casa   casa_rua_publica       250000      430    581.40        1          1      2                                                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-1512718566
+preco_m2_suspeito Vila Velha                   Glória        casa   casa_rua_publica        70000      420    166.67        2          1      0                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-alugo-casa-em-cobi-de-cima-vv-1504571255
+preco_m2_suspeito Vila Velha          Morada da Barra        casa   casa_rua_publica       130000      380    342.11        2          2      5                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-feu-rosa-serra-vendo-aceito-caminhao-1507537865
+preco_m2_suspeito Vila Velha          Morada da Barra        casa   casa_rua_publica       185000      360    513.89        3          3      2 https://es.olx.com.br/norte-do-espirito-santo/imoveis/excelente-oportunidade-casa-morada-da-barra-vila-velha-es-br-br-casa-morada-da-barra-1419762245
+preco_m2_suspeito Vila Velha          Morada da Barra        casa   casa_rua_publica       190000      300    633.33        2          2      1                                                                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-2-kitnets-1510794187
+preco_m2_suspeito Vila Velha          Morada da Barra        casa   casa_rua_publica       200000      300    666.67        1          1      1                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/2-kitnet--por-200-000-as-duas-1510994248
+preco_m2_suspeito Vila Velha     Santa Mônica Popular        casa   casa_rua_publica       265000      400    662.50        2          1      2                                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-1512662114
+preco_m2_suspeito Vila Velha           Vale Encantado        casa   casa_rua_publica        50000      180    277.78        2          1   <NA>                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-casa-1502480105
+preco_m2_suspeito    Vitória                   Centro        casa   casa_rua_publica       250000      732    341.53        4          1      5                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-terreno-1514221785
+preco_m2_suspeito    Vitória               Cruzamento        casa   casa_rua_publica       160000      250    640.00        3          2      1                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cruzamento-1485662828
+preco_m2_suspeito    Vitória           Forte São João        casa   casa_rua_publica        80000      137    583.94        2          1      0                                                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-1511565527
+preco_m2_suspeito    Vitória               Goiabeiras        casa   casa_rua_publica       200000      310    645.16        2          2      2                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-goiabeiras-1485663129
+preco_m2_suspeito    Vitória           Nova Palestina        casa   casa_rua_publica       150000      380    394.74        2          2      0                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-em-vitoria-leia-o-anuncio-1506317390
+preco_m2_suspeito    Vitória            Santo Antônio        casa   casa_rua_publica       190000      340    558.82        2          2      2                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-santo-antonio-1485661603
+preco_m2_suspeito    Vitória            Santo Antônio        casa   casa_rua_publica       310000      450    688.89        3          3      3                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-bela-vista-1485662990
+preco_m2_suspeito    Vitória             Solon Borges        casa   casa_rua_publica        65000      148    439.19        2          1   <NA>                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-solon-borges-1512462885
+preco_m2_suspeito    Vitória                São Pedro        casa   casa_rua_publica        90000      180    500.00        2          1      2                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-sao-pedro-1509659164
+preco_m2_suspeito    Vitória                São Pedro        casa   casa_rua_publica        98000      179    547.49        2          1      2                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/lc-disponivel-no-bairro-sao-pedro-4-casa-2-quartos-1504841789
+preco_m2_suspeito    Vitória                São Pedro        casa   casa_rua_publica       220000      320    687.50        3          2      2                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-sao-pedro-1485461794
