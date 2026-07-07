@@ -20,9 +20,9 @@ from selenium.common.exceptions import TimeoutException
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-OUTPUT_CSV = os.getenv("OUTPUT_CSV", "data_imoveis_vitoria_vila_velha.csv")
+OUTPUT_CSV = os.getenv("OUTPUT_CSV", "data_imoveis_outras_cidades.csv")
 
-MAX_PAGES = int(os.getenv("MAX_PAGES", 20))
+MAX_PAGES = int(os.getenv("MAX_PAGES", 40))
 
 HEADLESS = False
 
@@ -35,27 +35,18 @@ MAX_RETRIES = int(os.getenv("MAX_RETRIES", 2))
 SAVE_DEBUG_HTML = os.getenv("SAVE_DEBUG_HTML", "1") == "1"
 DEBUG_DIR = Path(os.getenv("DEBUG_DIR", "debug_pages"))
 
-
+'''
+    Fundao ok
+    Viana ok
+    Cariacica ok
+    Serra ok
+    Guarapari ok
+    '''
 LISTING_URLS = [
     {
-        "cidade": "Vitória",
+        "cidade": "Guarapari",
         "tipo_url": "apartamento",
-        "url": "https://www.olx.com.br/imoveis/venda/apartamentos/estado-es/norte-do-espirito-santo/vitoria",
-    },
-    {
-        "cidade": "Vitória",
-        "tipo_url": "casa",
-        "url": "https://www.olx.com.br/imoveis/venda/casas/estado-es/norte-do-espirito-santo/vitoria",
-    },
-    {
-        "cidade": "Vila Velha",
-        "tipo_url": "apartamento",
-        "url": "https://www.olx.com.br/imoveis/venda/apartamentos/estado-es/norte-do-espirito-santo/vila-velha",
-    },
-    {
-        "cidade": "Vila Velha",
-        "tipo_url": "casa",
-        "url": "https://www.olx.com.br/imoveis/venda/casas/estado-es/norte-do-espirito-santo/vila-velha",
+        "url": "https://www.olx.com.br/imoveis/venda/apartamentos/estado-es/norte-do-espirito-santo/guarapari-e-regiao/guarapari",
     },
 ]
 

@@ -1,0 +1,361 @@
+RELATÓRIO DO DATASET
+
+Arquivo bruto: data_imoveis_outras_cidades.csv
+Cidades esperadas: Fundão, Guarapari, Serra, Viana, Cariacica
+Registros brutos: 9116
+Registros no dataset de modelagem: 7391
+Registros removidos: 1725
+Taxa de retenção: 81.08%
+
+Remoções por primeiro motivo identificado:
+motivo_remocao
+sem_area_m2                  1448
+preco_m2_suspeito             131
+area_suspeita                  77
+area_m2_invalida               24
+preco_suspeito                 21
+banheiros_ausente_ou_zero      11
+quartos_ausente_ou_zero         6
+sem_preco_venda                 5
+sem_bairro                      2
+Name: count, dtype: int64
+
+Deduplicação:
+Entrada na deduplicação: 7391
+Removidos por id_anuncio duplicado: 0
+Removidos por url duplicada: 0
+Total removido por deduplicação forte: 0
+Possíveis duplicatas por chave exata, não removidas: 2212
+Possíveis duplicatas por chave com preço arredondado, não removidas: 2753
+Saída da deduplicação: 7391
+
+Registros removidos por ausência de área por cidade e tipo:
+cidade     tipo_imovel
+Cariacica  casa           799
+Viana      casa           292
+Serra      casa           268
+Cariacica  apartamento     31
+Guarapari  casa            25
+Serra      apartamento     19
+Guarapari  apartamento      8
+Fundão     casa             4
+Viana      apartamento      2
+dtype: int64
+
+Registros brutos fora das cidades esperadas: 1
+cidade
+Praia Grande, Fundão    1
+Name: count, dtype: Int64
+
+Cobertura por cidade:
+cidade
+Serra        3614
+Guarapari    3016
+Cariacica     659
+Viana          52
+Fundão         50
+Name: count, dtype: Int64
+
+Cobertura por tipo de imóvel:
+tipo_imovel
+apartamento    4142
+casa           3249
+Name: count, dtype: Int64
+
+Cobertura por cidade e tipo de imóvel:
+cidade     tipo_imovel
+Serra      apartamento    1967
+Guarapari  apartamento    1880
+Serra      casa           1647
+Guarapari  casa           1136
+Cariacica  casa            383
+           apartamento     276
+Fundão     casa             47
+Viana      casa             36
+           apartamento      16
+Fundão     apartamento       3
+dtype: int64
+
+Top 30 bairros por quantidade de registros:
+bairro
+Praia do Morro                    1210
+Colina de Laranjeiras              592
+Centro                             575
+Morada de Laranjeiras              543
+Valparaíso                         247
+Enseada Azul                       228
+Jardim Limoeiro                    186
+Praia da Baleia                    169
+São Francisco                      155
+Parque Residencial Laranjeiras     146
+Manguinhos                         143
+Campo Grande                       139
+Nova Guarapari                     134
+São Judas Tadeu                    120
+Planície da Serra                  115
+Jacuhy                             115
+Recanto da Sereia                  102
+Santa Mônica                        89
+Itapebussu                          84
+Conjunto Jacaraípe                  83
+Meaípe                              68
+Castelândia                         57
+Residencial Centro da Serra         54
+Balneário de Carapebus              54
+Jardim Atlântico                    51
+Boulevard Lagoa                     51
+Praia Grande                        50
+Village do Sol                      46
+Ipiranga                            44
+São Diogo II                        43
+Name: count, dtype: Int64
+
+Registros concentrados nos 10 bairros mais frequentes: 4051 (54.81%)
+
+Top 30 pares cidade/bairro por quantidade de registros:
+cidade     bairro                        
+Guarapari  Praia do Morro                    1210
+Serra      Colina de Laranjeiras              592
+Guarapari  Centro                             575
+Serra      Morada de Laranjeiras              543
+           Valparaíso                         246
+Guarapari  Enseada Azul                       228
+Serra      Jardim Limoeiro                    186
+           Praia da Baleia                    169
+           Parque Residencial Laranjeiras     146
+           Manguinhos                         143
+           São Francisco                      140
+Cariacica  Campo Grande                       139
+Guarapari  Nova Guarapari                     134
+Serra      Jacuhy                             115
+           Planície da Serra                  115
+Guarapari  São Judas Tadeu                    113
+           Recanto da Sereia                  102
+           Santa Mônica                        89
+           Itapebussu                          84
+Serra      Conjunto Jacaraípe                  83
+Guarapari  Meaípe                              68
+Serra      Castelândia                         57
+           Balneário de Carapebus              54
+           Residencial Centro da Serra         54
+           Jardim Atlântico                    51
+           Boulevard Lagoa                     51
+Fundão     Praia Grande                        50
+Guarapari  Village do Sol                      46
+           Ipiranga                            44
+Serra      São Diogo II                        43
+dtype: int64
+
+Top 30 pares cidade/tipo/bairro por quantidade de registros:
+cidade     tipo_imovel  bairro                        
+Guarapari  apartamento  Praia do Morro                    1050
+                        Centro                             539
+Serra      apartamento  Colina de Laranjeiras              475
+                        Morada de Laranjeiras              273
+           casa         Morada de Laranjeiras              270
+           apartamento  Valparaíso                         211
+                        Jardim Limoeiro                    180
+Guarapari  apartamento  Enseada Azul                       166
+           casa         Praia do Morro                     160
+Serra      apartamento  Praia da Baleia                    148
+           casa         São Francisco                      133
+                        Manguinhos                         133
+                        Colina de Laranjeiras              117
+Guarapari  casa         Nova Guarapari                     112
+Serra      casa         Jacuhy                             111
+Guarapari  casa         Recanto da Sereia                  102
+Serra      casa         Planície da Serra                   99
+Guarapari  casa         Santa Mônica                        87
+Serra      apartamento  Parque Residencial Laranjeiras      86
+Guarapari  casa         Itapebussu                          83
+Serra      apartamento  Conjunto Jacaraípe                  82
+Cariacica  apartamento  Campo Grande                        72
+Guarapari  casa         São Judas Tadeu                     69
+Cariacica  casa         Campo Grande                        67
+Guarapari  casa         Meaípe                              63
+                        Enseada Azul                        62
+Serra      casa         Parque Residencial Laranjeiras      60
+           apartamento  Castelândia                         55
+           casa         Boulevard Lagoa                     49
+Fundão     casa         Praia Grande                        47
+dtype: int64
+
+Comparação entre preço/m² suspeito original e recalculado:
+preco_m2_suspeito_original  preco_m2_suspeito
+False                       False                8746
+True                        False                 184
+                            True                  164
+False                       True                   22
+dtype: int64
+
+Valores ausentes por coluna no dataset de modelagem:
+vagas                      327
+preco_venda                  0
+subtipo_imovel               0
+tipo_imovel                  0
+cidade                       0
+bairro                       0
+quartos                      0
+area_m2                      0
+banheiros                    0
+anunciante_profissional      0
+qtd_imagens                  0
+tem_suite                    0
+tem_piscina                  0
+tem_varanda                  0
+tem_gourmet                  0
+tem_lazer                    0
+tem_mobiliado                0
+tem_porteira_fechada         0
+tem_elevador                 0
+tem_cobertura                0
+tem_garden                   0
+tem_sol_manha                0
+tem_frente_mar               0
+area_suspeita                0
+preco_suspeito               0
+idade_anuncio_dias           0
+preco_m2                     0
+preco_m2_suspeito            0
+dtype: int64
+
+Resumo numérico:
+          preco_venda     area_m2      preco_m2   quartos  banheiros     vagas  qtd_imagens  idade_anuncio_dias
+count          7391.0      7391.0   7391.000000    7391.0     7391.0    7064.0       7391.0              7391.0
+mean     981377.63902   148.67501   7118.222356   2.79475   2.161954  1.842865    15.296712           67.532269
+std    1099110.653414  132.452975   3673.052985  0.911336   1.223316  1.163145     5.157418          159.255988
+min           55200.0        12.0    700.000000       1.0        1.0       0.0          0.0                 0.0
+25%          370000.0        63.0   4999.955000       2.0        1.0       1.0         12.0                 2.0
+50%          650000.0       100.0   6664.440000       3.0        2.0       2.0         17.0                 8.0
+75%         1200000.0       190.5   8805.500000       3.0        3.0       2.0         20.0                48.0
+max        20000000.0      1000.0  35046.730000       5.0        5.0       5.0         20.0              1535.0
+
+Idade dos anúncios no bruto:
+> 90 dias: 1443
+> 180 dias: 845
+> 365 dias: 392
+
+20 menores preços por m² no dataset filtrado:
+   cidade               bairro tipo_imovel   subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas
+Cariacica              Itacibá        casa casa_rua_publica       140000      200    700.00        2          1      2
+    Serra     Parque Jacaraípe        casa casa_rua_publica       140000      200    700.00        2          2      1
+Cariacica   Morada de Santa Fé        casa casa_rua_publica       140000      200    700.00        2          1      1
+    Serra      Colina da Serra        casa casa_rua_publica       230000      324    709.88        2          1      2
+    Serra             Caçaroca        casa casa_rua_publica       165000      230    717.39        3          2      1
+Cariacica     Porto de Santana        casa casa_rua_publica       165000      230    717.39        3          1      2
+    Serra Vila Nova de Colares        casa casa_rua_publica       165000      230    717.39        2          2      2
+    Serra        Porto Dourado        casa casa_rua_publica       180000      250    720.00        2          1      1
+    Serra     Jardim Guanabara        casa casa_rua_publica       242800      336    722.62        1          1      1
+    Viana              Areinha        casa casa_rua_publica       145000      200    725.00        2          1      2
+Cariacica       Nova Esperança        casa casa_rua_publica       145000      200    725.00        3          1      2
+Cariacica          São Conrado        casa casa_rua_publica       180000      248    725.81        3          2      5
+Cariacica         Campo Grande        casa casa_rua_publica       180000      248    725.81        3          1      5
+    Serra     Planalto Serrano        casa casa_rua_publica       255000      350    728.57        2          1      2
+    Serra             Feu Rosa        casa casa_rua_publica       175000      240    729.17        2          1      2
+    Serra           Valparaíso        casa casa_rua_publica       197000      270    729.63        3          1      4
+    Serra   Praia de Carapebus        casa casa_rua_publica       147000      200    735.00        2          2      1
+    Viana                Canaã        casa casa_rua_publica       147000      200    735.00        3          1      1
+    Serra             Eldorado        casa casa_rua_publica       140000      190    736.84        2          1      2
+    Viana    Arlindo Villaschi        casa casa_rua_publica       170000      230    739.13        2          1      2
+
+20 maiores preços por m² no dataset filtrado:
+   cidade                bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas
+Guarapari          Enseada Azul apartamento apartamento_padrao      7500000      214  35046.73        4          2      4
+    Serra Colina de Laranjeiras apartamento apartamento_padrao       998900       31  32222.58        3          3      1
+Guarapari          Enseada Azul apartamento apartamento_padrao      7499999      248  30241.93        4          5      4
+    Serra Morada de Laranjeiras        casa   casa_rua_publica      2690000       93  28924.73        3          2      3
+Guarapari        Praia do Morro        casa    casa_condominio     20000000      700  28571.43        5          5      5
+Guarapari      Jardim Boa Vista        casa   casa_rua_publica      1410000       50  28200.00        4          3      2
+Guarapari          Enseada Azul apartamento apartamento_padrao      3510000      125  28080.00        3          2   <NA>
+Guarapari          Enseada Azul apartamento apartamento_padrao      5510000      200  27550.00        5          5      3
+Guarapari        Praia do Morro apartamento apartamento_padrao      2200000       80  27500.00        3          1      2
+Guarapari       São Judas Tadeu        casa   casa_rua_publica      4010000      150  26733.33        4          3      3
+    Serra         São Francisco apartamento apartamento_padrao       650000       25  26000.00        5          1   <NA>
+Guarapari                Centro apartamento apartamento_padrao      3000000      124  24193.55        3          2   <NA>
+Guarapari                Centro apartamento apartamento_padrao      5200000      215  24186.05        4          5      2
+Guarapari          Enseada Azul apartamento apartamento_padrao      4800000      204  23529.41        4          4      3
+Guarapari          Enseada Azul apartamento apartamento_padrao      1448739       62  23366.76        2          2      2
+Guarapari          Enseada Azul apartamento apartamento_padrao      3500000      150  23333.33        4          5      4
+Guarapari          Enseada Azul apartamento apartamento_padrao      3500000      150  23333.33        4          5      4
+Guarapari          Enseada Azul        casa   casa_rua_publica       700000       30  23333.33        1          1      1
+Guarapari                Centro apartamento apartamento_padrao      2550000      110  23181.82        3          2      2
+Guarapari        Praia do Morro apartamento apartamento_padrao      1970000       85  23176.47        3          2      2
+
+20 menores preços por m² no bruto:
+   cidade              bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                                                  url
+    Serra           Barcelona        casa   casa_rua_publica       250000 29042340      0.01        2          2      1                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/ca-vendo-casa-barcelona-serra-1512773444
+Cariacica  Vila Independência        casa               casa        32000   999999      0.03        1          1      1                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/lote-com-barraco-de-madeira-1513190113
+Cariacica                Bubú        casa               casa          300      800      0.38        3          2      5                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/passa-se-uma-casa-1510370400
+Guarapari        Santa Mônica        casa    casa_condominio          200      300      0.67        2          1      4                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-com-um-bom-terreno-plano-1510408156
+Cariacica          Porto Novo        casa   casa_rua_publica          280      420      0.67        4          3      5                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-grande-1501840720
+Cariacica      Parque Gramado        casa   casa_rua_publica          250      339      0.74        5          1   <NA> https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-aceito-proposta-aceito-caminhonete-como-parte-1510481983
+Cariacica       Vila Capixaba        casa   casa_rua_publica          300      385      0.78        2          3      5                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-ampla-com-anexo-1506823280
+    Serra          Valparaíso        casa   casa_rua_publica       155000   200000      0.78        2          1      5           https://es.olx.com.br/norte-do-espirito-santo/imoveis/lv-vende-se-casa-em-residencial-jacaraipe-1454972607
+    Serra          Valparaíso        casa   casa_rua_publica       200000   220000      0.91        3          2      3                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/lv-vende-se-casa-em-valparaiso-1453717248
+    Viana   Arlindo Villaschi        casa   casa_rua_publica          210      230      0.91        3          2      2                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-arlindo-vilaschi-viana-1476420576
+    Viana Marcílio de Noronha        casa   casa_rua_publica          285      250      1.14        3          3      3                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-na-principal-1513333209
+Cariacica         São Geraldo        casa   casa_rua_publica       180000   130000      1.38        2          2      1                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-sm-sao-geraldo-1494827429
+Cariacica      Jardim América        casa   casa_rua_publica       190000   130000      1.46        2          1      1                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-jardim-america-1494665391
+Cariacica        Bandeirantes        casa   casa_rua_publica       200000   130000      1.54        2          1      1                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-bandeirantes-1494633242
+Cariacica       Vila Capixaba        casa   casa_rua_publica       195000   120000      1.62        2          1      1                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-vila-capixaba-1494817731
+    Viana       Vila Bethânia        casa   casa_rua_publica       200000   120000      1.67        2          2   <NA>                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-vila-bethania-1494824182
+Cariacica             Itacibá        casa   casa_rua_publica       210000   120000      1.75        3          1      1                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-itaciba-1494631341
+Cariacica       São Francisco apartamento apartamento_padrao          200       90      2.22        3          2      1                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-um-apartamento-1501530709
+Cariacica            Flexal I        casa   casa_rua_publica        40000    17780      2.25        1          1      2                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-esta-casa-1511783008
+    Serra            Praiamar apartamento apartamento_padrao          310       75      4.13        3          2      0                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-nova-almeida-1514298495
+
+20 maiores preços por m² no bruto:
+   cidade                bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2   preco_m2  quartos  banheiros  vagas                                                                                                                                                       url
+Guarapari        Praia do Morro apartamento    apartamento_padrao    365000000       55 6636363.64        2          1   <NA>                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-na-praia-do-morro-em-guarapari-es-1511831809
+Guarapari        Praia do Morro apartamento    apartamento_padrao    430000000       70 6142857.14        2          2      1  https://es.olx.com.br/norte-do-espirito-santo/imoveis/apto-2-quartos-2-banheiros-vaga-de-garagem-privativa-em-otima-localizacao-na-praia-do-m-1515878339
+Cariacica          Campo Grande apartamento    apartamento_padrao    449000000      116 3870689.66        3          2      2              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-amplo-116m-em-campo-grande-com-2-vagas-oportunidade-unica-1438631901
+    Serra         São Francisco        casa      casa_rua_publica       935000        1  935000.00        4          2      2                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-jacaraipe-com-4-quartos-1512770327
+Guarapari            Itapebussu        casa      casa_rua_publica      2560000       12  213333.33        4          2   <NA>                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-itapebussu-guarapari-1476717452
+    Serra Morada de Laranjeiras        casa      casa_rua_publica      1600000       10  160000.00        3          3      0                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-triplex-geminada-reserva-da-morada-serra-es-1512661018
+    Serra   Estância Monazítica apartamento    apartamento_padrao       150000        1  150000.00        1          1      1                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-terreo-em-jacaraipe-serra-es-1515041799
+Cariacica        Nova Esperança        casa      casa_rua_publica       390000        3  130000.00        2          2      1                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-por-sitio-1502730504
+Guarapari     Recanto da Sereia        casa       casa_condominio      2500000       20  125000.00        3          3      4                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-condominio-boulevard-mar-dule-guarapari-es-1508851302
+Guarapari              Ipiranga        casa      casa_rua_publica      1306499       12  108874.92        4          4      2                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-olaria-guarapari-1502671680
+Guarapari        Praia do Morro        casa      casa_rua_publica      1890000       20   94500.00        4          2      3 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-na-praia-do-morro-em-guarapari-excelente-opcao-para-quem-uma-casa-em-um-ter-1325813725
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       950000       11   86363.64        3          5      1 https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515633905
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       950000       11   86363.64        3          5      1    https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-com-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515951577
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica      2390000       35   68285.71        4          5      4   https://es.olx.com.br/norte-do-espirito-santo/imoveis/imponente-mansao-de-luxo-a-venda-em-guarapari-es-bairro-jardim-boa-vista-4-suites-area-1485394036
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       750000       11   68181.82        3          4      2    https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-tem-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515801708
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       750000       11   68181.82        3          4      2 https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515567472
+Guarapari        Praia do Morro        casa      casa_rua_publica      1600000       25   64000.00        3          4      3 https://es.olx.com.br/norte-do-espirito-santo/imoveis/imperdivel-oportunidade-de-adquirir-casa-duplex-na-praia-do-morro-guarapari-es-com-3-qua-1375051560
+Guarapari        Praia do Morro apartamento apartamento_cobertura       753749       12   62812.42        3          1      1                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/cobertura-3-dormitorios-praia-do-morro-guarapari-1498343151
+Guarapari              Ipiranga        casa      casa_rua_publica       700000       12   58333.33        3          2      3     https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-guarapari-es-bairro-ipiranga-3-quartos-1-suite-sala-2-banheiros-3-va-1488969617
+Guarapari       São Judas Tadeu        casa      casa_rua_publica     16010000      300   53366.67        4          4      5                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-sao-judas-tadeu-guarapari-1445021132
+
+Amostra de registros removidos por preço/m² suspeito:
+   motivo_remocao    cidade              bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                                                                                    url
+preco_m2_suspeito Cariacica             Itacibá apartamento apartamento_cobertura       100000      160    625.00        2          1      0                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-itaciba-otima-localizacao-1513729165
+preco_m2_suspeito Cariacica            Itaquari apartamento    apartamento_padrao      1500000     1000   1500.00        3          2      2                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-predio-residencial-com-10-apartamento-e-2-pontos-comercial-1432062029
+preco_m2_suspeito Cariacica      Jardim de Alah apartamento    apartamento_padrao       130000      120   1083.33        2          1      0                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-ou-troco-em-caminhao-ou-automovel-1432784467
+preco_m2_suspeito Cariacica       Padre Gabriel apartamento    apartamento_padrao        60000       55   1090.91        2          1      1 https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-55-metros-quadrados-com-2-quartos-em-padre-gabriel-cariacica-1353988068
+preco_m2_suspeito Cariacica      Parque Gramado apartamento    apartamento_padrao       250000      169   1479.29        3          3      0                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-2-andar-a-venda-1508897508
+preco_m2_suspeito Cariacica         Rio Marinho apartamento apartamento_cobertura       150000      100   1500.00        1          1      1                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-no-quatro-andar-cobertura-com-otima-localizacao-1510261756
+preco_m2_suspeito Cariacica       Rosa da Penha apartamento    apartamento_padrao       590000      700    842.86        5          5      0                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/predio-com-6-apartamentos-mais-1-sobrado-muito-barato-1513642292
+preco_m2_suspeito Cariacica             Santana apartamento    apartamento_padrao       350000      300   1166.67        3          3      2 https://es.olx.com.br/norte-do-espirito-santo/imoveis/aceita-sitio-como-parte-de-pagamento-imovel-para-venda-tem-200m2-ap-3-quartos-e-lazer-1270572965
+preco_m2_suspeito Cariacica         São Conrado apartamento    apartamento_padrao      2650000       60  44166.67        2          2      5                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/predio-em-faze-de-acabamentos-c-mao-de-obra-pagas-1026259190
+preco_m2_suspeito Cariacica       Vasco da Gama apartamento    apartamento_padrao       218500      156   1400.64        3          2      1                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-residencial-em-cariacica-es-vasco-da-gama-1514864413
+preco_m2_suspeito Cariacica           Alto Lage        casa      casa_rua_publica       180000      270    666.67        2          1      0                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/venda-casa-2-quartos-lote-em-alto-lage-1418152806
+preco_m2_suspeito Cariacica           Aparecida        casa      casa_rua_publica       199000      350    568.57        3          2   <NA>                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-a-vista-apenas-1511750225
+preco_m2_suspeito Cariacica          Bela Vista        casa      casa_rua_publica       100000      150    666.67        3          2      0                                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-no-segundo-andar-1503266437
+preco_m2_suspeito Cariacica           Boa Sorte        casa      casa_rua_publica       240000      400    600.00        2          2      2                                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/oportunidade-casa-com-terreno-1504847534
+preco_m2_suspeito Cariacica      Campina Grande        casa      casa_rua_publica       170000      300    566.67        4          1      0                                                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/sim-1500139267
+preco_m2_suspeito Cariacica        Campo Grande        casa      casa_rua_publica        60000      132    454.55        2          1      0                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-quintal-60-mil-divisa-de-viana-com-cariacica-1510500629
+preco_m2_suspeito Cariacica         Campo Verde        casa      casa_rua_publica       100000      300    333.33        3          1      0                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-casa-a-reformar-1502730370
+preco_m2_suspeito Cariacica      Cariacica Sede        casa      casa_rua_publica       130000      230    565.22        3          1      2                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-urgente-em-cariacica-sede-1476429400
+preco_m2_suspeito Cariacica      Cariacica Sede        casa      casa_rua_publica       133000      200    665.00        3          1      2                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cariacica-sede-1514732515
+preco_m2_suspeito Cariacica      Cariacica Sede        casa      casa_rua_publica       135000      200    675.00        3          1      1                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cariacica-sede-1476428331
+preco_m2_suspeito Cariacica      Cariacica Sede        casa      casa_rua_publica       156000      860    181.40        3          1      1                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-mine-chacara-em-cariacica-sede-1514118458
+preco_m2_suspeito Cariacica      Cariacica Sede        casa      casa_rua_publica       165000      260    634.62        3          2      2                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-cariacica-sede-1467897796
+preco_m2_suspeito Cariacica            Flexal I        casa      casa_rua_publica       110000      200    550.00        3          1      1                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-flexal-1-1505208325
+preco_m2_suspeito Cariacica            Flexal I        casa      casa_rua_publica       115000      200    575.00        2          1      1                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendaa-urgente-casa-em-flexal-cariacica-1476434097
+preco_m2_suspeito Cariacica            Flexal I        casa      casa_rua_publica       153000      230    665.22        2          1   <NA>                                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-flexal-1-1514752856
+preco_m2_suspeito Cariacica           Flexal II        casa      casa_rua_publica       250000      675    370.37        3          4   <NA>                                                                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-esta-casa-1502475657
+preco_m2_suspeito Cariacica            Ibiapaba        casa      casa_rua_publica       155000      230    673.91        3          1      2                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-cariacica-sede-1504934716
+preco_m2_suspeito Cariacica             Itacibá        casa      casa_rua_publica       280000      440    636.36        2          1      1                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-nas-montanhas-de-marechal-floriano-1421763837
+preco_m2_suspeito Cariacica Jardim Campo Grande        casa                  casa       135000      330    409.09        2          1      1                                                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/imperdivel-1505252699
+preco_m2_suspeito Cariacica Jardim Campo Grande        casa                  casa       160000      300    533.33        2          1   <NA>                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-terreno-em-jardim-campo-grande-cariacica-e-s-1510682533

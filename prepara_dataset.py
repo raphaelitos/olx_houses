@@ -2,16 +2,19 @@ import pandas as pd
 from pathlib import Path
 
 
-RAW_CSV = "data_imoveis_vitoria_vila_velha.csv"
-MODEL_CSV = "dataset_modelagem.csv"
-AUDIT_CSV = "dataset_auditoria.csv"
-REMOVED_CSV = "dataset_removidos.csv"
-REPORT_TXT = "relatorio_dataset.txt"
+RAW_CSV = "data_imoveis_outras_cidades.csv"
+MODEL_CSV = "dataset_modelagem_outras_cidades.csv"
+AUDIT_CSV = "dataset_auditoria_outras_cidades.csv"
+REMOVED_CSV = "dataset_removidos_outras_cidades.csv"
+REPORT_TXT = "relatorio_dataset_outras_cidades.txt"
 
 
 CIDADES_ESPERADAS = [
-    "Vitória",
-    "Vila Velha",
+    "Fundão",
+    "Guarapari",
+    "Serra",
+    "Viana",
+    "Cariacica"
 ]
 
 
