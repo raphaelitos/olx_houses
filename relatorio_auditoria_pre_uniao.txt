@@ -1,0 +1,694 @@
+RELATÓRIO DE AUDITORIA PRÉ-UNIÃO DOS DATASETS
+
+Objetivo:
+Avaliar duplicatas fortes e aproximadas, cruzamentos entre os dois contextos de coleta, registros removidos por cidade fora do grupo e idade dos anúncios antes da união final dos CSVs.
+
+================================================================================
+RESUMO DOS ARQUIVOS CARREGADOS
+================================================================================
+Vitória/Vila Velha — modelagem: dataset_modelagem.csv (6689 registros)
+Vitória/Vila Velha — auditoria: dataset_auditoria.csv (7802 registros)
+Vitória/Vila Velha — removidos: dataset_removidos.csv (1113 registros)
+Outras cidades — modelagem: dataset_modelagem_outras_cidades.csv (7391 registros)
+Outras cidades — auditoria: dataset_auditoria_outras_cidades.csv (9116 registros)
+Outras cidades — removidos: dataset_removidos_outras_cidades.csv (1725 registros)
+
+================================================================================
+ANÁLISE INDIVIDUAL — Vitória/Vila Velha
+================================================================================
+Registros em modelagem: 6689
+Registros em auditoria: 7802
+Registros removidos: 1113
+IDs não nulos em auditoria: 7802
+IDs únicos em auditoria: 7802
+IDs repetidos em auditoria: 0
+URLs não nulas em auditoria: 7802
+URLs únicas em auditoria: 7802
+URLs repetidas em auditoria: 0
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — motivos de remoção
+--------------------------------------------------------------------------------
+motivo_remocao
+cidade_fora_do_grupo         660
+sem_area_m2                  311
+area_suspeita                 45
+preco_m2_suspeito             27
+preco_suspeito                20
+sem_bairro                    19
+quartos_ausente_ou_zero       11
+area_m2_invalida              10
+banheiros_ausente_ou_zero      7
+sem_preco_venda                3
+Name: count, dtype: Int64
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — duplicatas fortes no dataset de modelagem
+--------------------------------------------------------------------------------
+Linhas com id_anuncio duplicado: 0
+Grupos com id_anuncio duplicado: 0
+Linhas com URL duplicada: 0
+Grupos com URL duplicada: 0
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — possíveis duplicatas aproximadas no dataset de modelagem
+--------------------------------------------------------------------------------
+chave exata com vagas: 1922 linhas em 711 grupos
+chave exata sem vagas: 2056 linhas em 753 grupos
+chave com preço arredondado e vagas: 2351 linhas em 775 grupos
+chave com preço arredondado sem vagas: 2494 linhas em 820 grupos
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — maiores grupos de possíveis duplicatas por chave exata
+--------------------------------------------------------------------------------
+    cidade             bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  quartos  banheiros  vagas  qtd_registros
+   Vitória     Jardim Camburi apartamento apartamento_padrao       890000       65        2          2    2.0             26
+   Vitória     Jardim Camburi apartamento apartamento_padrao       709000       64        2          2    1.0             26
+   Vitória     Jardim Camburi apartamento apartamento_padrao       470000       70        2          1    1.0             25
+   Vitória     Jardim Camburi apartamento apartamento_padrao       450000       70        3          1    1.0             25
+   Vitória     Jardim Camburi apartamento apartamento_padrao       630000       60        2          1    1.0             24
+   Vitória     Jardim Camburi apartamento apartamento_padrao       570000       54        2          1    1.0             23
+   Vitória     Jardim Camburi apartamento apartamento_padrao       620000       55        2          1    1.0             22
+   Vitória     Jardim Camburi apartamento apartamento_padrao       940000       62        2          2    1.0             22
+   Vitória     Jardim Camburi apartamento apartamento_padrao       740000       62        2          2    1.0             17
+   Vitória     Jardim Camburi apartamento apartamento_padrao       590000       50        2          1    1.0             13
+   Vitória    Jardim da Penha apartamento apartamento_padrao       580000       80        3          1    1.0             11
+Vila Velha             Itapuã apartamento apartamento_padrao      1300000       90        3          1    2.0              9
+   Vitória     Jardim Camburi        casa   casa_rua_publica      1600000      206        4          4    2.0              8
+Vila Velha Praia de Itaparica apartamento apartamento_padrao       879000       60        2          2    1.0              7
+   Vitória     Jardim Camburi        casa   casa_rua_publica      1600000      206        4          4    1.0              7
+   Vitória     Jardim Camburi apartamento apartamento_padrao      1050000       75        3          2    2.0              7
+   Vitória     Jardim Camburi        casa   casa_rua_publica      1600000      206        4          4    3.0              7
+   Vitória    Jardim da Penha apartamento apartamento_padrao      1060000       97        3          3    1.0              7
+Vila Velha Praia de Itaparica apartamento apartamento_padrao       890000      118        3          1    2.0              7
+Vila Velha     Praia da Costa apartamento apartamento_padrao      1700000      120        3          3    2.0              6
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — amostra de registros em grupos de possíveis duplicatas por chave exata
+--------------------------------------------------------------------------------
+ qtd_no_grupo_duplicado  cidade         bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas  idade_anuncio_dias
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   2
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   2
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   3
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   4
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   0
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   2
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   2
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   3
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       450000       70   6428.57        3          1    1.0                   2
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       450000       70   6428.57        3          1    1.0                   4
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       450000       70   6428.57        3          1    1.0                   4
+                     25 Vitória Jardim Camburi apartamento apartamento_padrao       450000       70   6428.57        3          1    1.0                   4
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   0
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   3
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   4
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   9
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   0
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   8
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — maiores grupos de possíveis duplicatas por chave com preço arredondado
+--------------------------------------------------------------------------------
+    cidade              bairro tipo_imovel     subtipo_imovel  preco_venda_arredondado  area_m2  quartos  banheiros  vagas  qtd_registros
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   450000       70        3          1    1.0             29
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   470000       70        2          1    1.0             29
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   890000       65        2          2    2.0             26
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   709000       64        2          2    1.0             26
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   630000       60        2          1    1.0             24
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   570000       54        2          1    1.0             23
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   940000       62        2          2    1.0             22
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   620000       55        2          1    1.0             22
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   740000       62        2          2    1.0             17
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   590000       50        2          1    1.0             13
+   Vitória     Jardim da Penha apartamento apartamento_padrao                   580000       80        3          1    1.0             11
+   Vitória      Jardim Camburi apartamento apartamento_padrao                  1659000      103        3          2    2.0             11
+   Vitória      Jardim Camburi apartamento apartamento_padrao                  2800000      148        3          2    2.0             10
+Vila Velha Jockey de Itaparica apartamento apartamento_padrao                  3279000      156        3          4    3.0             10
+   Vitória      Jardim Camburi apartamento apartamento_padrao                  1111000       82        3          2    2.0             10
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   973000       63        2          2    1.0             10
+   Vitória      Jardim Camburi apartamento apartamento_padrao                  1290000       84        3          2    2.0             10
+   Vitória      Jardim Camburi        casa   casa_rua_publica                  1600000      206        4          4    3.0             10
+Vila Velha              Itapuã apartamento apartamento_padrao                  1300000       90        3          1    2.0              9
+   Vitória      Jardim Camburi apartamento apartamento_padrao                   942000       66        2          2    1.0              9
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — amostra de registros em grupos de possíveis duplicatas por chave com preço arredondado
+--------------------------------------------------------------------------------
+ qtd_no_grupo_duplicado  cidade         bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas  idade_anuncio_dias
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       449900       70   6427.14        3          1    1.0                  25
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       449900       70   6427.14        3          1    1.0                  26
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       449999       70   6428.56        3          1    1.0                  22
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       449999       70   6428.56        3          1    1.0                  30
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       469991       70   6714.16        2          1    1.0                   2
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       469994       70   6714.20        2          1    1.0                   3
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   0
+                     29 Vitória Jardim Camburi apartamento apartamento_padrao       470000       70   6714.29        2          1    1.0                   2
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       890000       65  13692.31        2          2    2.0                   4
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   2
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   2
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   3
+                     26 Vitória Jardim Camburi apartamento apartamento_padrao       709000       64  11078.12        2          2    1.0                   4
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   0
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   3
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   4
+                     24 Vitória Jardim Camburi apartamento apartamento_padrao       630000       60  10500.00        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   4
+                     23 Vitória Jardim Camburi apartamento apartamento_padrao       570000       54  10555.56        2          1    1.0                   9
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       940000       62  15161.29        2          2    1.0                   8
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   0
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+                     22 Vitória Jardim Camburi apartamento apartamento_padrao       620000       55  11272.73        2          1    1.0                   4
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — idade dos anúncios no dataset de modelagem
+--------------------------------------------------------------------------------
+count           6689.000000
+ausentes           0.000000
+min                0.000000
+p25                3.000000
+mediana           11.000000
+media             69.673344
+p75               52.000000
+p90              242.000000
+p95              344.000000
+p99              674.120000
+max             1531.000000
+> 30 dias       2089.000000
+> 90 dias       1421.000000
+> 180 dias       912.000000
+> 365 dias       290.000000
+% > 90 dias       21.240000
+% > 180 dias      13.630000
+% > 365 dias       4.340000
+dtype: float64
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — idade por cidade
+--------------------------------------------------------------------------------
+    cidade  qtd     media  mediana   p90  max  qtd_mais_180  pct_mais_180
+Vila Velha 3700 66.956216      9.0 242.0  458           576         15.57
+   Vitória 2989 73.036802     16.0 229.0 1531           336         11.24
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — idade por cidade e tipo de imóvel
+--------------------------------------------------------------------------------
+    cidade tipo_imovel  qtd      media  mediana   p90  max  qtd_mais_180  pct_mais_180
+Vila Velha        casa 1775 134.939155     96.0 323.6  458           576         32.45
+   Vitória        casa 1060 185.534906     86.0 492.1 1531           336         31.70
+   Vitória apartamento 1929  11.218248     10.0  25.0   31             0          0.00
+Vila Velha apartamento 1925   4.270649      3.0  10.0   11             0          0.00
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — perfil numérico de preço, área e preço/m²
+--------------------------------------------------------------------------------
+ preco_venda     area_m2     preco_m2
+6.689000e+03 6689.000000  6689.000000
+1.621919e+06  177.252056 10363.037795
+1.522649e+06  138.310337  5606.084446
+5.000000e+04   10.000000   702.510000
+1.800000e+05   32.000000  1176.293600
+3.500000e+05   53.000000  2444.440000
+7.317700e+05   76.000000  6400.000000
+1.116725e+06  130.000000  9998.820000
+1.900000e+06  238.000000 13666.670000
+4.500000e+06  450.000000 20141.410000
+7.500000e+06  660.000000 29419.081600
+1.850000e+07 1000.000000 39923.240000
+
+
+--------------------------------------------------------------------------------
+Vitória/Vila Velha — amostra de anúncios com mais de 365 dias
+--------------------------------------------------------------------------------
+ cidade            bairro tipo_imovel   subtipo_imovel  preco_venda  area_m2  preco_m2  idade_anuncio_dias
+Vitória       Maria Ortiz        casa casa_rua_publica       650000      300   2166.67                1531
+Vitória         São Pedro        casa casa_rua_publica       450000      150   3000.00                1528
+Vitória     Mata da Praia        casa  casa_condominio      2700000      450   6000.00                1346
+Vitória          da Penha        casa casa_rua_publica       480000      380   1263.16                1271
+Vitória       Ilha do Boi        casa casa_rua_publica      7500000      700  10714.29                1191
+Vitória    Jardim Camburi        casa casa_rua_publica      1950000      200   9750.00                1190
+Vitória    Jardim Camburi        casa casa_rua_publica      1550000      139  11151.08                1189
+Vitória     Mata da Praia        casa casa_rua_publica      4100000      700   5857.14                1181
+Vitória         Fradinhos        casa casa_rua_publica      1490000      383   3890.34                1181
+Vitória           Maruípe        casa casa_rua_publica       870000      280   3107.14                1181
+Vitória     Mata da Praia        casa casa_rua_publica      3900000      388  10051.55                1181
+Vitória    Jardim Camburi        casa casa_rua_publica      1800000      200   9000.00                1180
+Vitória     Mata da Praia        casa casa_rua_publica      3500000      400   8750.00                1180
+Vitória     Mata da Praia        casa casa_rua_publica      4600000      500   9200.00                1179
+Vitória    Barro Vermelho        casa casa_rua_publica      2500000      180  13888.89                1178
+Vitória     Santa Cecília        casa casa_rua_publica      1500000      450   3333.33                1178
+Vitória    Jardim Camburi        casa  casa_condominio      2000000      300   6666.67                1178
+Vitória       Jucutuquara        casa casa_rua_publica      1190000      120   9916.67                1178
+Vitória    Enseada do Suá        casa casa_rua_publica     16000000      776  20618.56                1178
+Vitória    Jardim Camburi        casa casa_rua_publica      1800000      200   9000.00                1177
+Vitória    Jardim Camburi        casa casa_rua_publica      1850000      200   9250.00                1177
+Vitória Morada de Camburi        casa  casa_condominio      1800000      180  10000.00                1177
+Vitória     Mata da Praia        casa casa_rua_publica      2990000      258  11589.15                1176
+Vitória        Consolação        casa casa_rua_publica       890000      276   3224.64                1129
+Vitória   Antônio Honório        casa casa_rua_publica      1300000      250   5200.00                1115
+Vitória         República        casa casa_rua_publica      1699000      200   8495.00                1091
+Vitória           Itararé        casa casa_rua_publica       880000      620   1419.35                1047
+Vitória     Mata da Praia        casa casa_rua_publica      2500000      290   8620.69                 971
+Vitória       Santa Luíza        casa casa_rua_publica       720000      140   5142.86                 955
+Vitória    Jardim Camburi        casa casa_rua_publica      1950000      200   9750.00                 943
+
+
+================================================================================
+ANÁLISE INDIVIDUAL — Outras cidades
+================================================================================
+Registros em modelagem: 7391
+Registros em auditoria: 9116
+Registros removidos: 1725
+IDs não nulos em auditoria: 9116
+IDs únicos em auditoria: 9116
+IDs repetidos em auditoria: 0
+URLs não nulas em auditoria: 9116
+URLs únicas em auditoria: 9116
+URLs repetidas em auditoria: 0
+
+--------------------------------------------------------------------------------
+Outras cidades — motivos de remoção
+--------------------------------------------------------------------------------
+motivo_remocao
+sem_area_m2                  1448
+preco_m2_suspeito             131
+area_suspeita                  77
+area_m2_invalida               24
+preco_suspeito                 21
+banheiros_ausente_ou_zero      11
+quartos_ausente_ou_zero         6
+sem_preco_venda                 5
+sem_bairro                      2
+Name: count, dtype: Int64
+
+
+--------------------------------------------------------------------------------
+Outras cidades — duplicatas fortes no dataset de modelagem
+--------------------------------------------------------------------------------
+Linhas com id_anuncio duplicado: 0
+Grupos com id_anuncio duplicado: 0
+Linhas com URL duplicada: 0
+Grupos com URL duplicada: 0
+
+--------------------------------------------------------------------------------
+Outras cidades — possíveis duplicatas aproximadas no dataset de modelagem
+--------------------------------------------------------------------------------
+chave exata com vagas: 2212 linhas em 693 grupos
+chave exata sem vagas: 2373 linhas em 741 grupos
+chave com preço arredondado e vagas: 2753 linhas em 738 grupos
+chave com preço arredondado sem vagas: 2916 linhas em 784 grupos
+
+--------------------------------------------------------------------------------
+Outras cidades — maiores grupos de possíveis duplicatas por chave exata
+--------------------------------------------------------------------------------
+cidade                 bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  quartos  banheiros  vagas  qtd_registros
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       275000       46        2          1    1.0             23
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao       550000       70        3          2    1.0             21
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       380000       47        2          1    1.0             20
+ Serra           São Diogo II apartamento apartamento_padrao       299900       45        2          1    1.0             19
+ Serra             Valparaíso apartamento apartamento_padrao       285000       56        2          1    1.0             18
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       295000       45        2          1    1.0             18
+ Serra             Valparaíso apartamento apartamento_padrao       475000       48        2          1    1.0             18
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       385000       50        2          1    1.0             18
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       285000       47        2          1    1.0             16
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       390000       55        2          1    1.0             16
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao       420000       50        2          1    1.0             15
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       475000       48        2          1    1.0             15
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao       450000       52        2          1    1.0             15
+ Serra            Castelândia apartamento apartamento_padrao       260000       69        3          2    1.0             14
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       329999       46        2          1    1.0             14
+ Serra Balneário de Carapebus apartamento apartamento_padrao       245000       48        2          1    1.0             13
+ Serra             Valparaíso apartamento apartamento_padrao       530000       62        2          2    1.0             13
+ Serra             Valparaíso apartamento apartamento_padrao       289900       56        2          1    1.0             13
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao       330000       45        2          1    1.0             13
+Fundão           Praia Grande        casa   casa_rua_publica      1500000      298        4          5    5.0             11
+
+
+--------------------------------------------------------------------------------
+Outras cidades — amostra de registros em grupos de possíveis duplicatas por chave exata
+--------------------------------------------------------------------------------
+ qtd_no_grupo_duplicado cidade                bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas  idade_anuncio_dias
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   3
+                     21  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     21  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     21  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     21  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     20  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   0
+                     20  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   0
+                     20  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   1
+                     20  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   3
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   3
+                     18  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   0
+                     18  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   0
+                     18  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   3
+                     18  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   4
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   0
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       385000       50   7700.00        2          1    1.0                   1
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       385000       50   7700.00        2          1    1.0                   4
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       385000       50   7700.00        2          1    1.0                   4
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       385000       50   7700.00        2          1    1.0                   4
+
+
+--------------------------------------------------------------------------------
+Outras cidades — maiores grupos de possíveis duplicatas por chave com preço arredondado
+--------------------------------------------------------------------------------
+cidade                 bairro tipo_imovel     subtipo_imovel  preco_venda_arredondado  area_m2  quartos  banheiros  vagas  qtd_registros
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   275000       46        2          1    1.0             23
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao                   550000       70        3          2    1.0             22
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   380000       47        2          1    1.0             22
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   385000       50        2          1    1.0             21
+ Serra             Valparaíso apartamento apartamento_padrao                   285000       56        2          1    1.0             20
+ Serra           São Diogo II apartamento apartamento_padrao                   300000       45        2          1    1.0             19
+ Serra             Valparaíso apartamento apartamento_padrao                   475000       48        2          1    1.0             18
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   295000       45        2          1    1.0             18
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   390000       55        2          1    1.0             16
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   475000       48        2          1    1.0             16
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao                   450000       52        2          1    1.0             16
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   285000       47        2          1    1.0             16
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   330000       46        2          1    1.0             15
+ Serra  Morada de Laranjeiras apartamento apartamento_padrao                   420000       50        2          1    1.0             15
+ Serra  Colina de Laranjeiras apartamento apartamento_padrao                   330000       45        2          1    1.0             14
+ Serra             Valparaíso apartamento apartamento_padrao                   290000       56        2          1    1.0             14
+ Serra            Castelândia apartamento apartamento_padrao                   260000       69        3          2    1.0             14
+ Serra Balneário de Carapebus apartamento apartamento_padrao                   245000       48        2          1    1.0             14
+ Serra             Valparaíso apartamento apartamento_padrao                   530000       62        2          2    1.0             13
+ Serra             Valparaíso apartamento apartamento_padrao                   720000       76        3          2    2.0             11
+
+
+--------------------------------------------------------------------------------
+Outras cidades — amostra de registros em grupos de possíveis duplicatas por chave com preço arredondado
+--------------------------------------------------------------------------------
+ qtd_no_grupo_duplicado cidade                bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas  idade_anuncio_dias
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   0
+                     23  Serra Colina de Laranjeiras apartamento apartamento_padrao       275000       46   5978.26        2          1    1.0                   3
+                     22  Serra Morada de Laranjeiras apartamento apartamento_padrao       549999       70   7857.13        3          2    1.0                   7
+                     22  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     22  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     22  Serra Morada de Laranjeiras apartamento apartamento_padrao       550000       70   7857.14        3          2    1.0                   0
+                     22  Serra Colina de Laranjeiras apartamento apartamento_padrao       379999       47   8085.09        2          1    1.0                   7
+                     22  Serra Colina de Laranjeiras apartamento apartamento_padrao       379999       47   8085.09        2          1    1.0                   7
+                     22  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   0
+                     22  Serra Colina de Laranjeiras apartamento apartamento_padrao       380000       47   8085.11        2          1    1.0                   0
+                     21  Serra Colina de Laranjeiras apartamento apartamento_padrao       384999       50   7699.98        2          1    1.0                   7
+                     21  Serra Colina de Laranjeiras apartamento apartamento_padrao       384999       50   7699.98        2          1    1.0                   7
+                     21  Serra Colina de Laranjeiras apartamento apartamento_padrao       384999       50   7699.98        2          1    1.0                  11
+                     21  Serra Colina de Laranjeiras apartamento apartamento_padrao       385000       50   7700.00        2          1    1.0                   1
+                     20  Serra            Valparaíso apartamento apartamento_padrao       284999       56   5089.27        2          1    1.0                   6
+                     20  Serra            Valparaíso apartamento apartamento_padrao       284999       56   5089.27        2          1    1.0                   6
+                     20  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   0
+                     20  Serra            Valparaíso apartamento apartamento_padrao       285000       56   5089.29        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   0
+                     19  Serra          São Diogo II apartamento apartamento_padrao       299900       45   6664.44        2          1    1.0                   3
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   0
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra            Valparaíso apartamento apartamento_padrao       475000       48   9895.83        2          1    1.0                   1
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+                     18  Serra Colina de Laranjeiras apartamento apartamento_padrao       295000       45   6555.56        2          1    1.0                   0
+
+
+--------------------------------------------------------------------------------
+Outras cidades — idade dos anúncios no dataset de modelagem
+--------------------------------------------------------------------------------
+count           7391.000000
+ausentes           0.000000
+min                0.000000
+p25                2.000000
+mediana            8.000000
+media             67.532269
+p75               48.000000
+p90              205.000000
+p95              365.000000
+p99              824.600000
+max             1535.000000
+> 30 dias       2291.000000
+> 90 dias       1398.000000
+> 180 dias       808.000000
+> 365 dias       370.000000
+% > 90 dias       18.910000
+% > 180 dias      10.930000
+% > 365 dias       5.010000
+dtype: float64
+
+
+--------------------------------------------------------------------------------
+Outras cidades — idade por cidade
+--------------------------------------------------------------------------------
+   cidade  qtd      media  mediana   p90  max  qtd_mais_180  pct_mais_180
+   Fundão   50 142.640000     49.0 391.8 1075            12         24.00
+Cariacica  659 154.827011     50.0 416.4 1535           158         23.98
+Guarapari 3016 122.312334     46.0 327.5 1416           631         20.92
+    Viana   52  82.673077     25.5 255.2 1147             7         13.46
+    Serra 3614   4.641671      4.0  11.0   16             0          0.00
+
+
+--------------------------------------------------------------------------------
+Outras cidades — idade por cidade e tipo de imóvel
+--------------------------------------------------------------------------------
+   cidade tipo_imovel  qtd      media  mediana   p90  max  qtd_mais_180  pct_mais_180
+Guarapari        casa 1136 258.637324    218.5 641.0 1416           631         55.55
+   Fundão        casa   47 150.085106     49.0 403.2 1075            12         25.53
+Cariacica        casa  383 160.208877     44.0 428.4 1535            93         24.28
+Cariacica apartamento  276 147.358696     68.0 379.5 1181            65         23.55
+    Viana        casa   36 101.166667     26.5 287.0 1147             6         16.67
+    Viana apartamento   16  41.062500     24.5  62.0  261             1          6.25
+    Serra apartamento 1967   4.326894      4.0  11.0   13             0          0.00
+Guarapari apartamento 1880  39.937234     25.0 110.0  139             0          0.00
+    Serra        casa 1647   5.017608      3.0  12.0   16             0          0.00
+   Fundão apartamento    3  26.000000     13.0  45.8   54             0          0.00
+
+
+--------------------------------------------------------------------------------
+Outras cidades — perfil numérico de preço, área e preço/m²
+--------------------------------------------------------------------------------
+ preco_venda     area_m2     preco_m2
+7.391000e+03 7391.000000  7391.000000
+9.813776e+05  148.675010  7118.222356
+1.099111e+06  132.452975  3673.052985
+5.520000e+04   12.000000   700.000000
+1.400000e+05   41.000000   812.331000
+2.200000e+05   45.000000  1603.570000
+3.700000e+05   63.000000  4999.955000
+6.500000e+05  100.000000  6664.440000
+1.200000e+06  190.500000  8805.500000
+2.900000e+06  400.000000 13715.010000
+5.159900e+06  700.000000 18750.000000
+2.000000e+07 1000.000000 35046.730000
+
+
+--------------------------------------------------------------------------------
+Outras cidades — amostra de anúncios com mais de 365 dias
+--------------------------------------------------------------------------------
+   cidade                 bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  idade_anuncio_dias
+Cariacica                Santana        casa   casa_rua_publica       220000      215   1023.26                1535
+Cariacica          Rosa da Penha        casa   casa_rua_publica      1200000      999   1201.20                1509
+Cariacica          São Francisco        casa   casa_rua_publica       350000      210   1666.67                1473
+Cariacica         Jardim América        casa   casa_rua_publica       995000      200   4975.00                1434
+Guarapari        São Judas Tadeu        casa   casa_rua_publica      3100000      300  10333.33                1416
+Guarapari       Jardim Boa Vista        casa   casa_rua_publica      1040000      230   4521.74                1416
+Guarapari             Itapebussu        casa   casa_rua_publica      1050000      200   5250.00                1416
+Guarapari             Itapebussu        casa   casa_rua_publica       850000      170   5000.00                1416
+Guarapari       Jardim Boa Vista        casa   casa_rua_publica      1250000      230   5434.78                1416
+Guarapari   Fátima Cidade Jardim        casa   casa_rua_publica       429000       90   4766.67                1313
+Guarapari                Perocão        casa   casa_rua_publica       980000      669   1464.87                1277
+Cariacica            São Conrado        casa   casa_rua_publica       180000      248    725.81                1223
+Cariacica            São Conrado        casa   casa_rua_publica       275000      210   1309.52                1223
+Guarapari             Bela Vista        casa    casa_condominio      1700000      350   4857.14                1220
+Guarapari           Santa Mônica        casa   casa_rua_publica      2200000      360   6111.11                1197
+Guarapari           Enseada Azul        casa   casa_rua_publica      1600000      200   8000.00                1188
+Guarapari         Nova Guarapari        casa   casa_rua_publica      4587500      696   6591.24                1184
+Guarapari         Praia do Morro        casa   casa_rua_publica      1600000      500   3200.00                1183
+Cariacica              Alto Lage        casa   casa_rua_publica       650000      275   2363.64                1183
+Cariacica           Campo Grande        casa   casa_rua_publica       180000      248    725.81                1183
+Guarapari                    Una        casa   casa_rua_publica      1800000      300   6000.00                1182
+Cariacica           Campo Grande        casa   casa_rua_publica       220000      210   1047.62                1182
+Cariacica            Santo André        casa   casa_rua_publica       460000      380   1210.53                1181
+Cariacica     Morada de Santa Fé apartamento apartamento_padrao       495000      147   3367.35                1181
+Cariacica     Morada de Santa Fé apartamento apartamento_padrao       322000       46   7000.00                1181
+Guarapari Pontal de Santa Mônica        casa   casa_rua_publica       800000      700   1142.86                1179
+Guarapari               Lameirão        casa    casa_condominio      5159900      696   7413.65                1179
+Cariacica           Campo Grande        casa   casa_rua_publica       950000      220   4318.18                1178
+Guarapari         Nova Guarapari        casa   casa_rua_publica      2100000      200  10500.00                1178
+Guarapari             Itapebussu        casa   casa_rua_publica       980000      222   4414.41                1178
+
+
+================================================================================
+ANÁLISE CRUZADA ENTRE OS DOIS CONTEXTOS
+================================================================================
+
+--------------------------------------------------------------------------------
+Interseção forte entre datasets de modelagem
+--------------------------------------------------------------------------------
+Registros em comum por id_anuncio entre modelagens: 0
+Registros em comum por url entre modelagens: 0
+
+--------------------------------------------------------------------------------
+Amostra de registros em comum por id_anuncio entre modelagens
+--------------------------------------------------------------------------------
+(vazio)
+
+
+--------------------------------------------------------------------------------
+Amostra de registros em comum por url entre modelagens
+--------------------------------------------------------------------------------
+(vazio)
+
+
+--------------------------------------------------------------------------------
+Interseção aproximada entre datasets de modelagem
+--------------------------------------------------------------------------------
+Registros cruzados por chave aproximada exata entre modelagens: 0
+
+--------------------------------------------------------------------------------
+Amostra de cruzamento aproximado entre modelagens
+--------------------------------------------------------------------------------
+(vazio)
+
+Registros cruzados por chave aproximada com preço arredondado entre modelagens: 0
+
+--------------------------------------------------------------------------------
+Amostra de cruzamento aproximado com preço arredondado entre modelagens
+--------------------------------------------------------------------------------
+(vazio)
+
+
+--------------------------------------------------------------------------------
+Registros removidos de Vitória/Vila Velha por cidade fora do grupo presentes em outras cidades
+--------------------------------------------------------------------------------
+Registros removidos de Vitória/Vila Velha por cidade_fora_do_grupo: 660
+Removidos VV por cidade_fora_do_grupo presentes na MODELAGEM de outras por id: 0
+Removidos VV por cidade_fora_do_grupo presentes na MODELAGEM de outras por url: 0
+Removidos VV por cidade_fora_do_grupo presentes na AUDITORIA de outras por id: 571
+Removidos VV por cidade_fora_do_grupo presentes na AUDITORIA de outras por url: 570
+Removidos VV por cidade_fora_do_grupo presentes nos REMOVIDOS de outras por id: 17
+Removidos VV por cidade_fora_do_grupo presentes nos REMOVIDOS de outras por url: 17
+
+--------------------------------------------------------------------------------
+Cidades dos removidos de Vitória/Vila Velha por cidade_fora_do_grupo
+--------------------------------------------------------------------------------
+cidade
+Serra               509
+Guarapari           106
+Cariacica            21
+Viana                12
+Colatina              4
+São Mateus            3
+Linhares              2
+Aracruz               1
+Aracê                 1
+Domingos Martins      1
+Name: count, dtype: Int64
+
+
+--------------------------------------------------------------------------------
+Amostra: removidos de VV por cidade_fora_do_grupo encontrados na modelagem de outras por id
+--------------------------------------------------------------------------------
+(vazio)
+
+
+--------------------------------------------------------------------------------
+Amostra: removidos de VV por cidade_fora_do_grupo encontrados na auditoria de outras por id
+--------------------------------------------------------------------------------
+ id_anuncio cidade_vv                     bairro_vv tipo_imovel_vv  preco_venda_vv  area_m2_vv cidade_outras                 bairro_outras tipo_imovel_outras  preco_venda_outras  area_m2_outras
+ 1515382254 Cariacica                Alice Coutinho           casa        250000.0       200.0     Cariacica                Alice Coutinho               casa            250000.0           200.0
+ 1509193266 Cariacica                     Alto Lage           casa       1199000.0       440.0     Cariacica                     Alto Lage               casa           1199000.0           440.0
+ 1515552262 Cariacica                   Bela Aurora           casa       1300000.0       220.0     Cariacica                   Bela Aurora               casa           1300000.0           220.0
+ 1515486094 Cariacica                Campina Grande           casa        315000.0        66.0     Cariacica                Campina Grande               casa            315000.0            66.0
+ 1497022184 Cariacica                  Campo Grande           casa        650000.0       100.0     Cariacica                  Campo Grande               casa            650000.0           100.0
+ 1465136938 Cariacica                  Campo Grande           casa        850000.0       206.0     Cariacica                  Campo Grande               casa            850000.0           206.0
+ 1482564539 Cariacica                  Campo Grande           casa        900000.0       206.0     Cariacica                  Campo Grande               casa            900000.0           206.0
+ 1480785543 Cariacica                  Campo Grande           casa       3300000.0       335.0     Cariacica                  Campo Grande               casa           3300000.0           335.0
+ 1515552299 Cariacica                Cariacica Sede           casa       1680000.0       202.0     Cariacica                Cariacica Sede               casa           1680000.0           202.0
+ 1515585202 Cariacica               Cruzeiro do Sul           casa       2250000.0       300.0     Cariacica               Cruzeiro do Sul               casa           2250000.0           300.0
+ 1515552358 Cariacica                       Itacibá           casa        850000.0       450.0     Cariacica                       Itacibá               casa            850000.0           450.0
+ 1515496899 Cariacica                Jardim América           casa        899000.0       100.0     Cariacica                Jardim América               casa            899000.0           100.0
+ 1515412293 Cariacica                Jardim América           casa        899000.0       100.0     Cariacica                Jardim América               casa            899000.0           100.0
+ 1512736600 Cariacica               Jardim Botânico           casa        380000.0       150.0     Cariacica               Jardim Botânico               casa            380000.0           150.0
+ 1515541659 Cariacica                 Nova Valverde           casa         80000.0        58.0     Cariacica                 Nova Valverde               casa             80000.0            58.0
+ 1515717806 Cariacica                 Nova Valverde           casa        300000.0      1000.0     Cariacica                 Nova Valverde               casa            300000.0          1000.0
+ 1515696677 Cariacica                Novo Horizonte           casa         70000.0        25.0     Cariacica                Novo Horizonte               casa             70000.0            25.0
+ 1515501358 Cariacica                       Oriente           casa        575000.0       230.0     Cariacica                       Oriente               casa            575000.0           230.0
+ 1515479147 Cariacica                    Porto Novo           casa        150000.0        80.0     Cariacica                    Porto Novo               casa            150000.0            80.0
+ 1464460073 Cariacica                   São Conrado           casa        750000.0       160.0     Cariacica                   São Conrado               casa            750000.0           160.0
+ 1515502995 Cariacica                 São Francisco           casa        320000.0       300.0     Cariacica                 São Francisco               casa            320000.0           300.0
+ 1515552226 Guarapari                     Aeroporto           casa        890000.0       330.0     Guarapari                     Aeroporto               casa            890000.0           330.0
+ 1515685673 Guarapari                  Buenos Aires           casa       1000000.0        90.0     Guarapari                  Buenos Aires               casa           1000000.0            90.0
+ 1515542605 Guarapari                  Buenos Aires           casa       1700000.0      1600.0     Guarapari                  Buenos Aires               casa           1700000.0          1600.0
+ 1515683453 Guarapari                  Buenos Aires           casa       1790000.0      1018.0     Guarapari                  Buenos Aires               casa           1790000.0          1018.0
+ 1515710736 Guarapari                  Buenos Aires           casa       3000000.0      2100.0     Guarapari                  Buenos Aires               casa           3000000.0          2100.0
+ 1515644455 Guarapari                  Buenos Aires           casa       3500000.0      1500.0     Guarapari                  Buenos Aires               casa           3500000.0          1500.0
+ 1515522422 Guarapari                        Centro           casa       2400000.0       150.0     Guarapari                        Centro               casa           2400000.0           150.0
+ 1506302101 Guarapari                        Centro           casa       2400000.0       700.0     Guarapari                        Centro               casa           2400000.0           700.0
+ 1392056323 Guarapari Comunidade Urbana de Amarelos           casa        455000.0       600.0     Guarapari Comunidade Urbana de Amarelos               casa            455000.0           600.0
+
+
+--------------------------------------------------------------------------------
+Registros removidos de outras cidades presentes em Vitória/Vila Velha
+--------------------------------------------------------------------------------
+Removidos de outras presentes na MODELAGEM de VV por id: 0
+Removidos de outras presentes na MODELAGEM de VV por url: 0
+
+--------------------------------------------------------------------------------
+Amostra: removidos de outras encontrados na modelagem de VV por id
+--------------------------------------------------------------------------------
+(vazio)
+
+
+================================================================================
+SUGESTÕES DE INTERPRETAÇÃO
+================================================================================
+1. Duplicatas por id_anuncio ou url são duplicatas fortes. Se aparecerem, podem ser removidas com segurança.
+2. Duplicatas por chave aproximada não devem ser removidas automaticamente. Elas podem representar unidades diferentes de um mesmo empreendimento.
+3. Se houver cruzamento por id/url entre modelagens, é sinal de que a união final precisa deduplicar pelo menos por id_anuncio e url.
+4. Se removidos de Vitória/Vila Velha por cidade_fora_do_grupo aparecerem na modelagem de outras cidades, isso confirma que a filtragem por grupo funcionou e que esses dados podem entrar pela base correta.
+5. Anúncios muito antigos não precisam ser removidos agora, mas devem ser avaliados em experimentos separados, por exemplo com todos os dados, até 365 dias e até 180 dias.
+6. Se a proporção de possíveis duplicatas aproximadas for muito alta em bairros específicos, trate isso como concentração de empreendimentos, não necessariamente como duplicação inválida.
