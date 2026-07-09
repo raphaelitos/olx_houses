@@ -1,0 +1,53 @@
+motivo_remocao,preco_venda,preco_m2,tipo_imovel_original,tipo_imovel,cidade_original,cidade,bairro,area_m2,quartos,banheiros,vagas,tem_suite,tem_piscina,tem_varanda,tem_lazer,tem_mobiliado,tem_elevador,preco_suspeito,area_suspeita,preco_m2_suspeito
+preco_m2_suspeito,350000.0,1166.67,Apartamento,apartamento,Cariacica,Cariacica,Santana,300,3,3,2,True,False,False,False,False,False,False,False,True
+preco_m2_suspeito,218500.0,1400.64,Apartamento,apartamento,Cariacica,Cariacica,Vasco da Gama,156,3,2,1,False,False,False,False,False,False,False,False,True
+preco_m2_suspeito,60000.0,1090.91,Apartamento,apartamento,Cariacica,Cariacica,Padre Gabriel,55,2,1,1,False,False,False,True,False,False,False,False,True
+preco_m2_suspeito,2650000.0,44166.67,Apartamento,apartamento,Cariacica,Cariacica,São Conrado,60,2,2,5,True,False,False,False,False,False,False,False,True
+area_suspeita,1200000.0,1000.0,Casa,casa,Cariacica,Cariacica,Santa Cecília,1200,3,2,6,False,False,False,False,False,False,False,True,False
+preco_m2_suspeito,80000.0,470.59,Casa,casa,Fundão,Fundão,Praia Grande,170,3,1,4,False,False,False,False,False,False,False,False,True
+preco_m2_suspeito,200000.0,555.56,Casa,casa,Fundão,Fundão,Praia Grande,360,4,2,5,False,False,False,False,False,False,False,False,True
+preco_m2_suspeito,75000.0,312.5,Apartamento,apartamento,Fundão,Fundão,Praia Grande,240,1,1,10,False,False,False,False,False,False,False,False,True
+preco_m2_suspeito,70000.0,350.0,Casa,casa,Fundão,Fundão,Praia Grande,200,3,1,2,False,False,False,False,False,False,False,False,True
+area_suspeita,680000.0,566.67,Casa de condomínio,casa,Fundão,Fundão,Praia Grande,1200,2,3,3,True,False,True,False,False,False,False,True,True
+preco_m2_suspeito,65000.0,260.0,Casa,casa,Fundão,Fundão,Centro,250,2,1,0,False,False,False,False,False,False,False,False,True
+sem_bairro,550000.0,1903.11,Casa,casa,Fundão,Fundão,,289,3,3,0,True,False,False,False,False,False,False,False,False
+preco_m2_suspeito,450000.0,450.0,Casa,casa,Fundão,Fundão,Praia Grande,1000,3,1,10,True,False,False,False,False,False,False,False,True
+sem_bairro,180000.0,720.0,Casa,casa,Fundão,Fundão,,250,1,1,2,False,False,False,False,False,False,False,False,False
+sem_bairro,110000.0,55.0,Apartamento,apartamento,Fundão,Fundão,,2000,1,1,0,False,False,False,False,False,False,False,True,True
+area_suspeita,1500000.0,909.09,Casa de condomínio,casa,Fundão,Fundão,Praia Grande,1650,4,5,0,True,False,True,False,False,False,False,True,False
+area_suspeita,1500000.0,1000.0,Casa,casa,Fundão,Fundão,Praia Grande,1500,5,4,0,True,False,False,False,False,False,False,True,False
+preco_m2_suspeito,550000.0,611.11,Casa,casa,Fundão,Fundão,Praia Grande,900,1,2,10,False,False,False,False,False,False,False,False,True
+area_suspeita,2100000.0,840.0,Casa,casa,Fundão,Fundão,Praia Grande,2500,4,3,0,False,False,False,False,False,False,False,True,False
+sem_bairro,750000.0,1973.68,Casa,casa,Fundão,Fundão,,380,3,3,1,True,False,False,False,False,False,False,False,False
+area_suspeita,1190000.0,915.38,Casa,casa,Fundão,Fundão,Praia Grande,1300,3,2,0,True,False,False,False,False,False,False,True,False
+preco_m2_suspeito,400000.0,1492.54,Apartamento,apartamento,Guarapari,Guarapari,Condados,268,2,2,1,True,False,False,False,False,False,False,False,True
+preco_m2_suspeito,420000.0,1400.0,Apartamento,apartamento,Guarapari,Guarapari,Muquiçaba,300,2,1,1,False,False,False,False,False,False,False,False,True
+area_suspeita,3000000.0,1428.57,Casa,casa,Guarapari,Guarapari,Buenos Aires,2100,4,2,0,True,False,False,False,False,False,False,True,False
+preco_m2_suspeito,750000.0,62500.0,Cobertura,apartamento,Guarapari,Guarapari,Praia do Morro,12,3,1,1,True,False,False,False,True,False,False,False,True
+preco_suspeito,365000000.0,6636363.64,Apartamento,apartamento,Guarapari,Guarapari,Praia do Morro,55,2,1,0,False,False,False,False,False,False,True,False,True
+area_suspeita,1700000.0,1062.5,Casa,casa,Guarapari,Guarapari,Buenos Aires,1600,3,3,2,True,False,False,False,False,False,False,True,False
+sem_preco_venda,,,Apartamento,apartamento,Serra,Serra,de Fátima,59,2,2,1,True,True,False,True,False,False,False,False,False
+sem_preco_venda,,,Apartamento,apartamento,Serra,Serra,Bicanga,44,2,1,1,True,True,False,True,False,False,False,False,False
+preco_suspeito,220000000.0,4782608.7,Apartamento,apartamento,Serra,Serra,São Patrício,46,2,1,1,False,True,False,True,False,False,True,False,True
+preco_suspeito,210000000.0,4375000.0,Apartamento,apartamento,Serra,Serra,Jardim Limoeiro,48,2,1,1,False,False,False,True,False,False,True,False,True
+preco_suspeito,299000000.0,4983333.33,Apartamento,apartamento,Serra,Serra,Valparaíso,60,2,1,1,False,False,False,True,False,False,True,False,True
+preco_m2_suspeito,400000.0,666.67,Casa,casa,Serra,Serra,Parque das Gaivotas,600,2,2,10,True,False,False,False,False,False,False,False,True
+preco_m2_suspeito,279000.0,775.0,Apartamento,apartamento,Serra,Serra,Vila Nova de Colares,360,3,2,5,True,False,False,False,False,False,False,False,True
+preco_suspeito,275000000.0,5978260.87,Apartamento,apartamento,Serra,Serra,Colina de Laranjeiras,46,2,1,0,False,True,False,True,False,False,True,False,True
+preco_m2_suspeito,238000.0,566.67,Casa,casa,Serra,Serra,Barro Branco,420,3,1,3,False,False,False,False,False,False,False,False,True
+sem_preco_venda,,,Apartamento,apartamento,Vila Velha,Vila Velha,Jockey de Itaparica,75,3,2,2,True,True,False,True,False,False,False,False,False
+sem_preco_venda,,,Apartamento,apartamento,Vila Velha,Vila Velha,Soteco,51,2,2,1,True,True,False,True,False,False,False,False,False
+preco_m2_suspeito,720000.0,1500.0,Cobertura,apartamento,Vitória,Vitória,Parque Moscoso,480,4,2,2,True,False,True,False,True,False,False,False,True
+area_m2_invalida,630000.0,inf,Apartamento,apartamento,Vitória,Vitória,Jardim Camburi,0,3,2,1,False,False,False,False,False,False,False,True,True
+area_m2_invalida,939000.0,inf,Apartamento,apartamento,Vila Velha,Vila Velha,Praia da Costa,0,2,2,2,False,True,True,True,True,True,False,True,True
+area_suspeita,1600000.0,884.47,Casa,casa,Vitória,Vitória,Universitário,1809,3,3,,False,False,False,False,False,False,False,True,False
+area_m2_invalida,3475000.0,inf,Apartamento,apartamento,Vitória,Vitória,Praia do Canto,0,4,4,3,False,True,False,False,False,False,False,True,True
+area_m2_invalida,1191830.0,inf,Apartamento,apartamento,Vitória,Vitória,Jardim Camburi,0,3,2,,False,True,True,True,False,True,False,True,True
+area_m2_invalida,360000.0,inf,Apartamento,apartamento,Vitória,Vitória,Morada de Camburi,0,1,1,1,False,False,False,False,False,False,False,True,True
+area_m2_invalida,795000.0,inf,Casa,casa,Vila Velha,Vila Velha,Cobilândia,0,6,3,4,False,False,False,False,False,False,False,True,True
+preco_m2_suspeito,990000.0,1187.05,Cobertura,apartamento,Guarapari,Guarapari,Praia do Morro,834,3,2,,False,True,True,True,True,True,False,False,True
+area_m2_invalida,978000.0,inf,Apartamento,apartamento,Vitória,Vitória,Jardim Camburi,0,2,2,,False,True,True,True,False,False,False,True,True
+area_m2_invalida,1600000.0,inf,Casa,casa,Serra,Serra,Parque Residencial Laranjeiras,0,3,3,2,False,False,False,False,True,False,False,True,True
+area_m2_invalida,708345.0,inf,Apartamento,apartamento,Vitória,Vitória,Barro Vermelho,0,1,1,,False,True,True,False,False,False,False,True,True
+area_suspeita,2800000.0,140.0,Apart Hotel/ Flat,apartamento,Guarapari,Guarapari,Guarapari,20000,6,8,5,False,False,True,False,True,False,False,True,True
+area_m2_invalida,986865.0,inf,Apartamento,apartamento,Vitória,Vitória,Barro Vermelho,0,2,1,,False,True,True,False,False,False,False,True,True

@@ -35,13 +35,6 @@ MIN_PRECO_M2_APARTAMENTO = 1500
 MAX_PRECO_M2_APARTAMENTO = 40_000
 
 
-# Para manter compatibilidade com seu dataset anterior.
-# Valores acima disso não removem o registro; viram NaN.
-MAX_QUARTOS = 5
-MAX_BANHEIROS = 5
-MAX_VAGAS = 5
-
-
 RELEVANT_BOOLEAN_COLUMNS = [
     "tem_suite",
     "tem_piscina",
@@ -231,11 +224,6 @@ def normalize_dataset(df):
     df.loc[df["quartos"].isna() | (df["quartos"] <= 0), "quartos"] = pd.NA
     df.loc[df["banheiros"].isna() | (df["banheiros"] <= 0), "banheiros"] = pd.NA
     df.loc[df["vagas"].isna() | (df["vagas"] < 0), "vagas"] = pd.NA
-
-    # Valores absurdamente altos nas contagens viram NaN, não removem o registro.
-    df.loc[df["quartos"] > MAX_QUARTOS, "quartos"] = pd.NA
-    df.loc[df["banheiros"] > MAX_BANHEIROS, "banheiros"] = pd.NA
-    df.loc[df["vagas"] > MAX_VAGAS, "vagas"] = pd.NA
 
     for col in ["quartos", "banheiros", "vagas"]:
         df[col] = df[col].round().astype("Int64")
