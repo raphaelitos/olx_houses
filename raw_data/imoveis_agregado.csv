@@ -2534,7 +2534,7 @@
 2532,2843623123,230000.0,Apartamento,Serra,das Laranjeiras,59,2,1,1,0,False,False,False,False,False,False,False,False,False,Serra
 2533,2884808985,550000.0,Casa,Serra,São Francisco,75,2,2,2,0,False,False,False,False,False,False,False,False,False,Serra
 2534,2889817901,450000.0,Apartamento,Serra,Jardim Limoeiro,55,2,2,1,1,True,True,True,True,False,True,False,True,False,Serra
-2535,2890828982,1380000.0,Casa,Serra,Morada de Laranjeiras,105,30,2,3,1,False,False,False,False,False,False,False,False,False,Serra
+2535,2890828982,1380000.0,Casa,Serra,Morada de Laranjeiras,105,3,2,3,1,False,False,False,False,False,False,False,False,False,Serra
 2536,2896232382,234999.0,Apartamento,Serra,Planície da Serra,44,2,2,1,1,False,False,False,False,False,False,False,False,False,Serra
 2537,2893755782,670000.0,Casa,Serra,São Francisco,105,3,2,2,1,False,False,False,False,False,False,False,False,True,Serra
 2538,2893686076,395000.0,Apartamento,Serra,Serra Centro,68,2,1,1,0,False,False,False,False,False,False,False,False,False,Serra
@@ -6563,7 +6563,7 @@
 6561,620161001-1,439000.0,Apartamento,Vila Velha,Santa Paula I,51,3,2,1,0,True,False,False,False,False,False,False,True,False,
 6562,620221010-3,990000.0,Apartamento,Vila Velha,Jockey de Itaparica,103,2,2,2,0,True,True,True,True,False,False,False,True,True,
 6563,620171052-56,980000.0,Casa,Cariacica,Jardim América,300,3,5,3,0,False,True,True,True,False,False,False,False,False,
-6564,620131024-33,320000.0,Apartamento,Serra,São Diogo I,64,2,1,494,0,False,False,False,True,False,True,False,False,False,
+6564,620131024-33,320000.0,Apartamento,Serra,São Diogo I,64,2,1,1,0,False,False,False,True,False,True,False,False,False,
 6565,620131038-22,195000.0,Apart Hotel/ Flat,Vitória,Santa Luíza,28,1,1,1,0,False,False,False,False,False,False,False,True,False,
 6566,620171052-50,800000.0,Casa,Serra,Parque Residencial Laranjeiras,317,4,2,2,0,False,True,False,False,False,False,False,False,False,
 6567,620201023-7,920000.0,Casa,Serra,Parque Residencial Laranjeiras,293,3,2,1,0,False,False,False,False,False,False,False,False,False,
