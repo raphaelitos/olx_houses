@@ -1,0 +1,363 @@
+RELATÓRIO DO DATASET
+
+Arquivo bruto: data_imoveis_outras_cidades.csv
+Cidades esperadas: Fundão, Guarapari, Serra, Viana, Cariacica
+Registros brutos: 9116
+Registros no dataset de modelagem: 7403
+Registros removidos totais: 1713
+Taxa de retenção: 81.21%
+
+Dataset de modelagem: dataset_modelagem_outras_cidades.csv
+Dataset de auditoria: dataset_auditoria_outras_cidades.csv
+Removidos gerais: dataset_removidos_geral_outras_cidades.csv
+Removidos sem área: dataset_removidos_sem_area_outras_cidades.csv
+Removidos por preço/m² suspeito: dataset_removidos_preco_m2_suspeito_outras_cidades.csv
+
+==========================================================================================
+COLUNAS EXPORTADAS
+==========================================================================================
+Colunas do dataset de modelagem:
+preco_venda, tipo_imovel, subtipo_imovel, cidade, bairro, area_m2, quartos, banheiros, vagas, qtd_imagens, idade_anuncio_dias, tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador
+
+Flags mantidas:
+tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador
+
+Flags descartadas:
+anunciante_profissional, tem_porteira_fechada, tem_sol_manha, tem_cobertura, tem_frente_mar, tem_gourmet, tem_garden
+
+Colunas de auditoria removidas da modelagem:
+preco_m2, preco_m2_suspeito, preco_suspeito, area_suspeita
+
+
+==========================================================================================
+REMOÇÕES
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Remoções por primeiro motivo identificado
+------------------------------------------------------------------------------------------
+motivo_remocao
+sem_area_m2          1448
+preco_m2_suspeito     135
+area_suspeita          79
+area_m2_invalida       24
+preco_suspeito         20
+sem_preco_venda         5
+sem_bairro              2
+Name: count, dtype: int64
+
+Removidos gerais: 130
+Removidos por ausência de área: 1448
+Removidos por preço/m² suspeito: 135
+
+
+------------------------------------------------------------------------------------------
+Removidos por ausência de área por cidade e tipo
+------------------------------------------------------------------------------------------
+cidade     tipo_imovel
+Cariacica  casa           799
+Viana      casa           292
+Serra      casa           268
+Cariacica  apartamento     31
+Guarapari  casa            25
+Serra      apartamento     19
+Guarapari  apartamento      8
+Fundão     casa             4
+Viana      apartamento      2
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Removidos por preço/m² suspeito por cidade e tipo
+------------------------------------------------------------------------------------------
+cidade     tipo_imovel
+Serra      casa           52
+Cariacica  casa           34
+Guarapari  casa           23
+Cariacica  apartamento    10
+Serra      apartamento     5
+Viana      casa            4
+Fundão     casa            3
+Guarapari  apartamento     3
+Fundão     apartamento     1
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Amostra de removidos por ausência de área
+------------------------------------------------------------------------------------------
+motivo_remocao  id_anuncio                                                                        titulo                                                                                                                                          url categoria_olx             tipo_detalhado    tipo_url    data_anuncio_olx         data_coleta  preco_venda  area_m2  preco_m2    cidade         bairro tipo_imovel     subtipo_imovel  quartos  banheiros  vagas  qtd_imagens  idade_anuncio_dias  tem_suite  tem_piscina  tem_varanda  tem_lazer  tem_mobiliado  tem_elevador  area_suspeita  preco_suspeito  preco_m2_suspeito  preco_m2_suspeito_original
+   sem_area_m2  1449015227                                          Vendo casa em Alzira Ramos Cariacica                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-alzira-ramos-cariacica-1449015227  Apartamentos Venda - apartamento padrão apartamento 2026-05-15T09:37:54 2026-07-06T22:25:25       120000     <NA>       NaN Cariacica   Alzira Ramos apartamento apartamento_padrao        3       <NA>   <NA>            9                  52      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1508531285                                                                   APARTAMENTO                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-1508531285  Apartamentos Venda - apartamento padrão apartamento 2026-06-07T13:43:43 2026-07-06T22:24:50       299000     <NA>       NaN Cariacica Campina Grande apartamento apartamento_padrao        2          1      1           16                  29      False         True        False       True          False         False          False           False              False                       False
+   sem_area_m2  1446129124                                         Apartamento em Rio Marinho, Cariacica                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-rio-marinho-cariacica-1446129124  Apartamentos Venda - apartamento padrão apartamento 2026-06-22T06:33:47 2026-07-06T22:24:32       190000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            9                  14      False         True        False      False          False         False          False           False              False                       False
+   sem_area_m2  1510031453                                                   VENDO C/ EM PARQUE INFANTIL                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-c-em-parque-infantil-1510031453  Apartamentos Venda - apartamento padrão apartamento 2026-06-12T17:22:40 2026-07-06T22:24:50       200000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2       <NA>   <NA>           10                  24      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1500757871                                   Apartamento 2 quartos em Campo Verde, Viana                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-em-campo-verde-viana-1500757871  Apartamentos Venda - apartamento padrão apartamento 2026-05-09T15:09:49 2026-07-06T22:25:25       200000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            8                  58      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1500105610                      Apartamento conservado 2 quartos em Vila Bethânia, Viana                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-conservado-2-quartos-em-vila-bethania-viana-1500105610  Apartamentos Venda - apartamento padrão apartamento 2026-05-07T12:35:10 2026-07-06T22:25:25       210000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1           11                  60      False         True        False       True          False         False          False           False              False                       False
+   sem_area_m2  1484526293                     Apartamento dois quartos sol da manhã em Tucum, Cariacica                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-dois-quartos-sol-da-manha-em-tucum-cariacica-1484526293  Apartamentos Venda - apartamento padrão apartamento 2026-05-11T11:14:55 2026-07-06T22:25:25       220000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            8                  56      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1502726280                          Apartamento 2 quartos no residencial Diamante Garden                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-no-residencial-diamante-garden-1502726280  Apartamentos Venda - apartamento padrão apartamento 2026-05-17T08:03:23 2026-07-06T22:25:25       280000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            4                  50      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1467026457                Apartamento 2 quartos em São Geraldo (Campo Grande), Cariacica                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-em-sao-geraldo-campo-grande-cariacica-1467026457  Apartamentos Venda - apartamento padrão apartamento 2026-05-11T11:14:34 2026-07-06T22:25:25       300000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1           10                  56      False        False         True       True          False          True          False           False              False                       False
+   sem_area_m2  1471735311                                  Apartamento em Morada de Santa Fé, Cariacica                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-morada-de-santa-fe-cariacica-1471735311  Apartamentos Venda - apartamento padrão apartamento 2026-05-27T17:20:57 2026-07-06T22:25:06       301000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            9                  40      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1500759646                       Apartamento 2 quartos mobiliado em Colina Vila Velha ES                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-mobiliado-em-colina-vila-velha-es-1500759646  Apartamentos Venda - apartamento padrão apartamento 2026-05-09T15:20:46 2026-07-06T22:25:25       310000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            9                  58      False         True         True       True           True          True          False           False              False                       False
+   sem_area_m2  1462382280                                     Apartamento em Vale Encantado, Vila Velha                                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-vale-encantado-vila-velha-1462382280  Apartamentos Venda - apartamento padrão apartamento 2026-06-21T18:38:24 2026-07-06T22:24:50       335000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1           12                  15      False         True        False      False          False         False          False           False              False                       False
+   sem_area_m2  1511049679 Apartamento montado com 2 quartos, prédio com elevador em Santa Fé, Cariacica https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-montado-com-2-quartos-predio-com-elevador-em-santa-fe-cariacica-1511049679  Apartamentos Venda - apartamento padrão apartamento 2026-06-16T18:57:10 2026-07-06T22:24:50       360000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1            9                  20      False        False        False      False          False          True          False           False              False                       False
+   sem_area_m2  1506201530                       Apartamento reformado em Praia das Gaivotas, Vila Velha                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-reformado-em-praia-das-gaivotas-vila-velha-1506201530  Apartamentos Venda - apartamento padrão apartamento 2026-05-28T22:19:02 2026-07-06T22:25:06       400000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          1      1           14                  39      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1447347073                                  2 CASAS E COMÉRCIO EM BELA AURORA, CARIACICA                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/2-casas-e-comercio-em-bela-aurora-cariacica-1447347073  Apartamentos Venda - apartamento padrão apartamento 2026-07-04T07:57:26 2026-07-06T22:24:32       550000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        4          3   <NA>           11                   2      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1489625574                                        Apartamento em Campo Grande, Cariacica                                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-campo-grande-cariacica-1489625574  Apartamentos Venda - apartamento padrão apartamento 2026-05-28T12:32:26 2026-07-06T22:25:06       600000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        3          2      1           15                  39      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1487421513             Apartamento novo. Quarto e sala na Praia de Itaparica, Vila Velha             https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-novo-quarto-e-sala-na-praia-de-itaparica-vila-velha-1487421513  Apartamentos Venda - apartamento padrão apartamento 2026-05-20T13:47:07 2026-07-06T22:25:06       660618     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        1          1      1           10                  47      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1507181811                 Apartamento 2 quartos, 1 suíte na Praia de Itapuã, Vila Velha                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-1-suite-na-praia-de-itapua-vila-velha-1507181811  Apartamentos Venda - apartamento padrão apartamento 2026-06-01T21:45:41 2026-07-06T22:25:06       675000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          2      1           14                  35       True         True         True      False          False          True          False           False              False                       False
+   sem_area_m2  1471506685                                Apartamento em Jockey de Itaparica, Vila Velha                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-jockey-de-itaparica-vila-velha-1471506685  Apartamentos Venda - apartamento padrão apartamento 2026-05-27T17:21:10 2026-07-06T22:25:06       699000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          2      1           19                  40      False         True         True       True          False          True          False           False              False                       False
+   sem_area_m2  1507171276              Apartamento 3 quartos, 1 suíte em Praia das Gaivotas, Vila Velha              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-3-quartos-1-suite-em-praia-das-gaivotas-vila-velha-1507171276  Apartamentos Venda - apartamento padrão apartamento 2026-06-01T21:27:25 2026-07-06T22:25:06       735000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        3          2      2           16                  35       True         True        False       True          False         False          False           False              False                       False
+   sem_area_m2  1471500293                                 Apartamento em Praia de Itaparica, Vila Velha                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-praia-de-itaparica-vila-velha-1471500293  Apartamentos Venda - apartamento padrão apartamento 2026-05-27T17:21:48 2026-07-06T22:25:06       800000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        2          2      1           11                  40      False         True         True       True          False          True          False           False              False                       False
+   sem_area_m2  1471516366                                 Apartamento em Praia de Itaparica, Vila Velha                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-praia-de-itaparica-vila-velha-1471516366  Apartamentos Venda - apartamento padrão apartamento 2026-05-27T17:21:36 2026-07-06T22:25:06      1100000     <NA>       NaN Cariacica   Campo Grande apartamento apartamento_padrao        3          2      2           20                  40      False         True         True       True          False          True          False           False              False                       False
+   sem_area_m2  1503893663                                            Apartamento MRV Parkside Residence                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-mrv-parkside-residence-1503893663  Apartamentos Venda - apartamento padrão apartamento 2026-05-21T10:41:26 2026-07-06T22:25:06        75000     <NA>       NaN Cariacica     Itapemirim apartamento apartamento_padrao        3          1      2           20                  46      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1503355495                                                Vendo 2 kit net 2 apartamentos                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-2-kit-net-2-apartamentos-1503355495  Apartamentos Venda - apartamento padrão apartamento 2026-05-19T12:52:12 2026-07-06T22:25:06       235000     <NA>       NaN Cariacica     Itapemirim apartamento apartamento_padrao        3          0      1            8                  48      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1505722092                                                         Vende se Apartamento.                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-apartamento-1505722092  Apartamentos Venda - apartamento padrão apartamento 2026-05-27T10:11:10 2026-07-06T22:25:06          180     <NA>       NaN Cariacica  Padre Gabriel apartamento apartamento_padrao        2          1      2            4                  40      False        False        False      False          False         False          False            True              False                       False
+   sem_area_m2  1507842820                                                               Vendo ou troco.                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-1507842820  Apartamentos Venda - apartamento padrão apartamento 2026-06-04T08:32:49 2026-07-06T22:25:06       100000     <NA>       NaN Cariacica  Padre Gabriel apartamento apartamento_padrao        2          1      1            6                  32      False        False        False       True          False         False          False           False              False                       False
+   sem_area_m2  1508554369                                               Vende- se ou troca- se por casa                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-ou-troca-se-por-casa-1508554369  Apartamentos Venda - apartamento padrão apartamento 2026-06-07T15:40:18 2026-07-06T22:24:50       120000     <NA>       NaN Cariacica  Padre Gabriel apartamento apartamento_padrao        2          1      1            5                  29      False        False        False       True          False         False          False           False              False                       False
+   sem_area_m2  1504683466                                            Vendo apartamento em padre Gabriel                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-em-padre-gabriel-1504683466  Apartamentos Venda - apartamento padrão apartamento 2026-05-24T18:45:39 2026-07-06T22:25:06       150000     <NA>       NaN Cariacica  Padre Gabriel apartamento apartamento_padrao        2          1      2           11                  43      False        False        False       True          False         False          False           False              False                       False
+   sem_area_m2  1515976416                       VENDO BARATO! Apartamento na Melhor Região de Cariacica                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-barato-apartamento-na-melhor-regiao-de-cariacica-1515976416  Apartamentos Venda - apartamento padrão apartamento 2026-07-06T16:27:26 2026-07-06T22:24:32       100000     <NA>       NaN Cariacica  São Francisco apartamento apartamento_padrao        1          1      1            7                   0      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1511969250                                                        Vende e aluga ou troca                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-e-aluga-ou-troca-1511969250  Apartamentos Venda - apartamento padrão apartamento 2026-06-20T08:12:58 2026-07-06T22:24:50       120000     <NA>       NaN Cariacica  São Francisco apartamento apartamento_padrao        1          1   <NA>           15                  16      False        False        False      False          False         False          False           False              False                       False
+
+
+------------------------------------------------------------------------------------------
+Amostra de removidos por preço/m² suspeito
+------------------------------------------------------------------------------------------
+   motivo_remocao  id_anuncio                                                                                    titulo                                                                                                                                                    url categoria_olx                tipo_detalhado    tipo_url    data_anuncio_olx         data_coleta  preco_venda  area_m2  preco_m2    cidade              bairro tipo_imovel        subtipo_imovel  quartos  banheiros  vagas  qtd_imagens  idade_anuncio_dias  tem_suite  tem_piscina  tem_varanda  tem_lazer  tem_mobiliado  tem_elevador  area_suspeita  preco_suspeito  preco_m2_suspeito  preco_m2_suspeito_original
+preco_m2_suspeito  1513729165                                                 Apartamento em Itaciba..ótima localização                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-em-itaciba-otima-localizacao-1513729165  Apartamentos Venda - apartamento cobertura apartamento 2026-06-27T10:43:31 2026-07-06T22:24:32       100000      160    625.00 Cariacica             Itacibá apartamento apartamento_cobertura        2          1      0           14                   9      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1432062029                      Vendo Prédio residencial com 10 apartamento e 2 pontos comercial !!!                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-predio-residencial-com-10-apartamento-e-2-pontos-comercial-1432062029  Apartamentos    Venda - apartamento padrão apartamento 2026-07-06T10:42:09 2026-07-06T22:24:32      1500000     1000   1500.00 Cariacica            Itaquari apartamento    apartamento_padrao        3          2      2            6                   0      False        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1432784467                                      Vendo apartamento ou troco em caminhão  ou automóvel                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-ou-troco-em-caminhao-ou-automovel-1432784467  Apartamentos    Venda - apartamento padrão apartamento 2026-06-26T10:07:48 2026-07-06T22:24:32       130000      120   1083.33 Cariacica      Jardim de Alah apartamento    apartamento_padrao        2          1      0            8                  10      False        False        False      False          False         False          False           False               True                       False
+preco_m2_suspeito  1353988068 Imóvel para venda possui 55 metros quadrados com 2 quartos em Padre Gabriel - Cariacica - https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-55-metros-quadrados-com-2-quartos-em-padre-gabriel-cariacica-1353988068  Apartamentos    Venda - apartamento padrão apartamento 2024-11-12T13:20:08 2026-07-06T22:26:06        60000       55   1090.91 Cariacica       Padre Gabriel apartamento    apartamento_padrao        2          1      1           17                 601      False        False        False       True          False         False          False           False               True                       False
+preco_m2_suspeito  1508897508                                                                     Casa 2° andar a venda                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-2-andar-a-venda-1508897508  Apartamentos    Venda - apartamento padrão apartamento 2026-06-08T19:53:07 2026-07-06T22:24:50       250000      169   1479.29 Cariacica      Parque Gramado apartamento    apartamento_padrao        3          3      0            4                  28      False        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1510261756                        Vendo apartamento no quatro andar, cobertura com ótima localização                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-no-quatro-andar-cobertura-com-otima-localizacao-1510261756  Apartamentos Venda - apartamento cobertura apartamento 2026-06-13T17:37:17 2026-07-06T22:24:50       150000      100   1500.00 Cariacica         Rio Marinho apartamento apartamento_cobertura        1          1      1            9                  23      False        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1513642292                                     Prédio com 6 apartamentos mais 1 sobrado muito barato                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/predio-com-6-apartamentos-mais-1-sobrado-muito-barato-1513642292  Apartamentos    Venda - apartamento padrão apartamento 2026-06-26T21:30:43 2026-07-06T22:24:32       590000      700    842.86 Cariacica       Rosa da Penha apartamento    apartamento_padrao        5          5      0           17                  10      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1270572965 Aceita sitio como parte de pagamento. Imóvel para venda tem 200m2 , AP 3 quartos e lazer, https://es.olx.com.br/norte-do-espirito-santo/imoveis/aceita-sitio-como-parte-de-pagamento-imovel-para-venda-tem-200m2-ap-3-quartos-e-lazer-1270572965  Apartamentos    Venda - apartamento padrão apartamento 2024-01-15T22:32:14 2026-07-06T22:26:06       350000      300   1166.67 Cariacica             Santana apartamento    apartamento_padrao        3          3      2           20                 902      False        False        False       True          False         False          False           False               True                       False
+preco_m2_suspeito  1026259190                                      Predio em faze de acabamentos c/ mão de obra pagas !                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/predio-em-faze-de-acabamentos-c-mao-de-obra-pagas-1026259190  Apartamentos    Venda - apartamento padrão apartamento 2022-04-29T01:57:43 2026-07-06T22:26:06      2650000       60  44166.67 Cariacica         São Conrado apartamento    apartamento_padrao        2          2      5           20                1529      False        False        False      False          False         False          False           False               True                       False
+preco_m2_suspeito  1514864413                                  APARTAMENTO RESIDENCIAL em CARIACICA - ES, VASCO DA GAMA                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-residencial-em-cariacica-es-vasco-da-gama-1514864413  Apartamentos    Venda - apartamento padrão apartamento 2026-07-02T01:02:23 2026-07-06T22:24:32       218500      156   1400.64 Cariacica       Vasco da Gama apartamento    apartamento_padrao        3          2      1            7                   4      False        False        False      False          False         False          False           False               True                       False
+preco_m2_suspeito  1418152806                                                  Venda casa 2 quartos + lote em Alto Lage                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/venda-casa-2-quartos-lote-em-alto-lage-1418152806         Casas   Venda - casa em rua pública        casa 2026-07-06T12:20:44 2026-07-06T22:28:30       180000      270    666.67 Cariacica           Alto Lage        casa      casa_rua_publica        2          1      0           11                   0      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1511750225                                                               Vendo casa ! A vista apenas                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-a-vista-apenas-1511750225         Casas   Venda - casa em rua pública        casa 2026-06-19T08:43:18 2026-07-06T22:29:20       199000      350    568.57 Cariacica           Aparecida        casa      casa_rua_publica        3          2   <NA>            9                  17      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1503266437                                                               Vendo casa no Segundo Andar                                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-no-segundo-andar-1503266437         Casas   Venda - casa em rua pública        casa 2026-05-19T07:11:14 2026-07-06T22:33:11       100000      150    666.67 Cariacica          Bela Vista        casa      casa_rua_publica        3          2      0           15                  48      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1504847534                                                             Oportunidade casa com terreno                                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/oportunidade-casa-com-terreno-1504847534         Casas   Venda - casa em rua pública        casa 2026-05-25T12:41:57 2026-07-06T22:32:06       240000      400    600.00 Cariacica           Boa Sorte        casa      casa_rua_publica        2          2      2            8                  42      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1500139267                                                                                       Sim                                                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/sim-1500139267         Casas   Venda - casa em rua pública        casa 2026-05-07T14:47:29 2026-07-06T22:34:15       170000      300    566.67 Cariacica      Campina Grande        casa      casa_rua_publica        4          1      0            6                  60      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1510500629                               Vendo casa com quintal 60 mil divisa de viana com cariacica                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-quintal-60-mil-divisa-de-viana-com-cariacica-1510500629         Casas   Venda - casa em rua pública        casa 2026-06-14T20:47:10 2026-07-06T22:30:03        60000      132    454.55 Cariacica        Campo Grande        casa      casa_rua_publica        2          1      0            3                  22      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1502730370                                                            Vendo ou troco casa a reformar                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-casa-a-reformar-1502730370         Casas   Venda - casa em rua pública        casa 2026-05-17T08:52:30 2026-07-06T22:33:26       100000      300    333.33 Cariacica         Campo Verde        casa      casa_rua_publica        3          1      0            4                  50      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1476429400                                                      VENDO CASA URGENTE EM CARIACICA SEDE                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-urgente-em-cariacica-sede-1476429400         Casas   Venda - casa em rua pública        casa 2026-06-17T10:54:15 2026-07-06T22:29:35       130000      230    565.22 Cariacica      Cariacica Sede        casa      casa_rua_publica        3          1      2            6                  19      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1514732515                                                              VENDO CASA EM CARIACICA SEDE                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cariacica-sede-1514732515         Casas   Venda - casa em rua pública        casa 2026-07-01T16:27:04 2026-07-06T22:28:43       133000      200    665.00 Cariacica      Cariacica Sede        casa      casa_rua_publica        3          1      2            6                   5      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1476428331                                                              VENDO CASA EM CARIACICA SEDE                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cariacica-sede-1476428331         Casas   Venda - casa em rua pública        casa 2026-06-17T10:55:01 2026-07-06T22:29:35       135000      200    675.00 Cariacica      Cariacica Sede        casa      casa_rua_publica        3          1      1            5                  19      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1514118458                                                     Vendo Mine Chácara  em Cariacica Sede                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-mine-chacara-em-cariacica-sede-1514118458         Casas   Venda - casa em rua pública        casa 2026-06-29T10:59:02 2026-07-06T22:28:43       156000      860    181.40 Cariacica      Cariacica Sede        casa      casa_rua_publica        3          1      1           16                   7      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1467897796                                                            CASA A VENDA EM CARIACICA SEDE                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-cariacica-sede-1467897796         Casas   Venda - casa em rua pública        casa 2026-05-14T17:28:43 2026-07-06T22:33:42       165000      260    634.62 Cariacica      Cariacica Sede        casa      casa_rua_publica        3          2      2            7                  53      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1505208325                                                                  CASA A VENDA EM FLEXAL 1                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-flexal-1-1505208325         Casas   Venda - casa em rua pública        casa 2026-05-26T16:56:17 2026-07-06T22:31:54       110000      200    550.00 Cariacica            Flexal I        casa      casa_rua_publica        3          1      1            6                  41      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1476434097                                                 VENDAA URGENTE , CASA EM FLEXAL CARIACICA                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendaa-urgente-casa-em-flexal-cariacica-1476434097         Casas   Venda - casa em rua pública        casa 2026-06-17T10:43:19 2026-07-06T22:29:35       115000      200    575.00 Cariacica            Flexal I        casa      casa_rua_publica        2          1      1            5                  19      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1514752856                                                                    VENDO CASA EM FLEXAL 1                                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-flexal-1-1514752856         Casas   Venda - casa em rua pública        casa 2026-07-01T17:44:06 2026-07-06T22:28:43       153000      230    665.22 Cariacica            Flexal I        casa      casa_rua_publica        2          1   <NA>            7                   5      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1502475657                                                                        Vende-se está casa                                                                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-esta-casa-1502475657         Casas   Venda - casa em rua pública        casa 2026-05-15T23:35:00 2026-07-06T22:33:26       250000      675    370.37 Cariacica           Flexal II        casa      casa_rua_publica        3          4   <NA>           16                  51      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1504934716                                                            CASA A VENDA EM CARIACICA SEDE                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-cariacica-sede-1504934716         Casas   Venda - casa em rua pública        casa 2026-05-25T17:51:45 2026-07-06T22:31:54       155000      230    673.91 Cariacica            Ibiapaba        casa      casa_rua_publica        3          1      2            6                  42      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1421763837                                                   Casa nas montanhas de Marechal Floriano                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-nas-montanhas-de-marechal-floriano-1421763837         Casas   Venda - casa em rua pública        casa 2026-07-03T14:47:05 2026-07-06T22:28:30       280000      440    636.36 Cariacica             Itacibá        casa      casa_rua_publica        2          1      1           20                   3      False        False        False      False           True         False          False           False               True                        True
+preco_m2_suspeito  1505252699                                                                                Imperdível                                                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/imperdivel-1505252699         Casas          Venda - casa em vila        casa 2026-05-26T20:03:01 2026-07-06T22:31:54       135000      330    409.09 Cariacica Jardim Campo Grande        casa                  casa        2          1      1            5                  41      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1510682533                              Vendo Casa Com Terreno em Jardim Campo Grande Cariacica E.S.                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-terreno-em-jardim-campo-grande-cariacica-e-s-1510682533         Casas          Venda - casa em vila        casa 2026-06-15T14:44:13 2026-07-06T22:30:03       160000      300    533.33 Cariacica Jardim Campo Grande        casa                  casa        2          1   <NA>            3                  21      False        False        False      False          False         False          False           False               True                        True
+
+
+==========================================================================================
+COBERTURA DO DATASET DE MODELAGEM
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Cobertura por cidade
+------------------------------------------------------------------------------------------
+cidade
+Serra        3618
+Guarapari    3018
+Cariacica     664
+Viana          52
+Fundão         51
+Name: count, dtype: Int64
+
+
+------------------------------------------------------------------------------------------
+Cobertura por tipo de imóvel
+------------------------------------------------------------------------------------------
+tipo_imovel
+apartamento    4145
+casa           3258
+Name: count, dtype: Int64
+
+
+------------------------------------------------------------------------------------------
+Cobertura por cidade e tipo de imóvel
+------------------------------------------------------------------------------------------
+cidade     tipo_imovel
+Serra      apartamento    1968
+Guarapari  apartamento    1881
+Serra      casa           1650
+Guarapari  casa           1137
+Cariacica  casa            387
+           apartamento     277
+Fundão     casa             48
+Viana      casa             36
+           apartamento      16
+Fundão     apartamento       3
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Top 30 bairros por quantidade de registros
+------------------------------------------------------------------------------------------
+bairro
+Praia do Morro                    1210
+Colina de Laranjeiras              592
+Centro                             575
+Morada de Laranjeiras              544
+Valparaíso                         247
+Enseada Azul                       228
+Jardim Limoeiro                    186
+Praia da Baleia                    169
+São Francisco                      155
+Parque Residencial Laranjeiras     146
+Campo Grande                       144
+Manguinhos                         143
+Nova Guarapari                     134
+São Judas Tadeu                    120
+Jacuhy                             115
+Planície da Serra                  115
+Recanto da Sereia                  102
+Santa Mônica                        89
+Itapebussu                          84
+Conjunto Jacaraípe                  83
+Meaípe                              68
+Castelândia                         57
+Residencial Centro da Serra         54
+Balneário de Carapebus              54
+Jardim Atlântico                    51
+Boulevard Lagoa                     51
+Praia Grande                        51
+Village do Sol                      47
+Ipiranga                            44
+São Diogo II                        43
+Name: count, dtype: Int64
+
+Registros concentrados nos 10 bairros mais frequentes: 4052 (54.73%)
+
+
+==========================================================================================
+VALORES AUSENTES
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Valores ausentes no dataset de modelagem
+------------------------------------------------------------------------------------------
+            coluna  ausentes  pct_ausente
+             vagas       327         4.42
+         banheiros         7         0.09
+       preco_venda         0         0.00
+       tipo_imovel         0         0.00
+    subtipo_imovel         0         0.00
+            bairro         0         0.00
+            cidade         0         0.00
+           quartos         0         0.00
+           area_m2         0         0.00
+       qtd_imagens         0         0.00
+idade_anuncio_dias         0         0.00
+         tem_suite         0         0.00
+       tem_piscina         0         0.00
+       tem_varanda         0         0.00
+         tem_lazer         0         0.00
+     tem_mobiliado         0         0.00
+      tem_elevador         0         0.00
+
+quartos ausentes: 0
+quartos iguais a zero: 3
+
+banheiros ausentes: 7
+banheiros iguais a zero: 4
+
+vagas ausentes: 327
+vagas iguais a zero: 142
+
+
+==========================================================================================
+PERFIL NUMÉRICO
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Resumo numérico do dataset de modelagem
+------------------------------------------------------------------------------------------
+    preco_venda     area_m2   quartos  banheiros     vagas  qtd_imagens  idade_anuncio_dias
+         7403.0      7403.0    7403.0     7396.0    7076.0       7403.0              7403.0
+  981099.436715  148.753073  2.793867   2.160627  1.842708    15.289477           67.460894
+ 1098698.048999  132.435199  0.912953   1.224009  1.163274     5.163899          159.138165
+        55200.0        12.0       0.0        0.0       0.0          0.0                 0.0
+       140000.0        41.0       1.0        1.0       0.0          0.0                 0.0
+       220000.0        45.0       2.0        1.0       1.0          6.0                 0.0
+       265000.0        48.0       2.0        1.0       1.0          8.0                 0.0
+       370000.0        63.0       2.0        1.0       1.0         12.0                 2.0
+       650000.0       100.0       3.0        2.0       2.0         17.0                 8.0
+      1200000.0       194.0       3.0        3.0       2.0         20.0                48.0
+      2000000.0       300.0       4.0        4.0       4.0         20.0               205.0
+      2900000.0       400.0       5.0        5.0       5.0         20.0               362.8
+      5158702.0       700.0       5.0        5.0       5.0         20.0              823.74
+     20000000.0      1000.0       5.0        5.0       5.0         20.0              1535.0
+
+
+==========================================================================================
+DUPLICATAS APROXIMADAS PARA AUDITORIA
+==========================================================================================
+Critério usado: cidade, bairro, tipo_imovel, subtipo_imovel, area_m2, quartos, banheiros e vagas.
+
+Linhas em grupos aproximados: 3986
+Grupos aproximados: 940
+Percentual de linhas em grupos aproximados: 53.84%
+
+Observação: esses registros não são removidos. A informação serve apenas para avaliação posterior.
+
+==========================================================================================
+EXTREMOS PARA AUDITORIA
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+20 menores preços por m² no bruto
+------------------------------------------------------------------------------------------
+   cidade              bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                               titulo                                                                                                                  url
+    Serra           Barcelona        casa   casa_rua_publica       250000 29042340      0.01        2          2      1                        Ca vendo casa Barcelona serra                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/ca-vendo-casa-barcelona-serra-1512773444
+Cariacica  Vila Independência        casa               casa        32000   999999      0.03        1          1      1                        Lote , com barraco de madeira                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/lote-com-barraco-de-madeira-1513190113
+Cariacica                Bubú        casa               casa          300      800      0.38        3          2      5                                    Passa-se uma casa                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/passa-se-uma-casa-1510370400
+Guarapari        Santa Mônica        casa    casa_condominio          200      300      0.67        2          1      4                        Casa com um bom terreno plano                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-com-um-bom-terreno-plano-1510408156
+Cariacica          Porto Novo        casa   casa_rua_publica          280      420      0.67        4          3      5                                          Casa grande                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-grande-1501840720
+Cariacica      Parque Gramado        casa   casa_rua_publica          250      339      0.74        5          1   <NA> Vendo aceito proposta/ aceito caminhonete como parte https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-aceito-proposta-aceito-caminhonete-como-parte-1510481983
+Cariacica       Vila Capixaba        casa   casa_rua_publica          300      385      0.78        2          3      5                           VENDO CASA AMPLA COM ANEXO                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-ampla-com-anexo-1506823280
+    Serra          Valparaíso        casa   casa_rua_publica       155000   200000      0.78        2          1      5           Lv* vende-se casa em Residencial Jacaraipe           https://es.olx.com.br/norte-do-espirito-santo/imoveis/lv-vende-se-casa-em-residencial-jacaraipe-1454972607
+    Serra          Valparaíso        casa   casa_rua_publica       200000   220000      0.91        3          2      3                      Lv* vende-se casa em Valparaíso                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/lv-vende-se-casa-em-valparaiso-1453717248
+    Viana   Arlindo Villaschi        casa   casa_rua_publica          210      230      0.91        3          2      2                 VENDO CASA EM ARLINDO VILASCHI VIANA                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-arlindo-vilaschi-viana-1476420576
+    Viana Marcílio de Noronha        casa   casa_rua_publica          285      250      1.14        3          3      3                              VENDO CASA NA PRINCIPAL                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-na-principal-1513333209
+Cariacica         São Geraldo        casa   casa_rua_publica       180000   130000      1.38        2          2      1                            VENDO CASA SM SÃO GERALDO                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-sm-sao-geraldo-1494827429
+Cariacica      Jardim América        casa   casa_rua_publica       190000   130000      1.46        2          1      1                               CASA EM JARDIM AMÉRICA                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-jardim-america-1494665391
+Cariacica        Bandeirantes        casa   casa_rua_publica       200000   130000      1.54        2          1      1                           VENDO CASA EM BANDEIRANTES                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-bandeirantes-1494633242
+Cariacica       Vila Capixaba        casa   casa_rua_publica       195000   120000      1.62        2          1      1                             VENDO CASA VILA CAPIXABA                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-vila-capixaba-1494817731
+    Viana       Vila Bethânia        casa   casa_rua_publica       200000   120000      1.67        2          2   <NA>                          VENDO CASA EM VILA BETHÂNIA                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-vila-bethania-1494824182
+Cariacica             Itacibá        casa   casa_rua_publica       210000   120000      1.75        3          1      1                                VENDO CASA EM ITACIBA                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-itaciba-1494631341
+Cariacica       São Francisco apartamento apartamento_padrao          200       90      2.22        3          2      1                              Vende-se um apartamento                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-um-apartamento-1501530709
+Cariacica            Flexal I        casa   casa_rua_publica        40000    17780      2.25        1          1      2                                      Vendo está casa                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-esta-casa-1511783008
+    Serra            Praiamar apartamento apartamento_padrao          310       75      4.13        3          2      0                             Apartamento nova Almeida                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-nova-almeida-1514298495
+
+
+------------------------------------------------------------------------------------------
+20 maiores preços por m² no bruto
+------------------------------------------------------------------------------------------
+   cidade                bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2   preco_m2  quartos  banheiros  vagas                                                                                     titulo                                                                                                                                                       url
+Guarapari        Praia do Morro apartamento    apartamento_padrao    365000000       55 6636363.64        2          1   <NA>                                            Apartamento na Praia do Morro em Guarapari - ES                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-na-praia-do-morro-em-guarapari-es-1511831809
+Guarapari        Praia do Morro apartamento    apartamento_padrao    430000000       70 6142857.14        2          2      1 Apto 2 quartos, 2 banheiros, vaga de garagem privativa, em ótima localização na Praia do M  https://es.olx.com.br/norte-do-espirito-santo/imoveis/apto-2-quartos-2-banheiros-vaga-de-garagem-privativa-em-otima-localizacao-na-praia-do-m-1515878339
+Cariacica          Campo Grande apartamento    apartamento_padrao    449000000      116 3870689.66        3          2      2              VENDO APARTAMENTO AMPLO 116m² EM CAMPO GRANDE COM 2 VAGAS  OPORTUNIDADE ÚNICA              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-apartamento-amplo-116m-em-campo-grande-com-2-vagas-oportunidade-unica-1438631901
+    Serra         São Francisco        casa      casa_rua_publica       935000        1  935000.00        4          2      2                                                               Casa Jacaraípe com 4 quartos                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-jacaraipe-com-4-quartos-1512770327
+Guarapari            Itapebussu        casa      casa_rua_publica      2560000       12  213333.33        4          2   <NA>                                              CASA - 4 dormitórios - ITAPEBUSSU - Guarapari                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-itapebussu-guarapari-1476717452
+    Serra Morada de Laranjeiras        casa      casa_rua_publica      1600000       10  160000.00        3          3      0                                          Casa Triplex Geminada Reserva da Morada, Serra ES                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-triplex-geminada-reserva-da-morada-serra-es-1512661018
+    Serra   Estância Monazítica apartamento    apartamento_padrao       150000        1  150000.00        1          1      1                                                 Apartamento Térreo em Jacaraípe (Serra/ES)                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-terreo-em-jacaraipe-serra-es-1515041799
+Cariacica        Nova Esperança        casa      casa_rua_publica       390000        3  130000.00        2          2      1                                                                   Vendo ou troco por Sítio                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-por-sitio-1502730504
+Guarapari     Recanto da Sereia        casa       casa_condominio      2500000       20  125000.00        3          3      4                                            CASA CONDOMINIO BOULEVARD MAR DULÉ-GUARAPARI-ES                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-condominio-boulevard-mar-dule-guarapari-es-1508851302
+Guarapari              Ipiranga        casa      casa_rua_publica      1306499       12  108874.92        4          4      2                                                  CASA - 4 dormitórios - OLARIA - GUARAPARI                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-olaria-guarapari-1502671680
+Guarapari        Praia do Morro        casa      casa_rua_publica      1890000       20   94500.00        4          2      3 Casa a venda na Praia do Morro em Guarapari - Excelente opção para quem uma casa em um ter https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-na-praia-do-morro-em-guarapari-excelente-opcao-para-quem-uma-casa-em-um-ter-1325813725
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       950000       11   86363.64        3          5      1 Imóvel para venda possui 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515633905
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       950000       11   86363.64        3          5      1  Imóvel para venda com 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari -    https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-com-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515951577
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica      2390000       35   68285.71        4          5      4  Imponente Mansão de Luxo à Venda em Guarapari-ES, Bairro Jardim Boa Vista: 4 Suítes, Área   https://es.olx.com.br/norte-do-espirito-santo/imoveis/imponente-mansao-de-luxo-a-venda-em-guarapari-es-bairro-jardim-boa-vista-4-suites-area-1485394036
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       750000       11   68181.82        3          4      2  Imóvel para venda tem 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari -    https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-tem-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515801708
+Guarapari      Jardim Boa Vista        casa      casa_rua_publica       750000       11   68181.82        3          4      2 Imóvel para venda possui 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515567472
+Guarapari        Praia do Morro        casa      casa_rua_publica      1600000       25   64000.00        3          4      3 Imperdível oportunidade de adquirir casa duplex na Praia do Morro, Guarapari-ES, com 3 qua https://es.olx.com.br/norte-do-espirito-santo/imoveis/imperdivel-oportunidade-de-adquirir-casa-duplex-na-praia-do-morro-guarapari-es-com-3-qua-1375051560
+Guarapari        Praia do Morro apartamento apartamento_cobertura       753749       12   62812.42        3          1      1                                     COBERTURA - 3 dormitórios - PRAIA DO MORRO - Guarapari                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/cobertura-3-dormitorios-praia-do-morro-guarapari-1498343151
+Guarapari              Ipiranga        casa      casa_rua_publica       700000       12   58333.33        3          2      3 Casa à venda em Guarapari-ES, Bairro Ipiranga: 3 quartos, 1 suíte, sala, 2 banheiros, 3 va     https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-em-guarapari-es-bairro-ipiranga-3-quartos-1-suite-sala-2-banheiros-3-va-1488969617
+Guarapari       São Judas Tadeu        casa      casa_rua_publica     16010000      300   53366.67        4          4      5                                         CASA - 4 dormitórios - SÃO JUDAS TADEU - Guarapari                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-4-dormitorios-sao-judas-tadeu-guarapari-1445021132

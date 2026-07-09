@@ -1,0 +1,351 @@
+RELATÓRIO DO DATASET
+
+Arquivo bruto: data_imoveis_vitoria_vila_velha.csv
+Cidades esperadas: Vitória, Vila Velha
+Registros brutos: 7802
+Registros no dataset de modelagem: 6700
+Registros removidos totais: 1102
+Taxa de retenção: 85.88%
+
+Dataset de modelagem: dataset_modelagem.csv
+Dataset de auditoria: dataset_auditoria.csv
+Removidos gerais: dataset_removidos_geral.csv
+Removidos sem área: dataset_removidos_sem_area.csv
+Removidos por preço/m² suspeito: dataset_removidos_preco_m2_suspeito.csv
+
+==========================================================================================
+COLUNAS EXPORTADAS
+==========================================================================================
+Colunas do dataset de modelagem:
+preco_venda, tipo_imovel, subtipo_imovel, cidade, bairro, area_m2, quartos, banheiros, vagas, qtd_imagens, idade_anuncio_dias, tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador
+
+Flags mantidas:
+tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador
+
+Flags descartadas:
+anunciante_profissional, tem_porteira_fechada, tem_sol_manha, tem_cobertura, tem_frente_mar, tem_gourmet, tem_garden
+
+Colunas de auditoria removidas da modelagem:
+preco_m2, preco_m2_suspeito, preco_suspeito, area_suspeita
+
+
+==========================================================================================
+REMOÇÕES
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Remoções por primeiro motivo identificado
+------------------------------------------------------------------------------------------
+motivo_remocao
+cidade_fora_do_grupo    663
+sem_area_m2             311
+area_suspeita            46
+preco_m2_suspeito        31
+preco_suspeito           19
+sem_bairro               19
+area_m2_invalida         10
+sem_preco_venda           3
+Name: count, dtype: int64
+
+Removidos gerais: 760
+Removidos por ausência de área: 311
+Removidos por preço/m² suspeito: 31
+
+
+------------------------------------------------------------------------------------------
+Removidos por ausência de área por cidade e tipo
+------------------------------------------------------------------------------------------
+cidade      tipo_imovel
+Vitória     casa           136
+Vila Velha  casa           106
+Viana       casa            36
+Vila Velha  apartamento     15
+Vitória     apartamento      6
+Cariacica   casa             6
+Serra       casa             2
+Guarapari   casa             2
+Fundão      casa             1
+São Mateus  casa             1
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Removidos por preço/m² suspeito por cidade e tipo
+------------------------------------------------------------------------------------------
+cidade      tipo_imovel
+Vila Velha  casa           16
+Vitória     casa           11
+Vila Velha  apartamento     2
+Vitória     apartamento     2
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Amostra de removidos por ausência de área
+------------------------------------------------------------------------------------------
+motivo_remocao  id_anuncio                                                                      titulo                                                                                                                                         url categoria_olx              tipo_detalhado tipo_url    data_anuncio_olx         data_coleta  preco_venda  area_m2  preco_m2     cidade             bairro tipo_imovel   subtipo_imovel  quartos  banheiros  vagas  qtd_imagens  idade_anuncio_dias  tem_suite  tem_piscina  tem_varanda  tem_lazer  tem_mobiliado  tem_elevador  area_suspeita  preco_suspeito  preco_m2_suspeito  preco_m2_suspeito_original
+   sem_area_m2  1515504110                                                Vendo casa em Cariacica Sede                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cariacica-sede-1515504110         Casas Venda - casa em rua pública     casa 2026-07-04T09:52:00 2026-07-05T16:44:09       160000     <NA>       NaN  Cariacica     Alice Coutinho        casa casa_rua_publica        2          1   <NA>            5                   1      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1464463928                                      Casa ampla em Santa Bárbara, Cariacica                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-ampla-em-santa-barbara-cariacica-1464463928         Casas Venda - casa em rua pública     casa 2026-07-04T07:57:36 2026-07-05T16:44:24       700000     <NA>       NaN  Cariacica       Campo Grande        casa casa_rua_publica        3          3   <NA>           15                   1      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1464462015                                             Casas em Santo André, Cariacica                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/casas-em-santo-andre-cariacica-1464462015         Casas Venda - casa em rua pública     casa 2026-07-04T07:57:56 2026-07-05T16:44:09       720000     <NA>       NaN  Cariacica       Campo Grande        casa casa_rua_publica        4          3      2           17                   1      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1498557058 Casa duplex ampla 3 quartos com suíte e piscina em Vila Capixaba, Cariacica https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-ampla-3-quartos-com-suite-e-piscina-em-vila-capixaba-cariacica-1498557058         Casas Venda - casa em rua pública     casa 2026-07-04T07:57:07 2026-07-05T16:44:24       970000     <NA>       NaN  Cariacica       Campo Grande        casa casa_rua_publica        3          3      3           17                   1       True         True         True      False          False         False          False           False              False                       False
+   sem_area_m2  1515591636                                      Vendo 2 casas primeiro e segundo andar                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-2-casas-primeiro-e-segundo-andar-1515591636         Casas Venda - casa em rua pública     casa 2026-07-04T16:56:29 2026-07-05T16:43:01       170000     <NA>       NaN  Cariacica    Jardim Botânico        casa casa_rua_publica        2          2   <NA>            1                   0      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1515714842                                                      Vende se ou troco casa                                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-ou-troco-casa-1515714842         Casas Venda - casa em rua pública     casa 2026-07-05T13:00:47 2026-07-05T16:41:23       400000     <NA>       NaN  Cariacica            Santana        casa casa_rua_publica        3          1      0            1                   0      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1515552945                                         Vendo casa em Praia Grande / Fundão                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-praia-grande-fundao-1515552945         Casas Venda - casa em rua pública     casa 2026-07-04T13:32:42 2026-07-05T16:43:18       300000     <NA>       NaN     Fundão               <NA>        casa casa_rua_publica        2          2   <NA>            9                   1      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1509946841                                          Casa lote condados meaip guarapari                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-lote-condados-meaip-guarapari-1509946841         Casas Venda - casa em rua pública     casa 2026-07-04T14:34:47 2026-07-05T16:43:18       110000     <NA>       NaN  Guarapari           Condados        casa casa_rua_publica        1          1   <NA>           14                   1      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1515378208                                                         Casa duplex a venda                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-a-venda-1515378208         Casas Venda - casa em rua pública     casa 2026-07-03T17:53:57 2026-07-05T16:45:08       250000     <NA>       NaN  Guarapari           Ipiranga        casa casa_rua_publica        3          2      2            2                   1      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1499271003                                                               Vendo 2 casas                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-2-casas-1499271003         Casas Venda - casa em rua pública     casa 2026-07-04T01:38:29 2026-07-05T16:44:39       520000     <NA>       NaN      Serra Cidade Continental        casa casa_rua_publica        4          4      2            4                   1      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1515596592                              Vendo Imóvel Em Vila Nova de Colares, Serra/ES                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-imovel-em-vila-nova-de-colares-serra-es-1515596592         Casas Venda - casa em rua pública     casa 2026-07-04T17:29:00 2026-07-05T16:43:01       200000     <NA>       NaN      Serra           Feu Rosa        casa casa_rua_publica        2          3   <NA>           16                   0      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1510618829                     ABAIXOU, CASA COM PISCINA ESCRITURADA A VENDA EM GURIRI                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/abaixou-casa-com-piscina-escriturada-a-venda-em-guriri-1510618829         Casas Venda - casa em rua pública     casa 2026-07-04T15:17:36 2026-07-05T16:43:18       420000     <NA>       NaN São Mateus       Guriri Norte        casa casa_rua_publica        2          1      2            9                   1      False         True         True      False           True         False          False           False              False                       False
+   sem_area_m2  1460520191                                                     Vendo casa em Vian sede                                                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-vian-sede-1460520191         Casas Venda - casa em rua pública     casa 2026-06-16T09:33:05 2026-07-05T16:59:06       120000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        3          2   <NA>           10                  19      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1461266052                                                    Vendo casa em Viana Sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1461266052         Casas Venda - casa em rua pública     casa 2026-06-16T09:31:20 2026-07-05T16:59:06       130000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            7                  19      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1486929708                                                 Vendo casa em Areinha Viana                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-areinha-viana-1486929708         Casas Venda - casa em rua pública     casa 2026-05-19T17:27:15 2026-07-05T17:00:48       130000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        3       <NA>   <NA>           12                  46      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1473445331                                                    Vendo casa em Viana Sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1473445331         Casas Venda - casa em rua pública     casa 2026-06-07T15:54:48 2026-07-05T16:59:36       150000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            6                  28      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1437715286                                                         VENDO CASA EM VIANA                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-1437715286         Casas Venda - casa em rua pública     casa 2026-06-01T16:55:29 2026-07-05T17:00:00       150000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        3       <NA>   <NA>            9                  34      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1487447623                                                    Vendo casa em Viana sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1487447623         Casas Venda - casa em rua pública     casa 2026-05-25T14:58:31 2026-07-05T17:00:36       150000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            9                  41      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1450702124                                                      Venda de casa em Viana                                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/venda-de-casa-em-viana-1450702124         Casas Venda - casa em rua pública     casa 2026-05-14T17:09:01 2026-07-05T17:01:00       150000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2          2   <NA>            8                  51      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1450653136                                                    Vendo casa em viana sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1450653136         Casas Venda - casa em rua pública     casa 2026-05-11T14:48:11 2026-07-05T17:01:15       150000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            9                  55      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1493103661                          Vendo casa em Viana sede com quintal (oportunidade                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-com-quintal-oportunidade-1493103661         Casas Venda - casa em rua pública     casa 2026-06-12T11:37:40 2026-07-05T16:59:21       160000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        3       <NA>   <NA>            9                  23      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1473501842                                                    Vendo casa em Viana sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1473501842         Casas Venda - casa em rua pública     casa 2026-06-07T15:52:28 2026-07-05T16:59:36       160000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            6                  28      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1506993280                                                           Casa (Viana sede)                                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-viana-sede-1506993280         Casas Venda - casa em rua pública     casa 2026-06-01T11:31:41 2026-07-05T17:00:00       180000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        1          1      1            4                  34      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1501449820                                    Vendo casa em marcilio de Noronha Vaiana                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-marcilio-de-noronha-vaiana-1501449820         Casas Venda - casa em rua pública     casa 2026-05-12T14:44:30 2026-07-05T17:01:15       190000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        3       <NA>   <NA>           11                  54      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1476624018                                                    Vendo casa em Viana sede                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1476624018         Casas Venda - casa em rua pública     casa 2026-06-17T09:11:08 2026-07-05T16:58:54       200000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2       <NA>   <NA>            7                  18      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1510043278                                                    VENDO CASA EM VIANA SEDE                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1510043278         Casas Venda - casa em rua pública     casa 2026-06-12T18:03:18 2026-07-05T16:59:06       200000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2          1   <NA>            7                  22      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1471125293                                                    VENDO CASA EM VIANA SEDE                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1471125293         Casas Venda - casa em rua pública     casa 2026-05-28T13:47:47 2026-07-05T17:00:18       230000     <NA>       NaN      Viana             Centro        casa casa_rua_publica        2          1      3            8                  38      False        False         True      False          False         False          False           False              False                       False
+   sem_area_m2  1471350383                                            VENDE-SE CASA EM UNIVERSAL VIANA                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vende-se-casa-em-universal-viana-1471350383         Casas Venda - casa em rua pública     casa 2026-05-28T13:40:05 2026-07-05T17:00:18       270000     <NA>       NaN      Viana            Ipanema        casa casa_rua_publica        2          1   <NA>            9                  38      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1513780406                                                                Casa em Jucu                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-jucu-1513780406         Casas Venda - casa em rua pública     casa 2026-06-27T14:43:42 2026-07-05T16:57:59        80000     <NA>       NaN      Viana               Jucu        casa casa_rua_publica        2          1      2           10                   8      False        False        False      False          False         False          False           False              False                       False
+   sem_area_m2  1501360473                                                    VENDO CASA EM VIANA SEDE                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-viana-sede-1501360473         Casas Venda - casa em rua pública     casa 2026-05-12T10:11:04 2026-07-05T17:01:15       100000     <NA>       NaN      Viana               Jucu        casa casa_rua_publica        2       <NA>   <NA>           12                  54      False        False        False      False          False         False          False           False              False                       False
+
+
+------------------------------------------------------------------------------------------
+Amostra de removidos por preço/m² suspeito
+------------------------------------------------------------------------------------------
+   motivo_remocao  id_anuncio                                                                                     titulo                                                                                                                                                    url categoria_olx                     tipo_detalhado    tipo_url    data_anuncio_olx         data_coleta  preco_venda  area_m2  preco_m2     cidade                   bairro tipo_imovel     subtipo_imovel  quartos  banheiros  vagas  qtd_imagens  idade_anuncio_dias  tem_suite  tem_piscina  tem_varanda  tem_lazer  tem_mobiliado  tem_elevador  area_suspeita  preco_suspeito  preco_m2_suspeito  preco_m2_suspeito_original
+preco_m2_suspeito  1514721911 APARTAMENTO - Apartamento 203, Edifício Lordello Colnago, Avenida Antônio Gil Veloso, nº 2  https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-apartamento-203-edificio-lordello-colnago-avenida-antonio-gil-veloso-n-2-1514721911  Apartamentos         Venda - apartamento padrão apartamento 2026-07-01T15:54:56 2026-07-05T16:51:53      1200000       10 120000.00 Vila Velha                   Itapuã apartamento apartamento_padrao        1          1   <NA>            1                   4      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1514926487                                                                                Grand Canal                                                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/grand-canal-1514926487  Apartamentos         Venda - apartamento padrão apartamento 2026-07-02T08:36:39 2026-07-05T16:51:21      6068332      148  41002.24 Vila Velha                   Itapuã apartamento apartamento_padrao        4          4      4           20                   3      False         True        False       True          False          True          False           False               True                       False
+preco_m2_suspeito  1515309646                                                           Casa balneário de ponta da fruta                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-balneario-de-ponta-da-fruta-1515309646         Casas               Venda - casa em vila        casa 2026-07-03T15:27:50 2026-07-05T16:57:15       230000      340    676.47 Vila Velha Balneário Ponta da Fruta        casa               casa        1          1      3            6                   2      False         True         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1512718566                                                                               Casa a venda                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-1512718566         Casas        Venda - casa em rua pública        casa 2026-06-25T22:00:01 2026-07-05T16:58:16       250000      430    581.40 Vila Velha          Cidade da Barra        casa   casa_rua_publica        1          1      2            1                   9      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1503682422                                          Morada da barra troco por carro volto até 15.000$                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/morada-da-barra-troco-por-carro-volto-ate-15-000-1503682422         Casas        Venda - casa em rua pública        casa 2026-05-20T14:50:55 2026-07-05T17:00:48        40000       80    500.00 Vila Velha                   Glória        casa   casa_rua_publica        2          1   <NA>            4                  46      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1504571255                                                    Vendo ou alugo casa em Cobi de cima/ VV                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-alugo-casa-em-cobi-de-cima-vv-1504571255         Casas        Venda - casa em rua pública        casa 2026-05-24T08:30:17 2026-07-05T17:00:36        70000      420    166.67 Vila Velha                   Glória        casa   casa_rua_publica        2          1      0           10                  42      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1507537865                                               Casa em feu rosa serra vendo aceito caminhão                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-feu-rosa-serra-vendo-aceito-caminhao-1507537865         Casas        Venda - casa em rua pública        casa 2026-06-03T09:31:40 2026-07-05T17:00:00       130000      380    342.11 Vila Velha          Morada da Barra        casa   casa_rua_publica        2          2      5           13                  32      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1419762245    Excelente Oportunidade Casa Morada da Barra! Vila Velha-ES <br><br>Casa Morada da Barra  https://es.olx.com.br/norte-do-espirito-santo/imoveis/excelente-oportunidade-casa-morada-da-barra-vila-velha-es-br-br-casa-morada-da-barra-1419762245         Casas        Venda - casa em rua pública        casa 2026-05-22T09:00:13 2026-07-05T17:00:36       185000      360    513.89 Vila Velha          Morada da Barra        casa   casa_rua_publica        3          3      2            9                  44      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1510794187                                                                           Casa , 2 kitnets                                                                        https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-2-kitnets-1510794187         Casas        Venda - casa em rua pública        casa 2026-06-15T22:17:45 2026-07-05T16:59:06       190000      300    633.33 Vila Velha          Morada da Barra        casa   casa_rua_publica        2          2      1           12                  19      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1510994248                                                           2 kitnet     por 200.000 as duas                                                         https://es.olx.com.br/norte-do-espirito-santo/imoveis/2-kitnet--por-200-000-as-duas-1510994248         Casas        Venda - casa em rua pública        casa 2026-06-16T15:34:03 2026-07-05T16:58:54       200000      300    666.67 Vila Velha          Morada da Barra        casa   casa_rua_publica        1          1      1            8                  19      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1392863787                  Casa à venda, 2 quartos, 1 suíte, 4 vagas, Praia da Costa - Vila Velha/ES                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-2-quartos-1-suite-4-vagas-praia-da-costa-vila-velha-es-1392863787         Casas        Venda - casa em rua pública        casa 2025-04-05T06:03:55 2026-07-05T17:06:37      3150000       80  39375.00 Vila Velha           Praia da Costa        casa   casa_rua_publica        2          3      4           17                 456       True        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1396290088                                   Casa à venda, 3 quartos, 5 vagas, CENTRO - VILA VELHA/ES                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-3-quartos-5-vagas-centro-vila-velha-es-1396290088         Casas        Venda - casa em rua pública        casa 2025-04-17T04:31:36 2026-07-05T17:06:37      5500000      150  36666.67 Vila Velha           Praia da Costa        casa   casa_rua_publica        3          4      5           20                 444      False        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1506105125      Vendo / Alugo Casa na Praia da Costa, ótima localização ideal Comércio! codigo: 96599      https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-alugo-casa-na-praia-da-costa-otima-localizacao-ideal-comercio-codigo-96599-1506105125         Casas        Venda - casa em rua pública        casa 2026-05-28T16:22:42 2026-07-05T17:00:18     15000000      362  41436.46 Vila Velha           Praia da Costa        casa   casa_rua_publica        5          2      5           20                  38      False        False         True      False          False         False          False           False               True                       False
+preco_m2_suspeito  1507535446                                                                  TERRENO LOTE DARLY SANTOS                                                             https://es.olx.com.br/norte-do-espirito-santo/imoveis/terreno-lote-darly-santos-1507535446         Casas        Venda - casa em rua pública        casa 2026-06-03T09:19:13 2026-07-05T17:00:00       150000      240    625.00 Vila Velha       Praia de Itaparica        casa   casa_rua_publica        0          0      0           10                  32      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1512662114                                                                                      Casa.                                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-1512662114         Casas        Venda - casa em rua pública        casa 2026-06-23T08:21:31 2026-07-05T16:58:28       265000      400    662.50 Vila Velha     Santa Mônica Popular        casa   casa_rua_publica        2          1      2           14                  12      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1444050184      Black Lotes, ponta da fruta, solar de Vênus, parcelo, troco, entrego escriturado leia      https://es.olx.com.br/norte-do-espirito-santo/imoveis/black-lotes-ponta-da-fruta-solar-de-venus-parcelo-troco-entrego-escriturado-leia-1444050184         Casas Venda - casa em condominio fechado        casa 2026-06-13T06:39:15 2026-07-05T16:59:06       150000      360    416.67 Vila Velha           Solar de Vênus        casa    casa_condominio        0          0      0            4                  22      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1471968736                                                                        Casa em São Conrado                                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-sao-conrado-1471968736         Casas        Venda - casa em rua pública        casa 2026-01-24T11:49:27 2026-07-05T17:03:12       715000       10  71500.00 Vila Velha              São Conrado        casa   casa_rua_publica        2          2      2           15                 162      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1502480105                                                                        Vendo ou troco casa                                                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-casa-1502480105         Casas        Venda - casa em rua pública        casa 2026-05-16T00:14:39 2026-07-05T17:01:00        50000      180    277.78 Vila Velha           Vale Encantado        casa   casa_rua_publica        2          1   <NA>           11                  50      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1510940191                                                                   SS vendo casa em Maruípe                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/ss-vendo-casa-em-maruipe-1510940191  Apartamentos         Venda - apartamento padrão apartamento 2026-06-16T12:14:23 2026-07-05T16:32:46       220000      180   1222.22    Vitória                  Maruípe apartamento apartamento_padrao        2          1      1            8                  19      False        False        False      False          False         False          False           False               True                       False
+preco_m2_suspeito  1510349109 Prédio residencial com 3 apartamentos e 2 lojas à venda, 445 m² por R$ 650.000 - Vila Rubi https://es.olx.com.br/norte-do-espirito-santo/imoveis/predio-residencial-com-3-apartamentos-e-2-lojas-a-venda-445-m-por-r-650-000-vila-rubi-1510349109  Apartamentos         Venda - apartamento padrão apartamento 2026-06-14T02:14:16 2026-07-05T16:33:04       650000      445   1460.67    Vitória               Vila Rubim apartamento apartamento_padrao        3          2      0           16                  21      False        False        False      False          False         False          False           False               True                       False
+preco_m2_suspeito  1514221785                                                                     VENDO CASA COM TERRENO                                                                https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-com-terreno-1514221785         Casas        Venda - casa em rua pública        casa 2026-06-29T20:50:23 2026-07-05T16:35:43       250000      732    341.53    Vitória                   Centro        casa   casa_rua_publica        4          1      5            8                   5      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1485662828                                                                   Vendo casa em Cruzamento                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-cruzamento-1485662828         Casas        Venda - casa em rua pública        casa 2026-06-08T10:39:22 2026-07-05T16:37:01       160000      250    640.00    Vitória               Cruzamento        casa   casa_rua_publica        3          2      1            5                  27      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1511565527                                                                               Casa a venda                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-1511565527         Casas        Venda - casa em rua pública        casa 2026-06-18T15:10:18 2026-07-05T16:36:12        80000      137    583.94    Vitória           Forte São João        casa   casa_rua_publica        2          1      0           11                  17      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1485663129                                                                  *Vendo casa em Goiabeiras                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-goiabeiras-1485663129         Casas        Venda - casa em rua pública        casa 2026-06-03T21:38:29 2026-07-05T16:37:01       200000      310    645.16    Vitória               Goiabeiras        casa   casa_rua_publica        2          2      2            6                  31      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1506317390                                                   Vendo ou troco em vitória leia o anúncio                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-em-vitoria-leia-o-anuncio-1506317390         Casas        Venda - casa em rua pública        casa 2026-05-29T12:20:44 2026-07-05T16:37:14       150000      380    394.74    Vitória           Nova Palestina        casa   casa_rua_publica        2          2      0           11                  37      False        False         True      False          False         False          False           False               True                        True
+preco_m2_suspeito  1485661603                                                               *Vendo casa em Santo Antônio                                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-santo-antonio-1485661603         Casas        Venda - casa em rua pública        casa 2026-06-08T10:42:50 2026-07-05T16:37:01       190000      340    558.82    Vitória            Santo Antônio        casa   casa_rua_publica        2          2      2            9                  27      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1485662990                                                                   Vendo casa em Bela vista                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-bela-vista-1485662990         Casas        Venda - casa em rua pública        casa 2026-06-08T10:41:37 2026-07-05T16:37:01       310000      450    688.89    Vitória            Santo Antônio        casa   casa_rua_publica        3          3      3            4                  27      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1509659164                                                                   *Vendo casa em São Pedro                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-sao-pedro-1509659164         Casas        Venda - casa em rua pública        casa 2026-06-11T10:28:19 2026-07-05T16:36:43        90000      180    500.00    Vitória                São Pedro        casa   casa_rua_publica        2          1      2            6                  24      False        False         True       True          False         False          False           False               True                        True
+preco_m2_suspeito  1504841789                                       LC Disponível no bairro São Pedro 4 - casa 2 quartos                                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/lc-disponivel-no-bairro-sao-pedro-4-casa-2-quartos-1504841789         Casas        Venda - casa em rua pública        casa 2026-05-25T12:20:54 2026-07-05T16:37:31        98000      179    547.49    Vitória                São Pedro        casa   casa_rua_publica        2          1      2           10                  41      False        False        False      False          False         False          False           False               True                        True
+preco_m2_suspeito  1485461794                                                                   -Vendo casa em São Pedro                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-sao-pedro-1485461794         Casas        Venda - casa em rua pública        casa 2026-06-08T10:43:53 2026-07-05T16:37:01       220000      320    687.50    Vitória                São Pedro        casa   casa_rua_publica        3          2      2           14                  27      False        False        False      False          False         False          False           False               True                        True
+
+
+==========================================================================================
+COBERTURA DO DATASET DE MODELAGEM
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Cobertura por cidade
+------------------------------------------------------------------------------------------
+cidade
+Vila Velha    3708
+Vitória       2992
+Name: count, dtype: Int64
+
+
+------------------------------------------------------------------------------------------
+Cobertura por tipo de imóvel
+------------------------------------------------------------------------------------------
+tipo_imovel
+apartamento    3858
+casa           2842
+Name: count, dtype: Int64
+
+
+------------------------------------------------------------------------------------------
+Cobertura por cidade e tipo de imóvel
+------------------------------------------------------------------------------------------
+cidade      tipo_imovel
+Vitória     apartamento    1932
+Vila Velha  apartamento    1926
+            casa           1782
+Vitória     casa           1060
+dtype: int64
+
+
+------------------------------------------------------------------------------------------
+Top 30 bairros por quantidade de registros
+------------------------------------------------------------------------------------------
+bairro
+Jardim Camburi              1205
+Praia de Itaparica           616
+Praia da Costa               603
+Itapuã                       472
+Interlagos                   286
+Mata da Praia                272
+Jardim da Penha              271
+Praia do Canto               210
+Centro de Vila Velha         126
+Jockey de Itaparica          117
+Morada do Sol                113
+Balneário Ponta da Fruta     110
+Bento Ferreira               107
+Enseada do Suá               106
+Santa Paula I                 97
+Fradinhos                     85
+Coqueiral de Itaparica        80
+Ponta da Fruta                78
+Riviera da Barra              61
+Ataíde                        57
+Santa Lúcia                   52
+Praia das Gaivotas            50
+Centro                        47
+Ilha do Boi                   46
+Vale Encantado                44
+Praia do Suá                  43
+São Conrado                   42
+Barro Vermelho                39
+IBES                          38
+Maruípe                       36
+Name: count, dtype: Int64
+
+Registros concentrados nos 10 bairros mais frequentes: 4178 (62.36%)
+
+
+==========================================================================================
+VALORES AUSENTES
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Valores ausentes no dataset de modelagem
+------------------------------------------------------------------------------------------
+            coluna  ausentes  pct_ausente
+             vagas       181         2.70
+         banheiros         6         0.09
+       preco_venda         0         0.00
+       tipo_imovel         0         0.00
+    subtipo_imovel         0         0.00
+            bairro         0         0.00
+            cidade         0         0.00
+           quartos         0         0.00
+           area_m2         0         0.00
+       qtd_imagens         0         0.00
+idade_anuncio_dias         0         0.00
+         tem_suite         0         0.00
+       tem_piscina         0         0.00
+       tem_varanda         0         0.00
+         tem_lazer         0         0.00
+     tem_mobiliado         0         0.00
+      tem_elevador         0         0.00
+
+quartos ausentes: 0
+quartos iguais a zero: 5
+
+banheiros ausentes: 6
+banheiros iguais a zero: 1
+
+vagas ausentes: 181
+vagas iguais a zero: 235
+
+
+==========================================================================================
+PERFIL NUMÉRICO
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+Resumo numérico do dataset de modelagem
+------------------------------------------------------------------------------------------
+    preco_venda     area_m2   quartos  banheiros     vagas  qtd_imagens  idade_anuncio_dias
+         6700.0      6700.0    6700.0     6694.0    6519.0       6700.0              6700.0
+ 1621310.348358  177.269254  3.061642    2.58291   2.04786    15.956269           69.657313
+ 1522329.284841  138.468157  1.001085   1.262942  1.167018     5.288486          140.158372
+        50000.0        10.0       0.0        0.0       0.0          0.0                 0.0
+       180000.0        32.0       1.0        1.0       0.0          0.0                 0.0
+       350000.0        53.0       2.0        1.0       1.0          5.0                 0.0
+       500000.0        60.0       2.0        1.0       1.0          8.0                 1.0
+       730000.0        76.0       2.0        2.0       1.0         13.0                 3.0
+      1112632.0       130.0       3.0        2.0       2.0         19.0                11.0
+      1900000.0      237.25       4.0        3.0       3.0         20.0                52.0
+      3390000.0       373.1       4.0        5.0       4.0         20.0               242.0
+      4500000.0       450.0       5.0        5.0       4.0         20.0               344.0
+      7500000.0      660.04       5.0        5.0       5.0         20.0              674.01
+     18500000.0      1000.0       5.0        5.0       5.0         20.0              1531.0
+
+
+==========================================================================================
+DUPLICATAS APROXIMADAS PARA AUDITORIA
+==========================================================================================
+Critério usado: cidade, bairro, tipo_imovel, subtipo_imovel, area_m2, quartos, banheiros e vagas.
+
+Linhas em grupos aproximados: 3403
+Grupos aproximados: 957
+Percentual de linhas em grupos aproximados: 50.79%
+
+Observação: esses registros não são removidos. A informação serve apenas para avaliação posterior.
+
+==========================================================================================
+EXTREMOS PARA AUDITORIA
+==========================================================================================
+
+------------------------------------------------------------------------------------------
+20 menores preços por m² no bruto
+------------------------------------------------------------------------------------------
+    cidade                   bairro tipo_imovel     subtipo_imovel  preco_venda  area_m2  preco_m2  quartos  banheiros  vagas                                                                                    titulo                                                                                                                                                        url
+Vila Velha                   Ataíde        casa   casa_rua_publica          380      727      0.52        1          1   <NA>                                                                            Vendo ou troco                                                                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ou-troco-1501687138
+     Viana                  Ipanema        casa   casa_rua_publica       200000   380000      0.53        2          1      1                                                              VENDO DUPLEX CASA EM IPANEMA                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-duplex-casa-em-ipanema-1503946038
+   Vitória                Fradinhos        casa   casa_rua_publica          250      300      0.83        2          1      2                                Vendo linda casa em caxixe frio ( venda nova do imigrante)                                   https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-linda-casa-em-caxixe-frio-venda-nova-do-imigrante-1505965545
+Vila Velha Balneário Ponta da Fruta        casa   casa_rua_publica          550      360      1.53        2          1      5                                                                          Casa com piscina                                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-com-piscina-1514160908
+   Vitória               Goiabeiras        casa   casa_rua_publica       350000   200000      1.75        3          2   <NA>                                                        Vendo casa em Goiabeiras / Vitória                                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-casa-em-goiabeiras-vitoria-1509404419
+   Vitória           Praia do Canto        casa   casa_rua_publica      7000000  3980000      1.76        5          5      5                                                 Terreno de 3980 M 2 em Jacaraipe Serra ES                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/terreno-de-3980-m-2-em-jacaraipe-serra-es-1493068457
+Vila Velha          Morada da Barra        casa   casa_rua_publica          280      150      1.87        4          2      1                                                                Duas casas em Vila velha!!                                                                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/duas-casas-em-vila-velha-1509180129
+Vila Velha              São Conrado        casa   casa_rua_publica          395      174      2.27        2          1      2                                                                       Casa em são Conrado                                                                       https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-sao-conrado-1510484562
+Vila Velha           Terra Vermelha        casa   casa_rua_publica          280       80      3.50        4          3      1 Casa duplex espaçosa e bem iluminada<br>Localização privilegiada no bairro Terra Vermelha https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-espacosa-e-bem-iluminada-br-localizacao-privilegiada-no-bairro-terra-vermelha-1505781124
+Vila Velha         Riviera da Barra        casa   casa_rua_publica          510       80      6.38        1          1      2                                                                                      Casa                                                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-1509671982
+Vila Velha     Santa Mônica Popular        casa   casa_rua_publica         1600      240      6.67        4          3      2                            Vendesse uma prédio em Santa Mônica vila velha todo escriturad                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendesse-uma-predio-em-santa-monica-vila-velha-todo-escriturad-1500041836
+   Vitória              Maria Ortiz        casa   casa_rua_publica       670000   100000      6.70        2          1      1          Casa-São Duas Casas mais Terraço-Podendo ainda aumentar a quantidade de cômodos.           https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-sao-duas-casas-mais-terraco-podendo-ainda-aumentar-a-quantidade-de-comodos-1503444368
+   Vitória          Jardim da Penha apartamento apartamento_padrao          560       63      8.89        2          2      1                                                      2 quartos em Jardim da Penha 560 mil                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/2-quartos-em-jardim-da-penha-560-mil-1512327973
+Vila Velha               Barramares        casa   casa_rua_publica       480000    30000     16.00        4          3      2                                      CASA DUPLEX À VENDA  ESPAÇO, CONFORTO E ÁREA GOURMET                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-duplex-venda-espaco-conforto-e-area-gourmet-1501147552
+Vila Velha                  Aribiri        casa   casa_rua_publica       150000     6000     25.00        2          1      0                                                  Casa / Sobrado em Aribiri, Vila Velha/ES                                                     https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-sobrado-em-aribiri-vila-velha-es-1501295990
+Vila Velha     Centro de Vila Velha        casa   casa_rua_publica        11500      350     32.86        4          5      3                                                              Casa  P da Costa AlUGO/VENDO                                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-p-da-costa-alugo-vendo-1271124725
+Vila Velha            Barra do Jucu        casa   casa_rua_publica         2500       60     41.67        2          1      0                                                                 Casas e Chalés de Madeira                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/casas-e-chales-de-madeira-1509654029
+Vila Velha               Interlagos        casa   casa_rua_publica      1950000    35964     54.22        4          4      2                                        Seu Novo Lar em Interlagos | Sobrado com 4 Quartos                                          https://es.olx.com.br/norte-do-espirito-santo/imoveis/seu-novo-lar-em-interlagos-sobrado-com-4-quartos-1507088934
+Vila Velha           Santa Paula II        casa    casa_condominio       350000     6000     58.33        2          1      1                                                     Casa em Santa Paula II, Vila Velha/ES                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-santa-paula-ii-vila-velha-es-1501295986
+Vila Velha                   Itapuã        casa   casa_rua_publica      2430000    33000     73.64        3          4      4                  Mansão Alto Padrão 33.000m em Vargem Alta - Aceito Imóvel Grande Vitória                    https://es.olx.com.br/norte-do-espirito-santo/imoveis/mansao-alto-padrao-33-000m-em-vargem-alta-aceito-imovel-grande-vitoria-1513603169
+
+
+------------------------------------------------------------------------------------------
+20 maiores preços por m² no bruto
+------------------------------------------------------------------------------------------
+    cidade           bairro tipo_imovel        subtipo_imovel  preco_venda  area_m2   preco_m2  quartos  banheiros  vagas                                                                                     titulo                                                                                                                                                       url
+   Vitória  Jardim da Penha apartamento    apartamento_padrao    485000000       70 6928571.43        3          1      1  Imóvel para venda possui 70 metros quadrados com 3 quartos em Jardim da Penha - Vitória -    https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-70-metros-quadrados-com-3-quartos-em-jardim-da-penha-vitoria-1514796504
+   Vitória        Caratoíra        casa      casa_rua_publica       375000        1  375000.00        3          2   <NA>      Cida Rabelo vende Santo Antonio perto do Santuário  casa 3qts sala duas vagas 375 mil     https://es.olx.com.br/norte-do-espirito-santo/imoveis/cida-rabelo-vende-santo-antonio-perto-do-santuario-casa-3qts-sala-duas-vagas-375-mil-1504617223
+   Vitória          Itararé        casa      casa_rua_publica       185000        1  185000.00        2          1      0                                                                   Kitnet e ponto comercial                                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/kitnet-e-ponto-comercial-1514825066
+Vila Velha   Praia da Costa apartamento    apartamento_padrao       550055        3  183351.67        3          2      1                            Apartamento perto da Praia em Itapoã: 3 Quartos com Praticidade                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-perto-da-praia-em-itapoa-3-quartos-com-praticidade-1514980387
+Vila Velha   Praia da Costa        casa      casa_rua_publica      1460886        9  162320.67        3          2      1                    3 quartos no Terrace Praia da Costa Parque das Castanheiras cod 26824 F                  https://es.olx.com.br/norte-do-espirito-santo/imoveis/3-quartos-no-terrace-praia-da-costa-parque-das-castanheiras-cod-26824-f-1506069325
+Vila Velha           Itapuã apartamento    apartamento_padrao      1200000       10  120000.00        1          1   <NA> APARTAMENTO - Apartamento 203, Edifício Lordello Colnago, Avenida Antônio Gil Veloso, nº 2     https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-apartamento-203-edificio-lordello-colnago-avenida-antonio-gil-veloso-n-2-1514721911
+   Vitória            Romão        casa                  casa       120000        1  120000.00        2          1      0                                                                             Vendo ser casa                                                                           https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-ser-casa-1504040917
+ Guarapari Jardim Boa Vista        casa      casa_rua_publica       950000       11   86363.64        3          5      1 Imóvel para venda possui 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515633905
+Vila Velha   Praia da Costa        casa      casa_rua_publica     38000000      450   84444.44        4          1      0                             A única ilha aforada do Brasil Com 20.000 m² um sonho possível                            https://es.olx.com.br/norte-do-espirito-santo/imoveis/a-unica-ilha-aforada-do-brasil-com-20-000-m-um-sonho-possivel-1431941082
+Vila Velha      São Conrado        casa      casa_rua_publica       715000       10   71500.00        2          2      2                                                                        Casa em São Conrado                                                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-em-sao-conrado-1471968736
+ Guarapari Jardim Boa Vista        casa      casa_rua_publica       750000       11   68181.82        3          4      2 Imóvel para venda possui 11 metros quadrados com 3 quartos em Jardim Boa Vista - Guarapari https://es.olx.com.br/norte-do-espirito-santo/imoveis/imovel-para-venda-possui-11-metros-quadrados-com-3-quartos-em-jardim-boa-vista-guarapari-1515567472
+Vila Velha   Praia da Costa        casa      casa_rua_publica     15000000      362   41436.46        5          2      5      Vendo / Alugo Casa na Praia da Costa, ótima localização ideal Comércio! codigo: 96599         https://es.olx.com.br/norte-do-espirito-santo/imoveis/vendo-alugo-casa-na-praia-da-costa-otima-localizacao-ideal-comercio-codigo-96599-1506105125
+Vila Velha           Itapuã apartamento    apartamento_padrao      6068332      148   41002.24        4          4      4                                                                                Grand Canal                                                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/grand-canal-1514926487
+Vila Velha   Praia da Costa apartamento    apartamento_padrao      6068333      152   39923.24        4          4      4 Apartamento com 4 dormitórios à venda, 152 m² por R$ 6.068.332 - Praia da Costa - Vila Vel      https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-com-4-dormitorios-a-venda-152-m-por-r-6-068-332-praia-da-costa-vila-vel-1515181472
+Vila Velha   Praia da Costa        casa      casa_rua_publica      3150000       80   39375.00        2          3      4                  Casa à venda, 2 quartos, 1 suíte, 4 vagas, Praia da Costa - Vila Velha/ES                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-2-quartos-1-suite-4-vagas-praia-da-costa-vila-velha-es-1392863787
+   Vitória   Praia do Canto apartamento    apartamento_padrao      8519290      223   38203.09        4          5      4           Apartamento no Balcony Residences, Barro Vermelho- 4 suítes, até 399m², DEZ/2028              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-no-balcony-residences-barro-vermelho-4-suites-ate-399m-dez-2028-1513426145
+   Vitória      Santa Luíza apartamento    apartamento_padrao      5980000      162   36913.58        4          5      3                                              Apartamento 4 suítes em Santa Luíza - Vitória                                              https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-4-suites-em-santa-luiza-vitoria-1504400162
+   Vitória  Jardim da Penha apartamento apartamento_cobertura     11862991      323   36727.53        4          5      4                                                Cobertura com 4 suítes na Praia de Camburi.                                               https://es.olx.com.br/norte-do-espirito-santo/imoveis/cobertura-com-4-suites-na-praia-de-camburi-1511433427
+Vila Velha   Praia da Costa        casa      casa_rua_publica      5500000      150   36666.67        3          4      5                                   Casa à venda, 3 quartos, 5 vagas, CENTRO - VILA VELHA/ES                                      https://es.olx.com.br/norte-do-espirito-santo/imoveis/casa-a-venda-3-quartos-5-vagas-centro-vila-velha-es-1396290088
+   Vitória  Jardim da Penha apartamento    apartamento_padrao      1349325       37   36468.24        2          1      1                                                   Apartamento 2 quartos em Jardim da Penha                                                 https://es.olx.com.br/norte-do-espirito-santo/imoveis/apartamento-2-quartos-em-jardim-da-penha-1514963786
