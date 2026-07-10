@@ -1,10 +1,10 @@
 RELATÓRIO DO DATASET AGREGADO
 
 Arquivo bruto: imoveis_agregado.csv
-Registros brutos: 6585
-Registros no dataset de modelagem: 6533
-Registros removidos: 52
-Taxa de retenção: 99.21%
+Registros brutos: 6113
+Registros no dataset de modelagem: 6095
+Registros removidos: 18
+Taxa de retenção: 99.71%
 
 ==========================================================================================
 COLUNAS DO DATASET DE MODELAGEM
@@ -15,12 +15,7 @@ preco_venda, tipo_imovel, cidade, bairro, area_m2, quartos, banheiros, vagas, te
 REMOÇÕES
 ==========================================================================================
 motivo_remocao
-preco_m2_suspeito    19
-area_suspeita        10
-area_m2_invalida     10
-preco_suspeito        5
-sem_bairro            4
-sem_preco_venda       4
+preco_m2_suspeito    18
 Name: count, dtype: int64
 
 ==========================================================================================
@@ -28,67 +23,67 @@ COBERTURA
 ==========================================================================================
 Por cidade:
 cidade
-Vitória       1559
-Vila Velha    1528
-Serra         1503
-Guarapari     1478
-Cariacica      376
+Vila Velha    1455
+Guarapari     1447
+Vitória       1420
+Serra         1322
+Cariacica      363
 Fundão          62
-Viana           27
+Viana           26
 Name: count, dtype: int64
 
 Por tipo:
 tipo_imovel
-apartamento    5501
-casa           1032
+apartamento    5185
+casa            910
 Name: count, dtype: int64
 
 Por cidade/tipo:
 cidade      tipo_imovel
-Vila Velha  apartamento    1462
-Vitória     apartamento    1461
-Guarapari   apartamento    1349
-Serra       apartamento    1038
-            casa            465
-Cariacica   casa            198
-            apartamento     178
-Guarapari   casa            129
-Vitória     casa             98
-Vila Velha  casa             66
+Vila Velha  apartamento    1401
+Vitória     apartamento    1345
+Guarapari   apartamento    1323
+Serra       apartamento     928
+            casa            394
+Cariacica   casa            187
+            apartamento     176
+Guarapari   casa            124
+Vitória     casa             75
 Fundão      casa             59
+Vila Velha  casa             54
 Viana       casa             17
-            apartamento      10
+            apartamento       9
 Fundão      apartamento       3
 dtype: int64
 
 ==========================================================================================
 AUSÊNCIAS
 ==========================================================================================
-vagas            27
-quartos           5
-banheiros         4
-cidade            0
-tipo_imovel       0
-preco_venda       0
-area_m2           0
-bairro            0
-tem_suite         0
-tem_piscina       0
-tem_varanda       0
-tem_lazer         0
-tem_mobiliado     0
-tem_elevador      0
+preco_venda      0
+tipo_imovel      0
+cidade           0
+bairro           0
+area_m2          0
+quartos          0
+banheiros        0
+vagas            0
+tem_suite        0
+tem_piscina      0
+tem_varanda      0
+tem_lazer        0
+tem_mobiliado    0
+tem_elevador     0
 dtype: int64
 
 ==========================================================================================
 RESUMO NUMÉRICO
 ==========================================================================================
         preco_venda      area_m2   quartos  banheiros     vagas
-count  6.533000e+03  6533.000000    6528.0     6529.0    6506.0
-mean   8.570612e+05   104.205878   2.58318   2.055139  1.296649
-std    5.876059e+05    76.631609  0.860665   0.944391  6.240621
-min    7.900000e+04    21.000000       1.0        1.0       0.0
-25%    4.900000e+05    64.000000       2.0        1.0       1.0
+count  6.095000e+03  6095.000000    6095.0     6095.0    6095.0
+mean   8.351775e+05   101.195078  2.558655   2.023954  1.176538
+std    5.031899e+05    69.923700  0.751192   0.880308  1.118661
+min    7.900000e+04    25.000000       1.0        1.0       0.0
+25%    4.999495e+05    64.000000       2.0        1.0       0.0
 50%    7.400000e+05    80.000000       2.0        2.0       1.0
-75%    9.900000e+05   115.000000       3.0        2.0       2.0
-max    1.067300e+07  1000.000000      30.0       10.0     494.0
+75%    9.800000e+05   111.000000       3.0        2.0       2.0
+max    6.400000e+06  1000.000000       9.0        7.0      15.0

@@ -1,0 +1,26 @@
+RELATÓRIO DE COMPARAÇÃO DE DUPLICATAS
+
+Dataset base: dataset_modelagem_consolidado.csv
+Dataset novo: dataset_modelagem_agregado.csv
+
+Registros dataset base: 14103
+Registros dataset novo: 6098
+
+==========================================================================================
+RESUMO
+==========================================================================================
+Pares por chave exata: 4294
+Pares por chave com preço arredondado: 4871
+Pares por aproximação estrutural: 41080
+
+Registros únicos do dataset novo envolvidos:
+  chave exata: 1830 (30.01%)
+  preço arredondado: 1888 (30.96%)
+  aproximação estrutural: 3445 (56.49%)
+
+==========================================================================================
+INTERPRETAÇÃO
+==========================================================================================
+A chave exata é o indício mais forte de duplicata, mas ainda não prova duplicação absoluta, porque os IDs não correspondem entre fontes.
+A chave com preço arredondado amplia a busca e deve ser lida como risco moderado.
+A aproximação estrutural é uma triagem ampla: identifica imóveis muito parecidos, mas pode capturar unidades diferentes do mesmo prédio, condomínio ou empreendimento.

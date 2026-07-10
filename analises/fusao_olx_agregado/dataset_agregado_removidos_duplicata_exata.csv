@@ -1,0 +1,1831 @@
+preco_venda,tipo_imovel,cidade,bairro,area_m2,quartos,banheiros,vagas,tem_suite,tem_piscina,tem_varanda,tem_lazer,tem_mobiliado,tem_elevador
+362900,apartamento,Cariacica,Morada de Santa Fé,45,2,1,1,False,True,False,True,False,True
+200000,casa,Cariacica,Cariacica Sede,210,3,1,2,False,False,False,False,False,False
+409900,apartamento,Cariacica,Morada de Santa Fé,52,3,1,1,False,True,False,True,False,True
+355000,apartamento,Cariacica,São Geraldo,63,3,2,1,True,False,False,True,False,True
+260000,apartamento,Cariacica,Tucum,43,2,1,1,False,True,False,True,False,False
+650000,casa,Cariacica,Alto Lage,275,4,3,2,True,True,True,False,False,False
+350000,casa,Cariacica,Jardim Campo Grande,70,2,1,1,True,False,False,False,False,False
+230000,casa,Cariacica,Jardim Campo Grande,80,2,1,1,False,False,False,False,False,False
+325165,apartamento,Cariacica,Nova Valverde,54,2,1,1,False,True,False,True,False,True
+350000,apartamento,Cariacica,Rio Branco,55,2,1,1,True,False,False,False,False,False
+440000,apartamento,Cariacica,São Geraldo,63,3,1,1,True,False,False,True,False,True
+361100,apartamento,Cariacica,Morada de Santa Fé,45,2,1,1,False,True,False,True,False,True
+415000,casa,Cariacica,Santa Bárbara,120,3,2,2,True,False,False,False,False,False
+320000,apartamento,Cariacica,Rio Branco,55,2,2,1,True,True,False,True,False,True
+332000,apartamento,Cariacica,Morada de Santa Fé,43,2,1,1,False,True,False,True,False,True
+220000,apartamento,Cariacica,Tucum,41,2,1,1,False,True,False,True,False,False
+390000,apartamento,Cariacica,Morada de Santa Fé,45,2,1,1,False,True,False,True,False,True
+1190000,casa,Cariacica,Itaquari,534,3,2,5,False,False,False,False,False,False
+275665,apartamento,Cariacica,Nova Valverde,40,2,1,1,False,True,False,True,False,False
+700000,casa,Cariacica,Jardim América,220,3,2,3,True,True,False,False,False,False
+330296,apartamento,Cariacica,Nova Valverde,54,2,1,1,False,True,False,True,False,True
+230000,apartamento,Cariacica,Jardim de Alah,45,2,1,1,False,True,False,True,False,True
+415900,apartamento,Cariacica,Morada de Santa Fé,52,3,1,1,True,True,False,True,False,True
+299000,apartamento,Cariacica,Morada de Santa Fé,44,2,1,1,False,True,False,True,False,True
+425000,apartamento,Cariacica,Rio Branco,67,3,2,2,True,True,False,True,False,True
+420000,casa,Cariacica,Alto Lage,150,2,2,2,True,False,False,False,False,False
+599000,casa,Cariacica,Jardim América,180,3,4,3,True,False,True,False,False,False
+118800,apartamento,Cariacica,Tucum,41,2,1,1,False,False,False,False,False,False
+1245000,apartamento,Cariacica,Campo Grande,116,4,1,2,True,True,True,True,False,True
+950000,casa,Cariacica,Tabajara,350,5,4,2,True,True,False,False,False,False
+1245000,apartamento,Cariacica,Campo Grande,116,3,2,2,True,False,False,False,False,False
+355000,apartamento,Cariacica,São Geraldo,63,3,1,1,True,False,False,False,False,False
+750000,casa,Cariacica,São Conrado,252,3,2,2,True,False,True,False,False,False
+1050000,apartamento,Cariacica,Campo Grande,115,4,2,2,True,True,True,True,False,True
+370000,apartamento,Cariacica,São Geraldo,66,2,1,1,True,False,False,False,False,False
+700000,apartamento,Cariacica,Morada de Santa Fé,152,3,2,1,True,False,False,False,False,False
+850000,apartamento,Cariacica,São Conrado,206,3,2,2,True,True,False,False,False,False
+240000,apartamento,Cariacica,Tucum,43,2,1,1,False,False,False,False,False,False
+590000,casa,Cariacica,Cariacica Sede,720,4,3,2,True,True,True,False,False,False
+600000,apartamento,Cariacica,Campo Grande,91,2,3,2,True,True,False,True,False,False
+180000,casa,Cariacica,Campo Grande,248,3,1,5,False,False,False,False,False,False
+600000,casa,Cariacica,Alto Lage,210,2,3,1,True,False,False,False,False,False
+320000,apartamento,Cariacica,Rio Branco,55,2,1,1,False,True,True,True,True,True
+210000,apartamento,Cariacica,Santana,42,2,1,1,False,True,False,True,False,False
+1300000,casa,Cariacica,Campo Grande,570,5,4,3,True,False,False,False,False,False
+230000,apartamento,Cariacica,Morada de Santa Fé,59,2,1,1,False,False,True,False,False,False
+299900,casa,Cariacica,Nova Rosa da Penha,200,2,2,2,False,False,True,False,False,False
+800000,casa,Cariacica,Itacibá,306,4,3,5,True,False,False,False,False,False
+330000,apartamento,Cariacica,Morada de Santa Fé,45,2,1,1,False,True,False,True,False,True
+220000,casa,Cariacica,Campo Grande,210,2,1,5,False,False,False,False,False,False
+460000,casa,Cariacica,São Francisco,140,3,2,4,True,False,False,False,False,False
+230000,apartamento,Cariacica,Campina Grande,45,2,1,1,False,False,False,True,False,False
+450000,apartamento,Cariacica,Rio Branco,64,3,2,1,True,True,False,True,True,True
+820000,apartamento,Cariacica,Cruzeiro do Sul,152,3,3,1,True,False,False,False,False,False
+245000,apartamento,Cariacica,Tucum,43,2,1,2,False,False,False,False,False,False
+760000,apartamento,Cariacica,Campo Grande,85,3,2,2,True,False,False,False,False,False
+220000,apartamento,Cariacica,Tucum,42,2,1,1,False,True,False,True,False,False
+355000,apartamento,Cariacica,São Geraldo,63,3,2,1,True,False,False,True,False,False
+230000,apartamento,Cariacica,Santa Bárbara,45,2,1,1,False,False,False,False,False,False
+370000,apartamento,Cariacica,Bandeirantes,56,2,1,2,False,False,False,False,False,False
+1700000,casa,Cariacica,Cariacica Sede,344,4,4,3,True,False,False,False,False,False
+254269,apartamento,Cariacica,Nova Valverde,41,2,1,1,False,True,False,True,False,True
+420000,apartamento,Cariacica,Vila Palestina,80,2,1,1,False,False,False,False,False,False
+260000,apartamento,Cariacica,Campina Grande,42,2,1,1,False,True,False,True,False,False
+299000,casa,Cariacica,Nova Rosa da Penha,200,2,2,2,False,False,True,False,False,False
+350000,casa,Cariacica,Jardim Campo Grande,64,2,2,1,True,False,False,False,False,False
+600000,casa,Cariacica,Jardim América,152,4,3,1,True,False,True,False,False,False
+230000,casa,Cariacica,Sotema,140,3,1,1,False,False,False,False,False,False
+225000,apartamento,Cariacica,Jardim de Alah,40,2,1,1,False,True,False,True,False,False
+530000,apartamento,Cariacica,Rio Branco,70,2,2,1,True,True,False,True,False,True
+350000,apartamento,Cariacica,São Geraldo,67,3,2,1,True,False,False,True,True,False
+550000,apartamento,Cariacica,Campo Grande,104,3,1,1,True,False,False,False,False,False
+649000,casa,Cariacica,Jardim América,400,4,3,3,False,False,True,False,False,False
+215000,apartamento,Cariacica,São João Batista,41,2,1,1,False,False,False,True,False,False
+200000,casa,Cariacica,Prolar,80,2,1,4,False,False,True,False,False,False
+410000,casa,Cariacica,Santa Bárbara,146,3,2,2,False,False,False,False,False,False
+469000,casa,Cariacica,Campo Grande,172,3,2,1,True,False,False,False,False,False
+600000,casa,Cariacica,Bela Aurora,135,4,2,4,True,False,False,False,False,False
+359000,apartamento,Cariacica,Morada de Santa Fé,60,2,1,1,False,False,False,False,False,False
+260000,casa,Cariacica,Jardim Botânico,312,2,3,4,True,False,False,False,False,False
+580000,casa,Cariacica,Jardim América,371,3,2,5,True,False,False,False,False,False
+225000,apartamento,Cariacica,Santa Cecília,59,2,1,1,False,False,False,False,False,False
+900000,apartamento,Cariacica,Itacibá,500,5,4,4,False,False,False,False,False,False
+270000,casa,Cariacica,Jardim Botânico,180,4,3,3,True,False,False,False,False,False
+220000,apartamento,Cariacica,Tucum,42,2,1,1,False,True,False,True,False,False
+800000,casa,Cariacica,Jardim América,200,3,2,2,True,False,False,False,False,False
+1100000,apartamento,Cariacica,Campo Grande,145,4,3,2,True,True,True,True,False,True
+500000,apartamento,Cariacica,São Conrado,120,3,2,2,False,False,False,False,True,False
+245000,apartamento,Cariacica,Jardim de Alah,50,2,1,1,False,False,False,False,False,True
+900000,casa,Cariacica,Vera Cruz,206,3,3,2,True,False,True,False,False,False
+322000,apartamento,Cariacica,Morada de Santa Fé,46,2,1,1,False,True,True,True,False,True
+1100000,casa,Cariacica,Morada de Santa Fé,127,3,3,2,False,False,True,False,False,False
+310000,apartamento,Cariacica,São João Batista,49,2,1,1,False,False,False,False,False,False
+220000,apartamento,Cariacica,Tucum,41,2,1,1,False,True,False,True,False,False
+350000,apartamento,Cariacica,Rio Branco,63,2,1,1,False,False,True,False,False,False
+378890,casa,Cariacica,Santa Bárbara,68,2,3,1,True,False,False,False,False,False
+670000,apartamento,Cariacica,Vera Cruz,144,2,2,2,True,False,False,False,False,False
+807130,apartamento,Cariacica,São Geraldo,91,3,2,2,True,True,False,True,False,True
+680000,casa,Cariacica,Campo Grande,200,3,2,2,True,False,False,False,False,False
+995000,casa,Cariacica,Jardim América,200,3,3,2,True,False,False,False,False,False
+800000,apartamento,Cariacica,Campo Grande,150,3,4,2,True,False,False,False,False,False
+350000,casa,Cariacica,São Francisco,210,3,1,4,True,False,False,False,False,False
+210000,apartamento,Cariacica,Tucum,42,2,1,1,False,True,False,True,False,False
+392000,apartamento,Cariacica,Morada de Santa Fé,52,3,1,1,False,True,False,True,False,True
+1300000,apartamento,Cariacica,Campo Grande,115,4,2,2,True,True,True,True,True,True
+415000,casa,Cariacica,Santa Bárbara,350,3,2,2,True,False,True,False,False,False
+580000,apartamento,Cariacica,Campo Grande,62,2,2,1,True,True,False,True,True,True
+670000,casa,Cariacica,Santo André,150,3,2,2,True,False,False,False,False,False
+1150000,apartamento,Cariacica,Campo Grande,115,3,2,2,True,True,False,True,False,True
+300000,apartamento,Cariacica,Campo Grande,76,2,2,0,True,False,False,False,False,False
+295000,apartamento,Cariacica,Vila Palestina,80,2,1,0,False,False,False,False,False,False
+367500,casa,Cariacica,Parque Gramado,120,2,1,1,False,False,True,False,False,False
+650000,casa,Cariacica,São Francisco,200,3,3,3,True,False,False,False,False,False
+1050000,apartamento,Cariacica,São Geraldo,115,3,2,2,True,False,False,False,False,False
+849900,apartamento,Cariacica,São Geraldo,85,3,2,2,True,False,False,False,False,False
+420000,casa,Cariacica,Santa Bárbara,126,2,2,2,True,False,False,False,False,False
+604000,apartamento,Cariacica,Campo Grande,83,3,1,3,False,True,False,True,False,True
+450000,apartamento,Cariacica,Rio Branco,63,3,2,1,True,False,False,False,False,False
+950000,casa,Cariacica,Jardim América,200,3,2,3,True,False,True,False,False,False
+900000,casa,Cariacica,Vera Cruz,206,3,2,2,True,False,False,False,False,False
+600000,casa,Cariacica,Santana,300,4,2,1,True,False,False,False,False,False
+600000,apartamento,Cariacica,Campo Grande,130,3,2,1,True,False,False,False,True,False
+355000,apartamento,Cariacica,São Geraldo,63,3,1,1,True,False,False,True,True,True
+790000,apartamento,Cariacica,Cruzeiro do Sul,152,3,2,1,True,False,True,False,False,False
+415000,casa,Cariacica,Santa Bárbara,146,3,1,2,False,False,False,False,False,False
+385500,apartamento,Cariacica,Cruzeiro do Sul,167,3,2,2,True,False,False,False,False,False
+283000,apartamento,Cariacica,São João Batista,46,2,1,1,False,False,False,True,False,False
+250000,apartamento,Cariacica,Campina Grande,44,2,1,1,False,False,False,True,False,False
+410000,apartamento,Cariacica,Rio Branco,67,3,2,1,False,False,False,False,False,False
+1650000,casa,Cariacica,Morada de Santa Fé,200,3,4,5,True,False,True,False,False,False
+700000,apartamento,Cariacica,Cruzeiro do Sul,152,3,3,1,True,False,True,False,False,False
+200000,apartamento,Cariacica,Morada de Santa Fé,70,2,1,1,False,False,False,False,False,False
+320000,apartamento,Cariacica,Rio Branco,54,2,1,1,False,False,False,True,False,True
+1300000,apartamento,Cariacica,Campo Grande,135,4,2,2,True,True,False,True,True,True
+1300000,apartamento,Cariacica,Campo Grande,115,3,1,2,False,True,False,True,True,True
+360000,apartamento,Cariacica,Morada de Santa Fé,54,2,1,1,False,False,True,False,False,True
+1290000,apartamento,Cariacica,Campo Grande,114,3,1,2,False,False,False,False,False,False
+872250,apartamento,Cariacica,São Geraldo,103,3,2,2,True,True,False,True,False,False
+300000,apartamento,Cariacica,São Geraldo,46,2,1,1,False,False,False,True,False,False
+460000,casa,Cariacica,Rio Branco,200,4,3,2,False,False,False,False,False,False
+450000,apartamento,Cariacica,Rio Branco,67,3,2,1,True,False,False,False,False,False
+600000,apartamento,Cariacica,Vila Capixaba,270,4,2,0,True,False,False,False,False,False
+299000,casa,Cariacica,Itaquari,174,4,2,2,False,False,True,False,False,False
+460000,apartamento,Cariacica,Campo Grande,120,2,2,1,True,False,False,False,False,False
+460000,casa,Cariacica,Santo André,380,4,2,1,True,False,False,False,False,False
+210000,apartamento,Cariacica,Campina Grande,45,2,1,1,False,True,False,True,False,False
+300000,apartamento,Cariacica,São Geraldo,46,2,1,1,True,False,False,True,False,True
+495000,apartamento,Cariacica,Jardim América,150,4,2,1,True,False,False,False,False,False
+499999,apartamento,Cariacica,Bela Aurora,206,3,2,0,False,False,False,False,False,False
+800000,apartamento,Cariacica,Campo Grande,150,3,3,2,True,False,False,True,False,True
+850000,apartamento,Cariacica,Campo Grande,85,3,2,2,True,True,True,True,False,True
+950000,apartamento,Cariacica,Campo Grande,150,3,5,2,True,False,True,True,False,False
+320000,apartamento,Cariacica,Rio Branco,51,1,1,0,False,True,True,True,False,True
+265000,apartamento,Cariacica,Campo Grande,85,2,1,0,False,False,False,False,False,False
+350000,apartamento,Cariacica,Jardim América,176,5,3,2,True,False,False,False,False,False
+570000,casa,Cariacica,São Geraldo,100,2,2,1,False,False,False,False,True,False
+1250000,casa,Cariacica,Santa Bárbara,540,3,3,2,True,True,False,False,True,False
+899900,casa,Cariacica,Vera Cruz,206,3,2,2,True,False,False,False,False,False
+1100000,apartamento,Cariacica,São Geraldo,91,3,1,2,False,True,True,True,False,True
+900000,casa,Cariacica,São Conrado,206,3,2,2,True,False,False,False,False,False
+410000,apartamento,Cariacica,Rio Branco,67,3,2,1,True,True,False,True,False,True
+390000,apartamento,Cariacica,Morada de Santa Fé,45,2,1,1,False,False,False,False,False,False
+257202,apartamento,Cariacica,Itacibá,42,2,1,1,False,True,False,False,False,False
+470000,casa,Cariacica,Rio Branco,150,4,3,2,False,False,True,False,False,False
+780000,casa,Cariacica,Jardim América,324,4,2,4,False,False,True,False,False,False
+300000,casa,Cariacica,São Francisco,80,3,2,0,False,False,False,False,False,False
+450000,apartamento,Cariacica,Rio Branco,65,3,1,1,False,True,True,True,False,True
+998000,casa,Cariacica,Vasco da Gama,300,4,4,2,True,False,True,False,False,False
+1000000,apartamento,Cariacica,Campo Grande,140,4,2,2,True,True,False,True,False,True
+350000,casa,Cariacica,Porto de Cariacica,63,2,1,1,False,False,False,False,False,False
+749900,casa,Cariacica,São Conrado,110,5,3,2,True,False,False,False,False,False
+1300000,apartamento,Cariacica,Campo Grande,115,3,2,2,True,True,True,True,True,True
+700000,apartamento,Cariacica,Tiradentes,112,3,3,0,True,False,True,False,False,False
+1050000,apartamento,Cariacica,Campo Grande,115,3,2,2,True,True,True,True,True,True
+980000,casa,Cariacica,Jardim América,349,3,3,2,False,False,False,False,True,False
+390000,casa,Cariacica,Jardim Campo Grande,52,2,1,4,False,False,False,False,False,False
+1245000,apartamento,Cariacica,São Geraldo,116,3,2,2,True,False,False,False,False,False
+655000,casa,Cariacica,Jardim América,84,2,1,0,True,False,False,False,False,False
+950000,casa,Cariacica,Campo Grande,80,3,3,2,True,False,False,False,False,False
+620000,casa,Cariacica,São Geraldo,160,4,3,2,True,True,False,False,False,False
+750000,casa,Cariacica,São Conrado,128,3,1,2,True,False,True,False,False,False
+380000,apartamento,Cariacica,São Francisco,216,5,3,0,False,False,True,False,False,False
+1100000,casa,Cariacica,Campo Grande,130,2,1,1,True,False,False,False,False,False
+1800000,casa,Cariacica,Santa Bárbara,235,4,4,4,True,False,False,False,True,False
+1500000,casa,Cariacica,Morada de Santa Fé,400,3,3,4,True,False,False,False,False,False
+1800000,casa,Cariacica,Santa Bárbara,235,4,4,2,True,False,True,False,True,False
+1285000,casa,Cariacica,Vera Cruz,521,4,5,3,True,True,True,False,True,False
+655000,casa,Cariacica,Jardim América,162,3,3,2,True,False,False,False,False,False
+1450000,casa,Cariacica,Campo Grande,525,3,2,4,True,False,True,False,False,False
+985000,casa,Cariacica,Morada de Santa Fé,322,5,4,3,True,False,False,False,False,False
+800000,casa,Cariacica,Itacibá,300,3,2,2,False,False,False,False,False,False
+870000,apartamento,Cariacica,Campo Grande,240,4,5,1,True,False,False,False,True,False
+1000000,casa,Cariacica,Jardim América,200,3,1,2,True,False,False,False,False,False
+480000,apartamento,Cariacica,Alto Lage,166,3,2,1,True,False,False,False,False,False
+550000,casa,Cariacica,Campo Grande,250,4,1,4,False,False,False,False,False,False
+1800000,casa,Cariacica,Santa Bárbara,235,4,1,3,True,False,False,False,False,False
+265000,apartamento,Cariacica,Vera Cruz,100,3,2,0,True,False,True,False,False,False
+850000,casa,Cariacica,Itacibá,200,3,2,3,False,False,False,False,False,False
+480000,apartamento,Cariacica,Alto Lage,166,3,2,1,True,False,False,False,False,False
+603500,apartamento,Cariacica,Campo Grande,65,2,2,1,True,True,True,True,False,True
+1090000,apartamento,Cariacica,Campo Grande,115,3,1,2,False,True,True,True,False,True
+985000,casa,Cariacica,Morada de Santa Fé,323,3,1,3,False,False,False,False,True,False
+1200000,apartamento,Cariacica,Campo Grande,148,3,5,2,True,False,True,True,False,False
+1800000,casa,Cariacica,Campo Grande,400,5,4,5,True,False,True,False,False,False
+1300000,apartamento,Cariacica,Campo Grande,147,4,4,2,True,True,True,True,False,True
+450000,casa,Cariacica,Vila Capixaba,80,5,2,1,False,False,False,False,False,False
+899000,casa,Cariacica,Jardim América,100,2,3,2,True,False,True,False,True,False
+1320000,casa,Cariacica,Rosa da Penha,490,3,3,5,True,False,False,False,False,False
+1200000,casa,Cariacica,Campo Grande,140,4,2,4,True,False,False,False,False,False
+1300000,casa,Cariacica,Campo Grande,560,4,3,3,True,False,False,False,False,False
+1400000,apartamento,Cariacica,São Geraldo,115,3,2,2,True,True,True,True,True,True
+700000,casa,Cariacica,Santana,200,3,2,0,False,False,True,False,False,False
+1030000,casa,Cariacica,Campo Grande,275,2,1,2,False,False,False,False,False,False
+590000,casa,Cariacica,Santana,160,5,3,2,True,False,True,False,False,False
+380000,apartamento,Cariacica,São Geraldo,126,3,1,0,False,False,True,False,False,False
+1500000,casa,Cariacica,Bela Aurora,150,5,4,2,True,True,False,False,False,False
+700000,casa,Cariacica,Campo Grande,118,3,1,4,False,False,False,False,False,False
+950000,apartamento,Cariacica,Campo Grande,86,3,2,2,True,True,True,False,False,True
+899000,casa,Cariacica,Jardim América,100,3,2,2,True,False,False,False,False,False
+1680000,casa,Cariacica,Cariacica Sede,202,3,4,2,True,False,True,False,False,False
+1300000,casa,Cariacica,Bela Aurora,220,5,4,2,True,True,True,False,False,False
+320000,apartamento,Cariacica,São Geraldo,48,2,1,1,False,False,True,True,False,True
+350000,apartamento,Cariacica,Rio Branco,53,2,1,1,False,True,True,True,False,True
+850000,casa,Cariacica,Itacibá,450,5,5,3,True,False,True,False,False,False
+530000,apartamento,Cariacica,Rio Branco,63,3,2,1,True,False,False,False,False,False
+150000,casa,Cariacica,Porto Novo,80,3,1,0,False,False,False,False,False,False
+600000,casa,Fundão,Praia Grande,60,4,2,3,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+635000,casa,Fundão,Praia Grande,300,4,5,5,True,False,False,False,False,False
+290000,casa,Fundão,Praia Grande,180,2,3,4,True,False,False,False,False,False
+600000,casa,Fundão,Praia Grande,240,4,2,3,True,False,False,False,True,False
+1500000,casa,Fundão,Praia Grande,298,4,4,5,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+480000,casa,Fundão,Praia Grande,100,4,2,5,False,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+1500000,apartamento,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+590000,casa,Fundão,Praia Grande,600,4,3,4,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+670000,casa,Fundão,Praia Grande,100,4,4,3,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+650000,casa,Fundão,Praia Grande,100,3,1,5,True,True,False,False,False,False
+1500000,apartamento,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+749000,casa,Fundão,Praia Grande,600,3,2,5,True,False,False,False,False,False
+1100000,casa,Fundão,Praia Grande,300,4,1,2,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,True,False,False,False,True
+1500000,casa,Fundão,Praia Grande,298,4,1,5,True,False,False,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,1,5,True,False,False,False,False,False
+950000,casa,Fundão,Praia Grande,139,4,2,3,False,True,True,False,False,False
+1500000,casa,Fundão,Praia Grande,298,4,5,5,True,False,False,False,False,False
+660000,apartamento,Guarapari,Centro,70,2,2,1,True,False,False,False,False,False
+949000,apartamento,Guarapari,Enseada Azul,104,2,2,2,True,True,False,False,True,True
+630000,apartamento,Guarapari,Centro,70,2,1,1,True,False,False,False,False,False
+1300000,apartamento,Guarapari,Centro,115,3,3,2,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,110,3,3,2,True,True,True,True,False,True
+550000,apartamento,Guarapari,Centro,80,2,1,1,True,False,False,False,False,False
+625000,apartamento,Guarapari,Praia do Morro,73,2,1,1,True,False,False,False,False,False
+520000,apartamento,Guarapari,Enseada Azul,110,2,2,1,True,False,False,False,False,False
+595000,apartamento,Guarapari,Centro,97,2,1,1,True,False,False,False,False,False
+850000,apartamento,Guarapari,Praia do Morro,80,2,2,2,False,False,False,False,False,False
+450000,apartamento,Guarapari,Centro,70,2,2,1,True,False,False,False,False,False
+650000,apartamento,Guarapari,Centro,48,1,1,1,True,False,False,False,False,False
+450000,apartamento,Guarapari,Centro,60,2,1,1,True,False,False,False,False,False
+678370,apartamento,Guarapari,Praia do Morro,61,2,1,1,True,False,False,False,False,False
+450000,apartamento,Guarapari,Praia do Morro,68,2,2,1,True,False,False,False,False,False
+617000,apartamento,Guarapari,Centro,92,2,2,2,True,False,False,False,False,False
+550000,apartamento,Guarapari,Centro,85,2,1,1,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,77,2,2,2,False,False,False,False,False,False
+590000,apartamento,Guarapari,Praia do Morro,67,2,2,1,True,True,True,False,True,True
+450000,apartamento,Guarapari,Praia do Morro,68,2,2,1,True,False,False,False,False,False
+650000,apartamento,Guarapari,Centro,78,2,1,1,False,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,77,2,2,2,False,False,False,False,False,False
+960000,apartamento,Guarapari,Centro,110,3,2,2,True,True,True,True,False,True
+680000,apartamento,Guarapari,Centro,100,3,1,1,True,False,False,False,False,False
+500000,apartamento,Guarapari,Centro,86,2,1,1,True,False,False,False,False,False
+1300000,apartamento,Guarapari,São Judas Tadeu,180,3,2,2,True,True,False,True,False,True
+800000,apartamento,Guarapari,Praia do Morro,76,2,2,1,True,False,False,False,False,False
+998000,apartamento,Guarapari,Portal,181,3,2,1,False,False,True,False,True,True
+600000,apartamento,Guarapari,Praia do Morro,75,2,2,2,True,False,False,False,False,True
+590000,apartamento,Guarapari,Praia do Morro,110,2,2,1,False,False,False,False,False,False
+600000,apartamento,Guarapari,Praia do Morro,120,3,1,1,False,False,False,False,False,False
+700000,apartamento,Guarapari,Praia do Morro,76,2,2,1,True,True,False,False,False,True
+1350000,apartamento,Guarapari,Praia do Morro,129,3,2,2,True,False,False,False,False,False
+600000,apartamento,Guarapari,Centro,89,2,2,1,True,False,False,False,False,False
+550000,apartamento,Guarapari,Centro,80,2,1,1,False,False,False,False,False,False
+580000,apartamento,Guarapari,Centro,75,3,1,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,80,3,2,1,False,False,False,False,False,False
+650000,apartamento,Guarapari,Praia do Morro,60,2,1,1,False,False,False,False,False,False
+1500000,apartamento,Guarapari,Praia do Morro,180,5,5,2,True,False,False,False,False,False
+690000,apartamento,Guarapari,Santa Mônica,250,3,1,1,True,True,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,74,2,2,1,True,False,True,False,False,True
+750000,apartamento,Guarapari,Ipiranga,100,3,2,1,True,False,False,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,100,3,2,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,70,2,2,1,True,False,False,False,False,False
+950000,apartamento,Guarapari,Centro,90,3,2,1,True,False,False,False,False,False
+1800000,apartamento,Guarapari,Centro,115,3,2,2,True,True,False,True,False,True
+850000,apartamento,Guarapari,Praia do Morro,80,2,2,2,False,False,False,False,False,False
+1350000,apartamento,Guarapari,Praia do Morro,115,3,1,2,False,False,False,False,False,False
+1250000,apartamento,Guarapari,Nova Guarapari,110,3,3,2,True,False,False,False,False,False
+780000,apartamento,Guarapari,Praia do Morro,71,2,1,1,True,False,True,False,False,False
+650000,apartamento,Guarapari,Praia do Morro,75,2,1,1,True,False,False,False,False,False
+630000,apartamento,Guarapari,Perocão,120,2,3,2,True,False,False,False,False,False
+890000,apartamento,Guarapari,Praia do Morro,100,3,2,2,False,True,False,True,False,True
+700000,apartamento,Guarapari,Praia do Morro,86,2,2,1,True,False,False,False,True,True
+650000,apartamento,Guarapari,Enseada Azul,87,2,1,1,False,False,False,False,False,False
+800000,casa,Guarapari,Comunidade Urbana de Jaboti,180,3,3,4,True,False,False,False,False,False
+420000,apartamento,Guarapari,Praia do Morro,62,2,2,1,True,False,False,False,True,True
+1300000,apartamento,Guarapari,Praia do Morro,120,3,1,1,True,False,False,False,False,False
+400000,apartamento,Guarapari,Praia do Morro,68,2,1,1,False,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,180,4,4,2,True,False,False,False,False,False
+690000,apartamento,Guarapari,Centro,70,2,2,1,True,True,False,False,True,True
+635000,apartamento,Guarapari,Praia do Morro,88,3,2,1,True,False,False,False,False,False
+780000,apartamento,Guarapari,Centro,80,2,2,1,True,False,False,False,False,False
+480000,apartamento,Guarapari,Praia do Morro,56,1,1,1,False,False,False,False,False,False
+1060000,apartamento,Guarapari,Praia do Morro,87,2,1,2,False,False,False,False,False,False
+480000,apartamento,Guarapari,Centro,86,2,1,1,True,False,False,False,False,False
+730000,apartamento,Guarapari,Praia do Morro,100,2,1,1,True,False,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,81,2,1,1,False,False,False,False,False,False
+1250000,apartamento,Guarapari,Praia do Morro,108,3,3,2,True,False,False,False,True,True
+675000,apartamento,Guarapari,Centro,75,2,2,1,True,False,False,False,False,True
+720000,apartamento,Guarapari,Centro,75,2,1,1,True,False,False,False,False,False
+530000,apartamento,Guarapari,Enseada Azul,78,2,2,1,True,False,False,False,True,False
+742000,apartamento,Guarapari,Praia do Morro,75,2,1,2,True,False,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,130,3,2,1,False,False,False,False,False,False
+480000,apartamento,Guarapari,Centro,100,2,1,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,59,2,2,1,False,True,False,True,False,True
+1290000,apartamento,Guarapari,Praia do Morro,135,4,3,2,True,False,False,False,False,False
+690000,apartamento,Guarapari,Praia do Morro,72,2,1,1,True,False,False,False,False,False
+690000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,True,True,False,True,True
+1250000,apartamento,Guarapari,Praia do Morro,102,3,2,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Centro,110,2,2,1,True,False,False,False,False,True
+800000,apartamento,Guarapari,Praia do Morro,90,3,2,2,True,False,False,False,False,False
+899000,apartamento,Guarapari,Praia do Morro,90,3,3,1,True,False,True,False,True,True
+650000,apartamento,Guarapari,Centro,80,2,2,1,True,False,False,False,False,False
+930000,apartamento,Guarapari,Centro,89,2,3,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,75,2,1,2,True,False,False,False,False,False
+850000,apartamento,Guarapari,Centro,90,3,2,2,False,False,False,False,False,False
+480000,apartamento,Guarapari,Praia do Morro,60,2,2,1,True,False,False,False,False,True
+690000,apartamento,Guarapari,Praia do Morro,77,2,2,2,False,True,True,False,False,True
+860000,apartamento,Guarapari,Praia do Morro,80,2,2,1,False,False,False,False,False,False
+854197,apartamento,Guarapari,Enseada Azul,85,2,2,1,False,True,False,True,False,True
+500000,apartamento,Guarapari,Praia do Morro,74,2,2,1,True,False,True,False,False,True
+550000,apartamento,Guarapari,Centro,48,1,1,1,False,False,False,False,False,False
+776033,apartamento,Guarapari,Praia do Morro,70,2,2,1,False,True,True,False,False,True
+480000,apartamento,Guarapari,Praia do Morro,78,2,1,1,False,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,78,2,1,1,False,False,False,False,False,False
+900000,apartamento,Guarapari,Centro,90,3,3,1,True,False,False,False,False,False
+1100000,apartamento,Guarapari,Centro,130,3,1,1,False,False,False,False,False,False
+620000,apartamento,Guarapari,Praia do Morro,86,2,1,2,True,False,True,False,True,False
+579000,casa,Guarapari,Comunidade Urbana de Reta Grande,115,2,2,3,True,False,True,False,False,False
+550000,apartamento,Guarapari,Centro,89,2,1,1,False,False,False,False,False,False
+900000,apartamento,Guarapari,Centro,110,3,1,1,True,False,False,False,False,False
+1390000,apartamento,Guarapari,Praia do Morro,110,3,3,2,True,False,False,False,False,False
+530000,apartamento,Guarapari,Centro,75,2,2,1,True,False,True,True,True,True
+530000,apartamento,Guarapari,Praia do Morro,110,2,2,1,True,False,True,False,False,False
+822900,apartamento,Guarapari,Centro,66,2,2,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Centro,130,2,3,1,True,False,False,False,False,False
+650000,apartamento,Guarapari,Enseada Azul,72,2,1,1,True,False,False,False,False,False
+450000,apartamento,Guarapari,São Judas Tadeu,88,2,1,1,True,False,False,False,False,False
+630000,apartamento,Guarapari,Centro,90,2,1,1,True,False,False,False,False,False
+950000,apartamento,Guarapari,Praia do Morro,100,3,1,2,True,False,False,False,False,False
+580000,apartamento,Guarapari,Nova Guarapari,65,3,1,1,False,True,True,True,True,False
+1490000,apartamento,Guarapari,Praia do Morro,145,4,2,3,True,False,False,False,False,False
+770000,apartamento,Guarapari,Praia do Morro,64,2,3,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Enseada Azul,75,2,1,1,True,False,False,False,False,False
+530000,apartamento,Guarapari,Centro,87,2,1,1,False,False,False,False,False,False
+600000,casa,Guarapari,Ipiranga,253,3,3,3,True,False,False,False,True,True
+680000,apartamento,Guarapari,Centro,88,3,1,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,75,2,2,1,True,False,False,False,True,False
+1150000,apartamento,Guarapari,Centro,100,3,1,1,False,False,False,False,False,False
+570000,apartamento,Guarapari,Praia do Morro,75,3,2,1,False,False,False,True,True,True
+740000,apartamento,Guarapari,Portal,110,3,2,1,True,False,False,False,False,False
+188007,apartamento,Guarapari,Praia do Morro,50,2,1,1,False,False,True,False,False,False
+650000,apartamento,Guarapari,Centro,85,2,1,1,True,False,False,False,False,False
+280000,apartamento,Guarapari,Praia do Morro,60,2,1,1,False,False,False,False,False,False
+740000,apartamento,Guarapari,São Judas Tadeu,84,2,1,2,True,False,True,False,False,False
+470000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,False,False,True,True
+748000,apartamento,Guarapari,Praia do Morro,74,2,2,1,True,False,True,False,False,False
+830000,apartamento,Guarapari,Centro,130,3,3,2,True,False,False,False,False,False
+620000,apartamento,Guarapari,Praia do Morro,75,3,2,1,True,True,True,True,True,True
+480000,apartamento,Guarapari,Santa Mônica,200,3,1,1,False,False,False,False,False,False
+440000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,False,False,False,False
+490000,apartamento,Guarapari,Praia do Morro,68,2,2,1,True,False,False,False,False,True
+762800,apartamento,Guarapari,Nova Guarapari,66,2,2,1,False,True,True,False,False,True
+520000,apartamento,Guarapari,Praia do Morro,70,2,1,1,True,False,False,False,False,False
+870000,apartamento,Guarapari,Praia do Morro,125,3,3,1,True,False,False,False,False,False
+830000,apartamento,Guarapari,Praia do Morro,75,2,1,1,True,True,False,True,False,True
+750000,apartamento,Guarapari,Centro,110,3,2,2,False,False,False,False,False,False
+1600000,apartamento,Guarapari,Praia do Morro,105,3,2,2,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,90,3,1,1,True,False,False,False,False,False
+695000,apartamento,Guarapari,Praia do Morro,65,2,2,1,True,False,False,False,False,False
+550000,apartamento,Guarapari,Centro,97,2,3,1,False,False,False,False,False,False
+750000,apartamento,Guarapari,Centro,106,3,1,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Enseada Azul,160,2,3,2,True,True,True,False,True,True
+700000,apartamento,Guarapari,Centro,70,2,2,1,True,False,False,False,False,False
+950000,apartamento,Guarapari,Praia do Morro,104,4,3,1,False,False,False,False,False,False
+730000,apartamento,Guarapari,Praia do Morro,72,2,2,1,True,True,True,True,True,True
+750000,casa,Guarapari,São Judas Tadeu,235,4,1,4,True,False,False,False,False,False
+390000,apartamento,Guarapari,Praia do Morro,50,1,1,1,False,False,False,False,False,True
+1300000,apartamento,Guarapari,Centro,100,2,2,2,True,False,False,False,False,False
+500000,apartamento,Guarapari,Praia do Morro,70,1,1,1,False,True,False,False,False,True
+480000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,False,False,False,False
+650000,apartamento,Guarapari,Centro,94,2,3,1,True,False,True,False,True,False
+760000,casa,Guarapari,Meaípe,174,3,3,2,True,False,False,False,False,False
+500000,apartamento,Guarapari,Praia do Morro,110,2,2,1,True,False,True,False,True,False
+650000,apartamento,Guarapari,Centro,65,2,2,1,False,False,False,False,False,True
+850000,casa,Guarapari,Ipiranga,292,3,4,4,True,False,True,False,False,False
+795000,apartamento,Guarapari,Praia do Morro,116,4,3,1,False,False,True,True,True,True
+850000,apartamento,Guarapari,São Judas Tadeu,80,2,1,1,False,False,False,False,False,False
+1089600,apartamento,Guarapari,Praia do Morro,106,3,2,2,True,True,True,True,False,True
+450000,apartamento,Guarapari,Praia do Morro,68,2,1,1,True,False,True,False,True,False
+680000,apartamento,Guarapari,Centro,72,2,2,1,True,True,True,True,False,True
+525000,apartamento,Guarapari,Centro,101,2,2,1,True,False,True,False,False,False
+860000,apartamento,Guarapari,Praia do Morro,69,2,2,1,True,True,True,True,True,True
+1080000,apartamento,Guarapari,Praia do Morro,125,3,2,2,True,False,False,False,False,False
+980000,apartamento,Guarapari,Ipiranga,90,3,2,1,True,False,False,False,False,False
+699000,apartamento,Guarapari,Centro,68,2,1,1,True,False,True,False,False,False
+1000000,apartamento,Guarapari,Centro,67,3,1,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,80,2,1,1,False,False,False,False,False,False
+860000,apartamento,Guarapari,Praia do Morro,74,2,2,1,True,True,True,False,False,True
+375000,apartamento,Guarapari,Pontal de Santa Mônica,68,1,2,1,False,False,False,False,False,False
+1100000,apartamento,Guarapari,Centro,135,3,3,3,True,True,True,True,False,True
+650000,apartamento,Guarapari,Praia do Morro,85,3,3,1,True,False,False,False,False,True
+800000,apartamento,Guarapari,Praia do Morro,80,3,2,2,True,False,False,False,False,False
+550000,apartamento,Guarapari,Centro,97,2,3,1,True,False,False,False,False,True
+750000,casa,Guarapari,Setiba,120,3,3,3,True,False,True,False,True,False
+750000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,False,False,True,False
+1300000,apartamento,Guarapari,Centro,120,3,1,1,True,False,False,False,False,False
+650000,apartamento,Guarapari,Praia do Morro,69,2,2,1,True,True,True,True,False,True
+700000,apartamento,Guarapari,Centro,78,2,1,1,True,False,False,False,False,False
+530000,apartamento,Guarapari,Centro,70,2,1,1,True,False,False,False,False,True
+1304100,apartamento,Guarapari,Praia do Morro,200,3,2,1,False,False,False,False,False,False
+1410000,apartamento,Guarapari,Jardim Boa Vista,200,4,3,4,True,False,False,False,False,False
+1350000,apartamento,Guarapari,Praia do Morro,126,3,2,2,True,False,False,False,False,False
+600000,apartamento,Guarapari,Praia do Morro,69,2,2,1,False,False,True,False,False,True
+781394,apartamento,Guarapari,Praia do Morro,78,2,2,2,True,True,True,False,False,True
+510000,apartamento,Guarapari,Centro,90,2,2,1,False,False,False,False,False,False
+700000,apartamento,Guarapari,Praia do Morro,100,3,1,2,True,False,False,False,False,False
+450000,apartamento,Guarapari,Ipiranga,88,3,1,1,True,False,False,False,False,False
+1400000,apartamento,Guarapari,Praia do Morro,107,3,2,2,True,True,True,False,True,True
+1800000,apartamento,Guarapari,Centro,130,3,2,2,True,True,False,True,False,True
+630000,apartamento,Guarapari,Centro,90,2,1,1,False,False,False,False,False,True
+1300000,apartamento,Guarapari,Centro,180,4,4,2,True,False,False,False,False,False
+850000,apartamento,Guarapari,Centro,71,2,2,1,True,False,False,False,False,False
+520000,apartamento,Guarapari,Praia do Morro,95,2,2,1,True,False,False,False,False,True
+525000,apartamento,Guarapari,Praia do Morro,95,3,3,2,True,False,False,False,False,False
+1350000,apartamento,Guarapari,Praia do Morro,100,3,2,2,True,True,False,False,False,True
+600000,casa,Guarapari,Ipiranga,96,2,2,3,True,False,False,False,False,False
+1000000,apartamento,Guarapari,Praia do Morro,430,3,1,2,True,False,False,False,False,False
+850000,apartamento,Guarapari,Centro,137,3,1,1,True,False,False,False,True,False
+730000,apartamento,Guarapari,Centro,115,2,3,1,True,False,True,False,False,True
+950000,apartamento,Guarapari,Praia do Morro,98,3,2,2,False,False,True,False,False,False
+1390000,casa,Guarapari,Nova Guarapari,250,3,3,4,True,False,False,False,False,False
+400000,apartamento,Guarapari,Centro,54,1,1,1,False,False,False,False,False,False
+850000,apartamento,Guarapari,Praia do Morro,100,3,1,2,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,120,3,1,2,True,False,False,False,False,False
+850000,apartamento,Guarapari,Praia do Morro,240,4,1,1,False,False,False,False,False,False
+760000,apartamento,Guarapari,Praia do Morro,60,2,1,1,True,True,False,False,False,False
+3100000,apartamento,Guarapari,Centro,250,4,5,3,True,True,True,True,False,True
+730000,apartamento,Guarapari,Praia do Morro,110,3,3,1,False,False,False,False,False,True
+645000,apartamento,Guarapari,Praia do Morro,88,2,1,1,True,False,False,False,False,False
+800000,apartamento,Guarapari,Centro,97,3,2,1,True,False,False,False,False,False
+920000,apartamento,Guarapari,Praia do Morro,90,3,3,1,True,False,True,False,False,False
+860000,apartamento,Guarapari,Praia do Morro,95,3,2,1,True,False,False,True,False,True
+550000,apartamento,Guarapari,Praia do Morro,110,3,3,1,True,False,False,False,False,False
+815000,apartamento,Guarapari,Praia do Morro,90,2,2,1,False,True,False,True,False,True
+525000,apartamento,Guarapari,Praia do Morro,65,2,1,1,True,False,True,False,True,True
+798000,casa,Guarapari,Santa Mônica,180,3,4,2,True,False,False,False,False,False
+420000,apartamento,Guarapari,Centro,68,2,1,1,False,False,False,False,False,False
+1600000,apartamento,Guarapari,Enseada Azul,99,3,2,2,True,True,False,True,True,True
+1050000,apartamento,Guarapari,Praia do Morro,65,2,1,1,True,False,True,False,True,False
+595000,apartamento,Guarapari,Praia do Morro,90,2,2,1,True,True,True,False,True,True
+650000,apartamento,Guarapari,Centro,90,2,1,1,True,False,False,False,False,False
+490000,apartamento,Guarapari,Nova Guarapari,62,2,2,1,True,True,False,True,True,False
+690000,apartamento,Guarapari,Praia do Morro,98,2,2,1,True,False,False,False,False,False
+495000,apartamento,Guarapari,Praia do Morro,120,3,3,1,True,False,True,False,True,False
+580000,apartamento,Guarapari,Praia do Morro,85,2,1,2,True,False,False,False,False,False
+1800000,apartamento,Guarapari,Enseada Azul,125,3,1,2,True,False,False,False,False,False
+820000,casa,Guarapari,Village do Sol,240,4,4,5,True,True,True,False,False,False
+950000,apartamento,Guarapari,São Judas Tadeu,83,2,1,1,True,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,180,4,4,2,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,99,3,1,2,True,False,True,False,False,False
+850000,apartamento,Guarapari,Centro,122,3,1,1,True,False,False,False,False,False
+720000,apartamento,Guarapari,São Judas Tadeu,120,3,2,1,False,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,110,3,2,1,True,False,False,False,False,True
+1100000,apartamento,Guarapari,Praia do Morro,150,3,1,1,True,False,False,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,80,2,1,2,True,True,False,True,False,False
+350000,apartamento,Guarapari,Praia do Morro,50,1,1,1,False,False,False,False,False,False
+680000,apartamento,Guarapari,Centro,78,2,1,1,True,False,False,False,False,False
+390000,casa,Guarapari,Paturá,144,3,2,3,True,False,True,False,False,False
+865000,apartamento,Guarapari,Praia do Morro,84,2,2,1,False,False,False,False,True,True
+785952,apartamento,Guarapari,Praia do Morro,100,3,2,1,False,True,False,True,False,True
+470000,apartamento,Guarapari,Praia do Morro,75,2,2,1,True,False,True,False,True,True
+550000,casa,Guarapari,Santa Mônica,110,3,2,2,True,False,False,False,False,False
+680000,apartamento,Guarapari,Centro,68,2,2,1,True,False,False,False,False,False
+980000,apartamento,Guarapari,Praia do Morro,135,3,1,2,True,False,False,False,False,False
+850000,casa,Guarapari,Meaípe,182,3,3,3,True,False,True,False,False,False
+680000,apartamento,Guarapari,Enseada Azul,70,2,1,1,False,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,78,2,2,1,True,False,False,False,False,True
+630000,casa,Guarapari,Santa Mônica,114,3,2,2,True,False,False,False,False,False
+380000,apartamento,Guarapari,Praia do Morro,60,2,1,1,True,False,False,False,False,False
+620000,apartamento,Guarapari,Praia do Morro,80,2,2,1,False,False,False,False,False,False
+690000,apartamento,Guarapari,Praia do Morro,84,2,1,1,True,False,False,False,False,False
+450000,apartamento,Guarapari,Praia do Morro,147,3,3,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Ipiranga,122,2,1,1,True,False,False,False,False,False
+720000,apartamento,Guarapari,Praia do Morro,79,2,3,2,False,False,True,True,False,True
+1577720,apartamento,Guarapari,Praia do Morro,101,3,2,2,False,False,False,False,False,False
+680000,apartamento,Guarapari,Centro,150,3,2,1,True,False,True,False,False,True
+420000,apartamento,Guarapari,Praia do Morro,70,2,1,1,True,False,False,False,False,False
+700000,apartamento,Guarapari,Praia do Morro,78,2,2,1,True,False,False,False,False,True
+600000,apartamento,Guarapari,Praia do Morro,97,3,3,1,True,False,False,False,False,False
+2000000,apartamento,Guarapari,Enseada Azul,137,4,4,3,True,True,True,False,False,False
+198000,casa,Guarapari,Santa Mônica,80,2,2,3,False,True,False,False,True,False
+890000,apartamento,Guarapari,Praia do Morro,105,3,2,1,False,False,True,False,False,True
+1450000,apartamento,Guarapari,Centro,100,3,2,2,True,False,False,False,False,False
+630000,casa,Guarapari,Perocão,149,3,2,1,True,False,False,False,True,True
+400000,apartamento,Guarapari,Praia do Morro,64,2,2,1,False,False,False,False,False,False
+820000,apartamento,Guarapari,Centro,145,3,1,1,True,False,False,False,False,False
+750000,apartamento,Guarapari,Centro,77,2,3,2,True,False,False,False,False,True
+600000,apartamento,Guarapari,Enseada Azul,70,2,1,1,True,False,False,False,False,False
+865000,apartamento,Guarapari,Praia do Morro,95,3,2,1,True,False,True,False,False,True
+550000,casa,Guarapari,Kubitschek,313,5,4,1,False,False,False,False,False,False
+620000,apartamento,Guarapari,Centro,84,2,1,1,False,False,False,False,False,False
+1700000,apartamento,Guarapari,Centro,230,3,3,2,True,False,False,False,False,False
+750000,apartamento,Guarapari,Centro,88,2,1,2,False,False,False,False,False,False
+950000,apartamento,Guarapari,Centro,80,2,1,1,False,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,200,5,1,2,False,False,False,False,False,False
+550000,apartamento,Guarapari,Centro,100,3,3,1,True,False,False,False,False,False
+460000,apartamento,Guarapari,Enseada Azul,67,2,1,1,False,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,110,3,1,1,True,False,False,False,False,True
+750000,apartamento,Guarapari,Praia do Morro,88,2,3,1,False,False,False,False,False,False
+850000,apartamento,Guarapari,Praia do Morro,117,3,3,1,True,False,False,False,False,False
+480000,apartamento,Guarapari,Centro,82,2,2,1,False,False,True,False,True,True
+470000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,True,False,True,False
+1200000,apartamento,Guarapari,Praia do Morro,120,3,1,2,True,False,False,False,False,False
+730000,apartamento,Guarapari,Centro,90,3,1,2,True,False,False,False,False,False
+970000,casa,Guarapari,Praia do Morro,136,3,4,1,True,False,True,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,115,3,3,1,True,False,False,True,False,True
+1300000,apartamento,Guarapari,Praia do Morro,169,3,3,1,True,False,False,True,False,True
+630000,apartamento,Guarapari,Centro,82,2,2,1,True,False,True,False,False,True
+700000,apartamento,Guarapari,Centro,150,3,1,1,True,False,False,False,False,False
+990000,apartamento,Guarapari,Praia do Morro,99,3,3,2,True,False,False,False,True,False
+798000,apartamento,Guarapari,Praia do Morro,80,2,1,2,True,False,False,False,False,False
+450000,apartamento,Guarapari,Praia do Morro,65,1,2,1,False,False,False,False,True,False
+690000,apartamento,Guarapari,Praia do Morro,90,3,3,1,True,False,False,True,False,False
+580000,apartamento,Guarapari,Praia do Morro,140,3,1,1,False,False,False,False,False,False
+570000,apartamento,Guarapari,São Judas Tadeu,75,2,2,1,True,False,True,False,False,True
+490000,apartamento,Guarapari,Praia do Morro,132,3,1,1,True,False,False,False,False,False
+707000,casa,Guarapari,Santa Mônica,390,2,3,4,True,False,False,False,False,False
+970000,apartamento,Guarapari,Centro,90,3,1,2,True,False,False,False,False,False
+800000,apartamento,Guarapari,Centro,80,2,2,2,True,False,False,False,False,True
+750000,apartamento,Guarapari,Praia do Morro,110,3,2,1,True,False,False,False,False,True
+950000,apartamento,Guarapari,Praia do Morro,98,3,2,2,True,False,True,False,False,True
+880000,apartamento,Guarapari,Centro,81,2,2,2,True,True,True,True,True,True
+650000,apartamento,Guarapari,Praia do Morro,72,2,3,1,True,False,False,False,False,False
+670000,apartamento,Guarapari,São Judas Tadeu,110,3,3,1,True,False,False,False,False,True
+790000,casa,Guarapari,Village do Sol,240,4,3,2,True,False,False,False,False,False
+1600000,apartamento,Guarapari,Centro,194,3,2,2,True,False,True,True,False,True
+650000,apartamento,Guarapari,Centro,85,2,2,1,True,False,False,False,False,True
+590000,apartamento,Guarapari,Praia do Morro,75,2,1,1,True,False,True,False,False,False
+420000,apartamento,Guarapari,Praia do Morro,85,2,2,1,True,False,False,False,True,False
+590000,casa,Guarapari,Setiba,80,1,2,2,True,True,False,False,False,False
+941715,apartamento,Guarapari,Praia do Morro,100,3,1,2,True,False,False,False,False,False
+500000,casa,Guarapari,Pontal de Santa Mônica,125,4,2,4,True,False,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,127,3,4,2,True,False,True,False,False,True
+1500000,apartamento,Guarapari,Praia do Morro,220,3,4,2,True,False,False,False,False,False
+500000,casa,Guarapari,Portal,140,3,2,3,True,False,True,False,False,False
+1800000,casa,Guarapari,Una,300,3,3,4,True,False,False,False,True,False
+580000,apartamento,Guarapari,São Judas Tadeu,71,2,2,1,True,False,True,False,False,True
+680000,apartamento,Guarapari,Praia do Morro,100,2,2,1,True,False,False,False,False,True
+430000,apartamento,Guarapari,Ipiranga,30,1,1,1,False,False,False,False,False,False
+880000,apartamento,Guarapari,Praia do Morro,180,3,3,2,True,False,False,True,False,True
+1480000,apartamento,Guarapari,Praia do Morro,88,3,2,2,True,True,True,False,True,True
+1050000,apartamento,Guarapari,Praia do Morro,95,3,1,2,True,True,False,True,False,True
+480000,apartamento,Guarapari,Praia do Morro,90,3,1,1,True,False,True,False,False,False
+845000,apartamento,Guarapari,Praia do Morro,90,3,2,2,True,False,True,False,False,True
+1230000,apartamento,Guarapari,Praia do Morro,107,3,2,1,False,True,False,True,False,True
+1500000,apartamento,Guarapari,Praia do Morro,106,3,3,2,False,False,False,False,False,False
+780000,apartamento,Guarapari,Centro,80,2,3,1,False,False,False,False,False,True
+890000,apartamento,Guarapari,Praia do Morro,110,3,1,2,True,False,False,False,False,False
+1190000,apartamento,Guarapari,Praia do Morro,110,2,3,2,True,False,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,80,3,2,1,False,False,False,False,False,False
+760000,apartamento,Guarapari,Enseada Azul,80,2,2,1,True,False,False,False,False,False
+950000,casa,Guarapari,Praia do Morro,200,3,3,2,True,True,False,False,False,False
+1200000,apartamento,Guarapari,Centro,140,3,3,2,True,False,False,False,False,False
+700000,apartamento,Guarapari,Enseada Azul,80,2,1,1,False,False,False,False,False,False
+1200000,apartamento,Guarapari,Nova Guarapari,450,4,2,3,True,False,False,False,False,False
+850000,apartamento,Guarapari,Praia do Morro,95,3,1,2,True,False,False,False,False,False
+420000,apartamento,Guarapari,Praia do Morro,71,2,2,1,True,False,False,False,False,True
+1200000,apartamento,Guarapari,Praia do Morro,120,3,2,2,True,True,True,True,True,False
+700000,apartamento,Guarapari,Centro,110,2,1,1,False,False,False,False,False,False
+500000,apartamento,Guarapari,Praia do Morro,130,4,3,1,True,False,False,False,False,False
+1250000,casa,Guarapari,Jardim Boa Vista,270,3,4,2,True,False,False,False,False,False
+850000,apartamento,Guarapari,Centro,85,2,2,1,False,False,False,False,False,False
+1150000,casa,Guarapari,Nova Guarapari,200,3,2,4,True,False,False,False,False,False
+929000,casa,Guarapari,Jardim Boa Vista,190,3,1,2,False,False,False,False,False,False
+280000,casa,Guarapari,Ipiranga,65,2,2,1,True,False,False,False,False,False
+990000,apartamento,Guarapari,Praia do Morro,87,3,2,2,True,True,False,True,False,True
+500000,apartamento,Guarapari,Praia do Morro,105,2,2,1,True,False,False,False,True,True
+890000,apartamento,Guarapari,Praia do Morro,95,3,2,2,True,False,True,False,False,True
+1800000,casa,Guarapari,Praia do Morro,200,3,4,4,True,False,False,False,False,False
+750000,apartamento,Guarapari,Praia do Morro,85,3,1,1,True,False,True,True,False,False
+630000,apartamento,Guarapari,Praia do Morro,90,2,2,1,False,True,True,False,False,True
+1300000,apartamento,Guarapari,Praia do Morro,140,3,2,2,False,True,True,True,True,True
+780000,apartamento,Guarapari,Praia do Morro,87,3,2,1,True,False,True,False,False,True
+1790000,apartamento,Guarapari,Praia do Morro,95,3,2,3,True,True,True,False,False,False
+1590000,apartamento,Guarapari,Praia do Morro,105,3,2,2,True,True,True,False,False,True
+1200000,apartamento,Guarapari,Praia do Morro,120,3,3,2,True,False,False,False,False,True
+700000,apartamento,Guarapari,Praia do Morro,70,2,1,1,True,False,False,False,False,False
+1390000,apartamento,Guarapari,Centro,150,3,1,1,True,False,False,False,False,False
+950000,apartamento,Guarapari,São Judas Tadeu,71,2,2,1,True,True,True,True,False,True
+1350000,apartamento,Guarapari,Praia do Morro,256,3,3,1,True,False,False,False,False,False
+2300000,apartamento,Guarapari,Praia do Morro,200,4,4,3,True,False,True,True,False,True
+620000,casa,Guarapari,Nova Guarapari,90,3,3,2,True,False,True,False,False,False
+500000,casa,Guarapari,Lagoa Funda,95,2,2,1,False,False,True,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,140,3,1,1,True,False,False,False,False,False
+890000,apartamento,Guarapari,Praia do Morro,100,3,2,2,True,False,True,True,False,True
+650000,apartamento,Guarapari,Praia do Morro,78,2,2,1,False,False,True,True,False,True
+420000,apartamento,Guarapari,Praia do Morro,65,2,1,1,True,False,False,False,False,False
+600000,casa,Guarapari,Setiba,250,3,2,2,True,True,False,False,False,False
+600000,apartamento,Guarapari,Ipiranga,45,1,1,1,False,False,False,False,False,False
+1070000,casa,Guarapari,Praia do Morro,180,3,4,2,True,False,False,False,False,False
+900000,casa,Guarapari,Jardim Boa Vista,168,3,2,2,True,False,True,False,False,False
+530000,apartamento,Guarapari,São Judas Tadeu,140,2,2,1,True,False,False,False,False,False
+680000,apartamento,Guarapari,Praia do Morro,115,3,3,2,True,False,True,False,False,False
+1300000,apartamento,Guarapari,Enseada Azul,136,3,5,2,True,False,True,False,False,True
+590000,apartamento,Guarapari,Praia do Morro,75,2,2,1,True,True,True,True,False,True
+1080000,apartamento,Guarapari,Praia do Morro,125,3,2,2,True,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,73,2,2,2,True,False,True,False,False,True
+500000,apartamento,Guarapari,Centro,80,2,1,1,True,False,True,False,True,True
+1100000,apartamento,Guarapari,Centro,105,3,2,2,True,True,True,False,True,True
+950000,apartamento,Guarapari,Centro,88,3,2,1,True,False,True,False,True,True
+1850000,apartamento,Guarapari,Praia do Morro,111,3,2,2,True,False,False,False,False,False
+900000,apartamento,Guarapari,Praia do Morro,52,2,2,2,True,True,True,True,True,True
+950000,apartamento,Guarapari,Praia do Morro,95,3,2,1,True,False,False,False,False,False
+750000,casa,Guarapari,São Judas Tadeu,190,4,4,2,True,False,False,False,False,False
+635000,apartamento,Guarapari,Praia do Morro,65,2,1,1,True,False,False,False,False,False
+580000,apartamento,Guarapari,Portal,80,2,1,1,False,False,False,False,False,False
+695000,apartamento,Guarapari,Praia do Morro,65,2,2,1,True,True,True,True,False,True
+804023,apartamento,Guarapari,Centro,54,2,2,1,True,True,True,True,False,True
+800000,apartamento,Guarapari,Praia do Morro,76,2,1,1,True,True,True,True,True,True
+650000,apartamento,Guarapari,Praia do Morro,140,3,3,1,True,False,True,False,False,True
+300000,apartamento,Guarapari,Praia do Morro,65,2,1,1,False,False,False,False,False,False
+469000,casa,Guarapari,Fátima Cidade Jardim,78,2,2,1,True,False,False,False,False,False
+850000,apartamento,Guarapari,Centro,71,2,2,1,False,True,False,True,False,True
+690000,apartamento,Guarapari,Praia do Morro,144,2,2,1,True,True,True,False,False,True
+750000,apartamento,Guarapari,São Judas Tadeu,210,2,2,1,True,False,False,False,False,True
+495000,apartamento,Guarapari,Centro,65,1,1,1,False,False,False,False,False,False
+1250000,apartamento,Guarapari,Enseada Azul,110,3,1,2,True,False,False,False,False,False
+700000,casa,Guarapari,Enseada Azul,100,2,3,1,True,False,False,True,False,False
+749000,casa,Guarapari,Santa Mônica,125,3,3,2,True,False,False,False,False,False
+480000,apartamento,Guarapari,Centro,69,1,1,1,False,False,False,False,False,False
+800000,apartamento,Guarapari,Praia do Morro,100,3,1,1,True,False,False,False,False,False
+1350000,apartamento,Guarapari,Centro,63,2,2,2,True,True,True,True,True,True
+1050000,casa,Guarapari,Itapebussu,200,3,4,2,True,True,True,False,False,False
+1350000,apartamento,Guarapari,Praia do Morro,129,3,2,2,True,True,True,False,False,False
+470000,apartamento,Guarapari,Nova Guarapari,65,2,1,1,True,True,True,True,False,False
+1500000,casa,Guarapari,São Judas Tadeu,500,4,5,5,True,False,False,False,False,False
+550000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,True,False,False,True
+1500000,apartamento,Guarapari,Centro,85,2,2,2,True,False,False,False,False,False
+550000,casa,Guarapari,Jardim Santa Rosa,200,4,2,1,False,False,False,False,False,False
+750000,casa,Guarapari,Praia do Morro,180,3,1,5,True,False,True,False,False,False
+500000,apartamento,Guarapari,Praia do Morro,70,2,2,1,True,False,False,False,True,True
+1200000,apartamento,Guarapari,Centro,210,3,1,2,True,False,False,False,False,False
+230000,apartamento,Guarapari,Kubitschek,50,2,1,1,False,False,False,True,False,True
+949000,apartamento,Guarapari,Enseada Azul,104,2,2,2,True,True,False,False,True,True
+550000,apartamento,Guarapari,Praia do Morro,82,2,2,1,True,False,True,False,True,True
+1121348,apartamento,Guarapari,Praia do Morro,103,3,2,2,True,True,True,False,False,True
+950000,casa,Guarapari,Meaípe,180,3,3,4,True,False,True,False,False,False
+700000,apartamento,Guarapari,Praia do Morro,95,2,3,1,True,False,True,False,False,True
+650000,casa,Guarapari,São Judas Tadeu,180,3,3,1,True,False,False,False,False,False
+780000,apartamento,Guarapari,Centro,74,2,1,1,True,False,False,False,False,False
+520000,apartamento,Guarapari,Centro,100,2,2,0,False,False,True,False,False,True
+376000,apartamento,Guarapari,Praia do Morro,71,2,1,1,False,False,True,False,False,False
+490000,apartamento,Guarapari,Enseada Azul,79,2,1,1,True,False,False,False,True,False
+680000,apartamento,Guarapari,Praia do Morro,70,2,2,1,False,False,True,False,False,True
+800000,casa,Guarapari,Itapebussu,130,3,3,3,False,False,True,False,False,False
+420000,apartamento,Guarapari,Praia do Morro,90,2,2,1,True,False,False,False,False,False
+940000,apartamento,Guarapari,Praia do Morro,115,3,2,2,True,False,True,False,False,True
+710000,casa,Guarapari,Enseada Azul,58,2,2,1,True,False,True,False,True,False
+690000,apartamento,Guarapari,Centro,88,2,1,1,True,False,False,False,False,False
+1100000,casa,Guarapari,São Judas Tadeu,135,3,5,2,True,True,True,True,False,False
+780000,apartamento,Guarapari,Praia do Morro,80,2,1,2,False,False,False,False,False,False
+650000,apartamento,Guarapari,Praia do Morro,85,2,1,1,True,False,False,False,False,False
+700000,casa,Guarapari,Santa Mônica,110,3,3,1,True,False,True,False,False,False
+1000000,apartamento,Guarapari,Centro,82,2,1,2,True,False,False,False,False,False
+430000,apartamento,Guarapari,Praia do Morro,130,3,2,1,True,False,False,False,True,False
+750000,apartamento,Guarapari,Centro,70,2,1,1,True,False,False,False,False,False
+1000000,apartamento,Guarapari,Centro,94,3,1,1,True,False,False,False,False,False
+1100000,apartamento,Guarapari,Praia do Morro,100,3,2,1,True,False,True,False,True,True
+800000,apartamento,Guarapari,Praia do Morro,90,3,2,2,True,True,True,True,False,False
+590000,apartamento,Guarapari,Praia do Morro,60,2,2,1,True,False,True,False,False,True
+400000,apartamento,Guarapari,Praia do Morro,80,2,2,1,True,False,False,False,True,False
+750000,apartamento,Guarapari,Praia do Morro,75,2,1,2,True,False,False,False,False,False
+1500000,casa,Guarapari,Enseada Azul,400,4,5,3,True,False,False,False,False,False
+650000,casa,Guarapari,Meaípe,300,4,2,4,False,True,True,False,True,False
+790000,apartamento,Guarapari,Praia do Morro,76,2,1,1,True,True,True,True,True,True
+950000,apartamento,Guarapari,Centro,78,2,1,2,False,False,False,False,False,False
+750000,casa,Guarapari,Meaípe,271,3,3,2,True,False,False,False,False,False
+750000,casa,Guarapari,Meaípe,271,3,3,2,True,False,False,False,False,False
+950000,apartamento,Guarapari,Praia do Morro,74,2,2,1,True,True,True,True,False,True
+690000,casa,Guarapari,Nova Guarapari,480,4,1,2,True,False,False,False,False,False
+700000,apartamento,Guarapari,Praia do Morro,86,3,1,1,True,False,False,False,False,False
+980000,apartamento,Guarapari,Praia do Morro,75,2,1,1,True,False,False,False,False,False
+450000,apartamento,Guarapari,São Judas Tadeu,55,1,1,1,False,False,True,False,False,False
+850000,casa,Guarapari,Praia do Morro,130,3,3,4,True,False,True,False,False,False
+780000,apartamento,Guarapari,Enseada Azul,85,2,2,3,True,True,False,True,False,True
+1600000,apartamento,Guarapari,Enseada Azul,100,2,3,2,True,False,False,False,False,False
+2300000,apartamento,Guarapari,Praia do Morro,180,4,3,2,True,False,False,False,False,False
+700000,apartamento,Guarapari,Centro,112,3,3,1,True,False,False,False,False,True
+580000,apartamento,Guarapari,Praia do Morro,200,4,4,1,True,False,False,False,False,False
+1490000,casa,Guarapari,Meaípe,170,4,4,2,True,True,True,False,False,False
+275000,apartamento,Serra,Porto Canoa,52,2,1,1,False,False,False,False,False,False
+330000,apartamento,Serra,Colina de Laranjeiras,51,2,2,1,True,False,False,False,False,False
+350000,casa,Serra,Residencial Centro da Serra,172,2,2,2,True,False,False,False,False,False
+230000,casa,Serra,Vista da Serra II,94,2,2,1,True,False,False,False,False,False
+690000,casa,Serra,Planície da Serra,160,3,3,2,True,False,False,False,False,False
+335000,casa,Serra,São Francisco,100,2,2,1,True,False,False,False,False,False
+260000,apartamento,Serra,Praia da Baleia,45,2,1,1,False,True,False,True,False,False
+330000,casa,Serra,Residencial Centro da Serra,120,2,2,1,False,False,False,False,False,False
+235000,apartamento,Serra,Estância Monazítica,47,2,2,1,True,False,False,True,True,False
+299900,apartamento,Serra,Bicanga,49,2,2,1,True,True,False,True,False,True
+485000,apartamento,Serra,Colina de Laranjeiras,62,2,2,1,True,True,True,True,False,True
+370000,apartamento,Serra,Jardim Limoeiro,61,3,2,1,True,True,False,True,False,True
+349000,casa,Serra,São Francisco,150,2,2,1,False,False,False,False,False,False
+560000,casa,Serra,Cidade Continental,270,4,3,3,True,False,False,False,False,False
+450000,apartamento,Serra,Jardim Limoeiro,52,2,1,1,True,False,False,False,False,False
+320000,casa,Serra,Boa Vista I,180,3,1,2,False,False,False,False,False,False
+299000,apartamento,Serra,Valparaíso,59,2,1,2,False,False,False,False,False,False
+205000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,True,False
+350000,casa,Serra,Campinho da Serra I,69,3,2,2,False,False,False,False,False,False
+599000,casa,Serra,Parque Jacaraípe,300,3,2,3,True,False,False,False,False,False
+290000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,True,False,True,False,False
+490000,casa,Serra,Parque Jacaraípe,107,2,1,2,True,False,False,False,False,False
+290000,casa,Serra,São Francisco,65,2,2,1,True,False,True,False,False,False
+169000,apartamento,Serra,São Judas Tadeu,48,2,1,1,False,False,False,True,False,False
+285000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+285000,apartamento,Serra,Valparaíso,55,2,1,1,False,False,False,False,False,False
+250000,casa,Serra,Divinópolis,130,2,2,1,False,False,False,False,False,False
+240000,apartamento,Serra,São Patrício,50,2,1,1,False,False,False,False,False,False
+310000,apartamento,Serra,Praia da Baleia,60,2,1,1,False,True,False,True,False,True
+330000,casa,Serra,São Domingos,121,2,2,1,False,False,False,False,False,False
+580000,apartamento,Serra,Colina de Laranjeiras,65,2,1,1,True,True,True,False,False,True
+330000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,True,True
+530000,apartamento,Serra,Valparaíso,62,2,1,1,True,True,False,True,False,True
+289000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,False
+420000,apartamento,Serra,Colina de Laranjeiras,55,2,2,1,True,False,False,False,False,False
+315000,apartamento,Serra,São Diogo II,45,2,1,1,False,False,False,False,False,False
+400000,casa,Serra,Parque Jacaraípe,116,2,2,3,False,False,True,False,False,False
+360000,casa,Serra,São Francisco,120,2,2,1,False,False,False,False,False,False
+265000,casa,Serra,Alterosas,70,2,2,1,False,False,False,False,False,False
+420000,apartamento,Serra,Morada de Laranjeiras,50,2,1,1,False,False,False,False,False,False
+299000,apartamento,Serra,Vista da Serra II,56,2,1,2,False,False,False,False,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,2,1,True,True,False,True,False,False
+669000,apartamento,Serra,Morada de Laranjeiras,70,3,2,1,True,False,False,False,False,False
+330000,casa,Serra,Praia de Capuba,60,2,1,1,False,False,False,False,False,False
+330000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+485000,apartamento,Serra,Colina de Laranjeiras,62,2,2,1,True,True,True,True,False,True
+320000,apartamento,Serra,Morada de Laranjeiras,46,2,1,1,False,False,False,False,False,False
+360000,apartamento,Serra,Colina de Laranjeiras,52,2,1,1,False,False,True,False,False,False
+590000,apartamento,Serra,Morada de Laranjeiras,70,3,1,1,True,True,False,True,False,True
+290000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+280000,casa,Serra,Residencial Centro da Serra,170,3,1,1,False,False,False,False,False,False
+300000,apartamento,Serra,Colina de Laranjeiras,54,2,1,1,False,False,False,False,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,2,1,True,True,False,True,False,False
+298000,casa,Serra,São Francisco,75,2,2,2,True,False,False,False,False,False
+450000,casa,Serra,Residencial Centro da Serra,197,3,4,3,True,False,False,False,False,False
+350000,casa,Serra,São Domingos,175,2,2,1,True,False,False,False,False,False
+260000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,False
+450000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,False,False,False,False,False
+610000,apartamento,Serra,Valparaíso,73,3,2,1,True,False,False,False,False,False
+399900,apartamento,Serra,Morada de Laranjeiras,51,2,2,1,True,False,False,False,False,False
+988998,casa,Serra,Morada de Laranjeiras,133,3,2,2,True,False,False,False,False,False
+890000,casa,Serra,Enseada de Jacaraípe,259,3,4,4,True,False,False,False,False,False
+599000,apartamento,Serra,Colina de Laranjeiras,72,2,1,1,True,True,True,False,False,False
+590000,apartamento,Serra,Morada de Laranjeiras,69,3,1,1,True,True,True,False,False,True
+450000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,True,True,True,True,True
+380000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,False,True
+315000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+370000,apartamento,Serra,Jardim Tropical,49,2,1,1,False,False,False,False,False,False
+598000,apartamento,Serra,São Francisco,75,2,3,1,True,False,False,False,False,False
+359000,casa,Serra,Jardim Carapina,120,4,2,3,False,False,False,False,False,False
+330000,casa,Serra,São Francisco,68,2,2,1,False,False,False,False,False,False
+329900,apartamento,Serra,Jardim Limoeiro,51,2,2,1,True,True,False,True,False,True
+334995,casa,Serra,São Francisco,73,2,3,2,True,False,False,False,False,False
+430000,apartamento,Serra,Praia da Baleia,78,2,1,1,True,True,False,True,False,False
+290000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,False,False,False,False,False
+299000,casa,Serra,Planalto Serrano,57,2,2,2,True,False,False,False,False,False
+799000,casa,Serra,Planície da Serra,120,3,2,3,True,False,False,False,False,False
+399000,apartamento,Serra,Parque Residencial Laranjeiras,52,2,1,1,False,True,True,True,False,True
+419997,casa,Serra,São Francisco,83,2,2,2,True,False,False,False,False,False
+390000,casa,Serra,Residencial Jacaraípe,96,2,2,1,True,False,False,False,False,False
+260000,apartamento,Serra,Castelândia,69,3,2,1,False,False,False,False,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,46,2,1,1,False,False,False,False,False,False
+220000,apartamento,Serra,São Patrício,45,2,1,1,False,False,False,False,False,False
+329998,casa,Serra,Praia de Capuba,60,2,1,1,False,False,False,False,False,False
+279900,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+300001,apartamento,Serra,Valparaíso,59,2,1,2,False,False,False,False,False,False
+699000,casa,Serra,Jardim Atlântico,106,3,3,3,True,False,True,False,False,False
+287500,casa,Serra,Colina da Serra,125,2,1,1,True,False,False,False,False,False
+670008,casa,Serra,Jardim Atlântico,114,3,2,2,True,False,False,False,False,False
+550000,casa,Serra,das Laranjeiras,97,3,1,2,False,False,False,False,False,False
+840000,casa,Serra,Planície da Serra,133,3,2,2,True,False,False,False,False,False
+385000,apartamento,Serra,Colina de Laranjeiras,54,2,2,1,True,False,True,True,False,True
+220000,apartamento,Serra,Jardim Limoeiro,48,2,1,1,False,False,False,False,False,False
+330000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+255000,apartamento,Serra,São Patrício,48,2,1,1,False,True,False,False,False,False
+690002,casa,Serra,Planície da Serra,145,3,3,2,True,False,False,False,False,False
+530000,apartamento,Serra,Valparaíso,65,2,2,1,True,True,True,True,False,False
+290000,apartamento,Serra,Praia da Baleia,44,2,1,1,False,True,False,True,False,True
+550000,apartamento,Serra,Morada de Laranjeiras,70,3,2,1,True,True,False,True,False,True
+720000,apartamento,Serra,Colina de Laranjeiras,85,3,2,2,True,False,True,True,False,True
+260000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+299900,apartamento,Serra,Morada de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+310000,casa,Serra,Manguinhos,330,2,1,1,False,False,False,False,False,False
+298000,casa,Serra,São Francisco,75,1,2,2,True,False,False,False,False,False
+330009,casa,Serra,Praia de Capuba,60,2,1,1,False,False,False,False,False,False
+218999,apartamento,Serra,Taquara I,47,2,1,1,False,False,False,False,False,False
+259004,casa,Serra,Residencial Centro da Serra,60,2,1,1,False,False,False,False,False,False
+299900,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,False,False
+925000,apartamento,Serra,Parque Residencial Laranjeiras,109,4,2,2,True,False,True,True,False,True
+490000,casa,Serra,São Francisco,75,2,2,2,True,False,False,False,False,False
+900000,casa,Serra,Colina de Laranjeiras,118,3,3,2,True,False,True,False,False,False
+760000,casa,Serra,Planície da Serra,110,3,1,2,True,False,False,False,False,False
+299007,casa,Serra,Enseada de Jacaraípe,75,2,2,2,False,False,False,False,False,False
+329997,casa,Serra,Praia de Capuba,60,2,1,1,False,False,False,False,False,False
+235000,apartamento,Serra,Estância Monazítica,47,2,2,1,True,False,False,False,False,False
+265000,apartamento,Serra,Camará,48,2,1,1,False,True,False,True,False,False
+215000,apartamento,Serra,Estância Monazítica,47,2,1,1,False,False,False,True,True,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,2,0,True,False,False,False,False,False
+360000,apartamento,Serra,Colina de Laranjeiras,49,2,1,1,False,True,True,True,False,True
+329900,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+289990,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,False,False,False,False,False
+330000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+289991,apartamento,Serra,Praia da Baleia,63,3,1,1,False,False,False,False,False,False
+530000,apartamento,Serra,Parque Residencial Laranjeiras,75,3,2,2,True,True,True,True,False,False
+598000,casa,Serra,São Francisco,75,2,3,2,True,False,False,False,False,False
+240000,apartamento,Serra,São Patrício,48,2,1,1,False,False,False,False,False,False
+790000,casa,Serra,das Laranjeiras,220,4,1,5,False,False,True,False,False,False
+475000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+330000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+310000,apartamento,Serra,Chácara Parreiral,50,2,1,1,False,True,True,True,False,True
+298000,casa,Serra,São Francisco,75,2,2,2,True,False,False,False,False,False
+287500,casa,Serra,Colina da Serra,50,2,1,2,True,False,False,False,False,False
+310000,apartamento,Serra,Praia da Baleia,45,2,1,1,False,True,False,True,False,True
+545000,casa,Serra,São Francisco,180,3,2,2,True,False,False,False,False,False
+329999,apartamento,Serra,Colina de Laranjeiras,46,2,1,1,False,False,False,False,False,False
+230000,apartamento,Serra,Jardim Atlântico,47,2,1,1,False,False,False,False,False,False
+560000,apartamento,Serra,Colina de Laranjeiras,65,2,2,2,True,False,False,False,False,False
+290000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,True,False,True,False,False
+336000,apartamento,Serra,Colina de Laranjeiras,42,2,1,1,False,False,False,True,False,False
+370000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+315000,apartamento,Serra,São Diogo II,45,2,1,1,False,False,False,False,False,False
+240000,apartamento,Serra,Residencial Centro da Serra,45,2,1,1,False,True,False,True,False,False
+249999,apartamento,Serra,Jardim Atlântico,45,2,1,1,False,False,False,False,False,False
+450000,casa,Serra,Feu Rosa,170,4,2,2,True,False,True,False,False,False
+550000,casa,Serra,Lagoa de Jacaraípe,160,2,4,4,True,False,False,False,False,False
+499000,apartamento,Serra,Praia da Baleia,78,3,1,2,True,True,False,True,False,True
+295000,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,True,True,True,False,True
+290000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,True,False,True,False,False
+750000,casa,Serra,Morada de Laranjeiras,145,3,3,2,True,True,False,True,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,2,0,True,True,False,True,False,False
+220000,apartamento,Serra,Castelândia,49,2,1,2,False,False,False,False,False,False
+460000,apartamento,Serra,Valparaíso,55,2,2,1,True,False,False,False,False,False
+255000,apartamento,Serra,São Patrício,48,2,1,1,False,True,False,False,False,False
+320000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,True,True,False,False,True
+220000,apartamento,Serra,Castelândia,49,2,1,1,False,False,False,False,False,False
+170000,apartamento,Serra,São Judas Tadeu,43,2,1,1,False,False,False,False,False,False
+840000,casa,Serra,Planície da Serra,133,3,2,2,True,False,False,False,False,False
+380000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,True
+420000,apartamento,Serra,Colina de Laranjeiras,80,2,2,1,True,True,True,True,False,True
+320000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,True,True,True,False,False,True
+350000,casa,Serra,Feu Rosa,110,3,2,4,False,False,False,False,False,False
+430000,apartamento,Serra,Praia da Baleia,68,2,1,1,True,True,False,True,False,False
+340000,casa,Serra,Residencial Jacaraípe,97,3,2,2,True,False,False,False,False,False
+300000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,False,False
+240000,apartamento,Serra,Residencial Centro da Serra,45,2,1,1,False,True,False,True,True,True
+450000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,True,True,True,False,True
+1380000,casa,Serra,Morada de Laranjeiras,105,3,2,3,True,False,False,False,False,False
+234999,apartamento,Serra,Planície da Serra,44,2,2,1,True,False,False,False,False,False
+290000,apartamento,Serra,Praia da Baleia,44,2,1,1,False,False,False,False,False,False
+260000,casa,Serra,Parque das Gaivotas,290,2,1,1,False,False,True,False,False,False
+600000,apartamento,Serra,Colina de Laranjeiras,93,2,2,1,True,True,False,True,False,True
+220000,apartamento,Serra,Conjunto Jacaraípe,49,2,1,1,False,False,False,True,False,False
+435000,casa,Serra,das Laranjeiras,80,2,2,2,True,False,False,False,False,False
+299000,apartamento,Serra,Valparaíso,58,2,1,1,False,False,False,False,False,False
+320000,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,False,False,False,False,False
+279900,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,True,False,True,False,False
+880008,casa,Serra,Planície da Serra,136,3,2,2,True,False,False,False,False,False
+260000,apartamento,Serra,Castelândia,69,3,2,1,False,False,False,False,False,False
+550000,apartamento,Serra,Morada de Laranjeiras,70,3,1,1,False,True,True,True,False,True
+780000,casa,Serra,Planície da Serra,138,3,1,2,True,False,False,False,False,False
+299900,apartamento,Serra,Colina de Laranjeiras,45,2,1,0,False,True,False,True,False,False
+330000,casa,Serra,São Francisco,68,2,2,1,False,False,False,False,False,False
+349002,casa,Serra,Campinho da Serra I,70,3,2,1,True,False,False,False,False,False
+400000,apartamento,Serra,Planalto de Carapina,51,2,2,1,True,True,True,False,False,True
+290000,apartamento,Serra,Jardim Limoeiro,47,2,2,1,True,True,False,True,False,False
+260000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+285000,apartamento,Serra,Valparaíso,56,2,1,1,False,False,False,True,False,False
+340000,apartamento,Serra,Valparaíso,65,3,1,1,False,False,False,True,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,46,2,1,1,False,False,False,False,False,False
+280000,apartamento,Serra,Jardim Limoeiro,50,2,2,1,True,True,False,False,False,True
+350000,apartamento,Serra,Ourimar,53,2,1,1,False,False,False,False,False,False
+749000,casa,Serra,Praia da Baleia,140,3,3,2,True,False,True,True,False,False
+299000,apartamento,Serra,Valparaíso,56,2,1,2,False,False,False,True,False,False
+840000,casa,Serra,Planície da Serra,133,3,2,2,True,False,False,False,False,False
+363000,apartamento,Serra,Jardim Limoeiro,57,2,1,1,False,True,False,True,False,True
+290000,apartamento,Serra,Praia da Baleia,44,2,1,1,False,True,False,True,False,False
+235000,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,False,False,True,False,False
+550000,apartamento,Serra,Morada de Laranjeiras,70,3,1,1,False,True,False,True,True,True
+420000,apartamento,Serra,Colina de Laranjeiras,80,2,2,1,False,False,False,False,False,False
+390000,casa,Serra,Nova Carapina I,170,5,2,3,True,False,False,False,False,False
+329992,casa,Serra,Praia de Capuba,60,2,1,1,False,False,False,False,False,False
+600000,casa,Serra,Alterosas,105,3,3,4,True,False,True,False,False,False
+300000,apartamento,Serra,Morada de Laranjeiras,52,2,1,1,False,True,False,True,False,True
+250000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+550000,casa,Serra,Nova Carapina I,60,2,1,2,False,False,True,False,False,False
+259008,casa,Serra,Residencial Centro da Serra,60,2,1,1,False,False,False,False,False,False
+287500,casa,Serra,Colina da Serra,50,2,1,2,True,False,False,False,False,False
+1100000,casa,Serra,Parque Jacaraípe,133,3,2,2,True,False,False,False,False,False
+530000,apartamento,Serra,Valparaíso,65,3,2,1,True,False,False,True,False,True
+925000,apartamento,Serra,Santa Luzia,109,4,3,2,True,True,True,True,False,True
+349000,casa,Serra,Campinho da Serra I,69,3,2,2,False,False,False,False,False,False
+599999,apartamento,Serra,Parque Residencial Laranjeiras,65,2,1,1,True,False,False,True,False,True
+285000,apartamento,Serra,Residencial Vista do Mestre,45,2,1,1,False,False,False,False,False,False
+385000,apartamento,Serra,Parque Residencial Laranjeiras,53,2,2,1,True,True,True,False,False,True
+990000,casa,Serra,Morada de Laranjeiras,185,3,4,2,True,False,True,False,False,False
+450000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,True,True,True,False,True
+315000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+376000,casa,Serra,Residencial Jacaraípe,75,2,1,1,True,False,True,False,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,1,1,True,True,False,True,False,False
+349009,casa,Serra,Enseada de Jacaraípe,58,2,1,2,False,False,False,False,False,False
+245000,apartamento,Serra,Ourimar,44,2,1,1,False,True,False,True,False,True
+295000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,49,2,1,1,False,False,False,False,False,False
+500000,apartamento,Serra,Colina de Laranjeiras,57,2,1,1,True,True,False,True,False,False
+600000,casa,Serra,Colina de Laranjeiras,120,3,2,2,True,False,False,False,False,False
+850000,casa,Serra,Portal de Jacaraípe,74,3,2,3,True,False,True,False,False,False
+749000,casa,Serra,Planície da Serra,200,4,3,3,True,False,False,False,False,False
+220000,apartamento,Serra,Castelândia,49,2,1,1,False,False,False,False,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,46,2,1,1,False,True,False,True,False,False
+360000,apartamento,Serra,Morada de Laranjeiras,46,2,1,1,False,True,True,True,False,True
+430000,apartamento,Serra,Praia da Baleia,78,2,1,1,True,True,False,True,False,True
+275000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,True,False,True,False,False
+220000,apartamento,Serra,São Patrício,45,2,1,1,False,True,False,True,False,False
+310000,apartamento,Serra,Jardim Limoeiro,52,2,1,1,False,False,False,True,False,False
+245000,apartamento,Serra,Conjunto Jacaraípe,80,3,2,1,False,False,False,False,False,False
+530000,apartamento,Serra,Parque Residencial Laranjeiras,75,3,2,2,True,True,True,True,True,True
+500000,casa,Serra,Enseada de Jacaraípe,150,3,2,1,True,False,False,False,False,False
+350000,apartamento,Serra,Colina de Laranjeiras,52,2,2,1,True,False,False,False,False,False
+315000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,True,False,True,False,True
+310000,apartamento,Serra,Jardim Limoeiro,52,2,1,1,False,True,False,True,False,True
+450000,casa,Serra,Costa Bela,80,3,2,1,True,False,False,False,False,False
+649994,casa,Serra,São Francisco,105,3,3,2,True,False,False,False,False,False
+265000,apartamento,Serra,Castelândia,70,3,1,1,False,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+420000,apartamento,Serra,Colina de Laranjeiras,65,3,1,1,False,True,False,True,False,True
+290000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,True,False,True,False,False
+560000,casa,Serra,Morada de Laranjeiras,80,2,2,2,True,False,False,False,False,False
+490000,apartamento,Serra,São Francisco,75,2,2,1,True,False,False,False,False,False
+260000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+695000,casa,Serra,Planície da Serra,135,3,2,2,True,False,False,False,False,False
+270000,apartamento,Serra,São Diogo II,48,2,1,1,False,True,False,True,False,False
+299900,apartamento,Serra,São Diogo II,45,2,1,1,False,False,False,False,False,False
+1380000,casa,Serra,Morada de Laranjeiras,105,3,3,3,True,False,False,False,False,False
+650000,casa,Serra,Jardim Atlântico,100,3,2,1,True,False,False,False,False,False
+385000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,False,False,False,False,False
+600000,casa,Serra,Colina de Laranjeiras,120,3,2,2,True,False,False,False,False,False
+245000,apartamento,Serra,Balneário de Carapebus,45,2,1,1,True,False,False,False,False,False
+260000,apartamento,Serra,Castelândia,69,3,2,1,False,False,False,False,False,False
+280000,apartamento,Serra,Jardim Limoeiro,44,2,1,1,False,False,True,True,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,False
+290000,apartamento,Serra,Jardim Limoeiro,47,2,2,1,True,False,False,False,False,False
+349005,casa,Serra,Campinho da Serra I,70,3,2,1,True,False,False,False,False,False
+490000,casa,Serra,Parque Jacaraípe,107,2,1,2,True,False,False,False,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+289900,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+600000,apartamento,Serra,Colina de Laranjeiras,93,2,2,1,True,True,True,True,True,True
+315000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+300000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+370000,apartamento,Serra,Jardim Tropical,49,2,1,1,False,False,False,False,False,False
+250000,apartamento,Serra,Jardim Atlântico,47,2,1,1,False,True,False,True,False,False
+330000,apartamento,Serra,Jardim Limoeiro,50,2,1,1,False,True,True,True,False,True
+250000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+599999,apartamento,Serra,Colina de Laranjeiras,65,2,1,1,True,True,False,True,False,True
+739000,casa,Serra,Parque Residencial Mestre Álvaro,230,3,1,2,True,False,False,False,False,False
+299999,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+340000,apartamento,Serra,Valparaíso,65,3,1,1,False,False,False,False,False,False
+899000,casa,Serra,Parque Residencial Laranjeiras,270,3,3,3,False,True,True,False,False,False
+370000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+240000,apartamento,Serra,Estância Monazítica,49,2,1,1,True,False,False,True,False,False
+310000,apartamento,Serra,Praia da Baleia,50,2,1,1,False,True,True,True,False,True
+315000,apartamento,Serra,Ourimar,49,2,1,1,False,False,False,False,False,False
+1100000,casa,Serra,Morada de Laranjeiras,140,3,2,2,True,False,False,False,False,False
+340000,apartamento,Serra,Valparaíso,65,3,1,1,False,False,False,True,False,False
+300000,apartamento,Serra,Morada de Laranjeiras,52,2,1,1,False,True,False,True,False,True
+260000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,False,False
+475000,apartamento,Serra,Colina de Laranjeiras,48,2,1,1,False,False,False,False,False,False
+590000,apartamento,Serra,Jardim Limoeiro,67,2,2,1,True,False,False,False,False,False
+580000,casa,Serra,São Francisco,104,3,2,2,True,False,False,False,False,False
+997000,casa,Serra,Colina de Laranjeiras,137,3,2,2,True,False,False,False,False,False
+420000,apartamento,Serra,Morada de Laranjeiras,50,2,1,1,False,False,False,False,False,False
+830000,casa,Serra,Planície da Serra,120,3,2,1,True,False,False,False,False,False
+800000,casa,Serra,Jardim Atlântico,180,5,3,3,True,False,True,False,False,False
+600000,casa,Serra,Colina de Laranjeiras,100,3,2,2,True,False,False,False,False,False
+265000,apartamento,Serra,Castelândia,80,3,2,1,False,False,False,True,False,False
+265000,apartamento,Serra,Camará,48,2,1,1,False,True,False,True,False,True
+285000,apartamento,Serra,Jardim Limoeiro,48,2,1,1,False,True,False,True,False,False
+1980007,casa,Serra,Manguinhos,172,3,4,2,True,False,False,False,False,False
+390000,apartamento,Serra,Colina de Laranjeiras,55,2,1,1,False,False,False,False,False,False
+599999,apartamento,Serra,Colina de Laranjeiras,65,2,1,1,True,False,False,False,False,False
+370000,apartamento,Serra,Jardim Limoeiro,61,3,2,1,True,True,True,False,False,True
+540000,apartamento,Serra,Morada de Laranjeiras,70,3,2,1,True,False,False,False,False,False
+199992,apartamento,Serra,Mata da Serra,42,1,1,0,True,False,False,False,False,False
+480000,casa,Serra,Estância Monazítica,80,2,1,2,True,False,False,False,False,False
+279990,apartamento,Serra,Praia da Baleia,45,2,1,1,False,True,False,True,False,True
+360000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,True,True,False,False,True
+580000,apartamento,Serra,Colina de Laranjeiras,65,2,1,1,True,True,False,True,False,True
+350000,apartamento,Serra,Valparaíso,60,3,1,1,False,False,False,False,False,False
+439000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,False,False,False,False,False
+395000,casa,Serra,Serra Centro,68,2,1,1,False,False,False,False,False,False
+225000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+890000,casa,Serra,Parque Residencial Laranjeiras,200,3,2,1,True,False,False,False,False,False
+400000,casa,Serra,das Laranjeiras,88,3,1,2,False,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+279999,apartamento,Serra,Jardim Limoeiro,48,2,2,1,False,False,False,False,False,False
+570000,apartamento,Serra,Valparaíso,62,2,2,1,True,False,False,False,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,1,1,True,True,False,True,False,False
+400000,apartamento,Serra,Morada de Laranjeiras,57,2,1,1,True,True,False,True,False,False
+260000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,False
+200000,apartamento,Serra,Taquara I,50,2,1,1,False,False,False,True,True,False
+289900,apartamento,Serra,Valparaíso,56,2,1,1,False,False,False,False,False,False
+695000,casa,Serra,Planície da Serra,135,3,2,2,True,False,False,False,False,False
+290000,apartamento,Serra,Praia da Baleia,44,2,1,1,False,True,False,True,False,True
+430000,apartamento,Serra,Praia da Baleia,78,2,1,1,True,False,False,False,False,False
+350000,casa,Serra,Residencial Centro da Serra,172,2,2,2,True,False,False,False,False,False
+480000,casa,Serra,Residencial Jacaraípe,80,2,2,1,True,False,False,False,False,False
+739000,casa,Serra,Parque Residencial Mestre Álvaro,230,3,1,2,True,False,False,False,False,False
+265000,apartamento,Serra,Camará,48,2,1,1,False,True,False,True,False,True
+430000,apartamento,Serra,Praia da Baleia,78,2,1,1,True,True,False,True,False,True
+850000,apartamento,Serra,Santa Luzia,96,2,2,2,True,False,True,True,False,False
+695000,casa,Serra,Planície da Serra,135,3,2,2,True,False,False,False,False,False
+430000,apartamento,Serra,Colina de Laranjeiras,55,2,2,1,True,False,False,False,False,False
+749000,casa,Serra,Vista da Serra II,200,4,2,3,True,False,False,False,False,False
+315000,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+255000,casa,Serra,Colina da Serra,61,2,2,1,True,False,False,False,False,False
+340000,casa,Serra,Residencial Jacaraípe,46,3,2,2,True,False,False,False,False,False
+560000,casa,Serra,Morada de Laranjeiras,80,2,2,2,True,False,False,False,False,False
+315000,apartamento,Serra,Colina de Laranjeiras,50,2,1,1,False,False,False,False,False,False
+380000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,True,False,True,False,False
+285000,apartamento,Serra,Valparaíso,56,2,1,1,False,False,False,False,False,False
+395000,apartamento,Serra,Serra Centro,68,2,2,1,False,False,False,False,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,46,2,1,1,False,True,False,True,False,False
+290008,apartamento,Serra,Conjunto Jacaraípe,47,2,1,1,False,False,False,False,False,False
+450000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,False,False,False,False,False
+220000,apartamento,Serra,Castelândia,49,2,1,1,False,False,False,False,False,False
+289900,apartamento,Serra,Valparaíso,56,2,1,1,False,False,False,True,False,False
+439000,apartamento,Serra,Jardim Limoeiro,55,2,2,1,True,True,True,True,False,True
+890000,apartamento,Serra,Santa Luzia,85,3,2,2,True,False,False,False,False,False
+989000,casa,Serra,Morada de Laranjeiras,133,3,2,2,True,False,False,False,False,False
+260000,apartamento,Serra,Castelândia,69,3,2,1,False,False,False,False,False,False
+235000,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,False,False,False,False,False
+450000,casa,Serra,Costa Bela,80,3,2,1,True,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+299900,apartamento,Serra,Jardim Limoeiro,45,2,1,1,False,False,False,False,False,False
+350000,casa,Serra,Enseada de Jacaraípe,72,2,3,1,True,False,True,False,False,False
+599000,casa,Serra,Residencial Centro da Serra,101,3,2,1,True,False,False,False,False,False
+280000,apartamento,Serra,Jardim Limoeiro,48,2,2,1,False,False,False,False,False,False
+450000,apartamento,Serra,Morada de Laranjeiras,52,2,1,1,False,False,False,True,False,True
+420000,apartamento,Serra,Colina de Laranjeiras,80,2,2,1,True,True,False,True,False,True
+925000,apartamento,Serra,Santa Luzia,109,4,3,2,True,False,False,False,False,False
+299000,apartamento,Serra,Valparaíso,56,2,1,1,False,False,False,False,False,False
+260000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,True,False,True,False,True
+1100000,casa,Serra,Morada de Laranjeiras,152,3,1,2,False,False,True,False,False,False
+395000,casa,Serra,São Francisco,66,2,3,1,True,False,False,False,False,False
+320000,apartamento,Serra,Planalto de Carapina,46,2,1,1,False,True,False,True,False,False
+185000,apartamento,Serra,São Patrício,45,2,1,1,False,False,False,False,False,True
+330000,apartamento,Serra,Chácara Parreiral,48,2,1,1,False,False,False,False,False,False
+370000,apartamento,Serra,Colina de Laranjeiras,47,2,1,1,False,False,False,False,False,False
+320000,apartamento,Serra,Morada de Laranjeiras,45,2,1,1,False,False,False,False,False,False
+310000,apartamento,Serra,Jardim Limoeiro,52,2,1,1,False,True,False,True,False,True
+370000,apartamento,Serra,Morada de Laranjeiras,47,2,1,1,False,True,False,True,False,True
+599000,apartamento,Serra,Colina de Laranjeiras,60,2,1,1,False,True,True,False,False,False
+1100000,casa,Serra,Morada de Laranjeiras,140,3,2,2,True,False,False,False,False,False
+275000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,True,False
+320000,apartamento,Serra,Conjunto Jacaraípe,52,2,1,1,False,True,True,True,False,True
+287500,casa,Serra,Colina da Serra,125,2,1,1,True,False,False,False,False,False
+275005,apartamento,Serra,Valparaíso,46,2,1,1,False,False,False,False,False,False
+219001,apartamento,Serra,Taquara I,47,2,1,1,False,False,False,False,False,False
+305000,apartamento,Serra,Residencial Vista do Mestre,49,3,2,1,False,False,False,False,False,False
+910000,apartamento,Serra,Santa Luzia,107,4,2,2,True,False,False,False,False,False
+290000,apartamento,Serra,Jardim Limoeiro,54,2,1,1,True,True,False,True,False,False
+300000,apartamento,Serra,Colina de Laranjeiras,45,2,1,1,False,True,False,True,False,False
+590000,apartamento,Serra,Jardim Limoeiro,67,3,1,1,False,True,False,True,False,True
+235000,apartamento,Serra,Jardim Limoeiro,47,2,1,1,False,True,False,True,False,False
+580003,casa,Serra,das Laranjeiras,97,3,2,2,True,False,False,False,False,False
+219900,apartamento,Viana,Vila Bethânia,50,2,1,1,False,True,False,True,False,False
+220000,apartamento,Viana,Canaã,43,2,1,1,False,False,False,False,False,False
+350000,casa,Viana,Marcílio de Noronha,170,2,1,2,False,False,False,False,False,False
+220000,apartamento,Viana,Vila Bethânia,42,2,1,1,False,True,False,True,False,False
+230000,casa,Viana,Campo Verde,70,3,1,2,False,False,False,False,False,False
+238900,apartamento,Viana,Marcílio de Noronha,59,2,1,1,False,False,True,True,False,True
+220000,apartamento,Viana,Canaã,43,2,1,1,False,False,False,True,False,False
+650000,casa,Viana,Marcílio de Noronha,200,2,3,2,True,False,False,False,False,False
+350000,casa,Viana,Marcílio de Noronha,170,2,1,2,False,False,False,False,False,False
+650000,casa,Viana,Marcílio de Noronha,200,4,2,2,True,False,False,False,False,False
+350000,casa,Viana,Marcílio de Noronha,170,2,1,2,False,False,False,False,False,False
+550000,casa,Viana,Marcílio de Noronha,200,3,2,1,True,False,False,False,True,False
+650000,casa,Viana,Marcílio de Noronha,78,3,2,1,True,True,False,False,False,False
+450000,casa,Viana,Marcílio de Noronha,117,3,2,1,True,False,False,False,False,False
+234000,apartamento,Viana,Vila Bethânia,45,2,1,1,False,False,False,False,False,False
+200000,apartamento,Viana,Campo Verde,50,2,1,0,False,False,False,False,False,False
+750000,apartamento,Vila Velha,Praia da Costa,75,2,2,1,True,False,False,True,False,True
+779990,apartamento,Vila Velha,Praia de Itaparica,67,2,2,1,True,True,False,True,False,True
+349990,apartamento,Vila Velha,Coqueiral de Itaparica,47,2,1,1,False,False,False,True,False,False
+539000,apartamento,Vila Velha,Praia das Gaivotas,85,2,2,1,True,False,False,True,False,False
+850000,apartamento,Vila Velha,Itapuã,63,2,2,2,False,True,True,True,False,True
+450000,apartamento,Vila Velha,Coqueiral de Itaparica,83,3,2,1,True,False,False,True,False,False
+699000,apartamento,Vila Velha,Barra do Jucu,66,2,2,1,True,False,True,True,False,True
+290000,apartamento,Vila Velha,Santa Paula II,50,2,1,1,False,True,False,True,False,False
+320000,apartamento,Vila Velha,Nossa Senhora da Penha,45,2,1,1,False,True,False,True,False,True
+810583,apartamento,Vila Velha,Jockey de Itaparica,63,2,2,2,True,False,False,False,False,False
+899000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,True,True,True,True,False,True
+290000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,True,True,True,False,True
+690000,apartamento,Vila Velha,Praia de Itaparica,62,2,2,1,True,True,False,False,False,True
+771231,apartamento,Vila Velha,Praia de Itaparica,66,2,2,1,True,True,False,True,False,True
+350000,apartamento,Vila Velha,Soteco,68,2,1,1,False,False,False,False,False,False
+500000,apartamento,Vila Velha,Praia das Gaivotas,68,2,1,1,False,False,False,True,True,True
+700000,apartamento,Vila Velha,Itapuã,70,2,2,1,True,False,False,False,False,False
+325000,apartamento,Vila Velha,Santa Inês,54,2,1,1,False,False,False,False,False,False
+790000,apartamento,Vila Velha,Itapuã,85,2,2,1,True,True,False,True,False,True
+650000,apartamento,Vila Velha,Itapuã,68,2,2,1,False,False,False,True,False,True
+1300000,apartamento,Vila Velha,Praia da Costa,120,3,2,2,True,False,False,False,False,False
+869000,apartamento,Vila Velha,Itapuã,90,2,2,2,True,True,False,True,False,True
+869000,apartamento,Vila Velha,Itapuã,90,2,2,2,True,True,False,True,False,True
+940000,apartamento,Vila Velha,Itapuã,75,2,2,1,False,True,True,True,True,True
+980000,apartamento,Vila Velha,Praia da Costa,81,2,3,3,True,True,False,True,False,True
+1100000,casa,Vila Velha,Interlagos,150,3,3,3,True,False,False,False,False,False
+750000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,True,False,True
+350000,apartamento,Vila Velha,Ataíde,51,2,1,1,False,False,False,True,False,False
+580000,apartamento,Vila Velha,Itapuã,74,2,2,1,False,False,True,False,False,True
+650000,apartamento,Vila Velha,Praia de Itaparica,62,2,2,1,True,True,True,True,False,True
+420160,apartamento,Vila Velha,Aribiri,55,2,1,1,False,False,False,False,False,False
+850000,apartamento,Vila Velha,Itapuã,63,2,2,2,True,True,True,True,True,True
+745000,apartamento,Vila Velha,Itapuã,75,2,2,1,True,True,False,True,False,True
+550000,apartamento,Vila Velha,Jockey de Itaparica,65,2,2,1,False,False,True,False,True,False
+699000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,True,False,True
+695000,apartamento,Vila Velha,Praia da Costa,102,3,2,1,False,False,False,False,False,True
+1950000,apartamento,Vila Velha,Itapuã,109,3,2,2,False,True,True,True,False,False
+750000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,True,True,True,True
+1295000,apartamento,Vila Velha,Itapuã,141,3,3,2,True,True,False,True,False,False
+840000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,True,True,True,True,False,True
+780001,casa,Vila Velha,Araçás,170,3,3,2,True,False,False,False,True,False
+890000,apartamento,Vila Velha,Praia de Itaparica,87,2,3,1,True,True,False,True,False,True
+640000,apartamento,Vila Velha,Itapuã,94,3,2,1,True,False,False,True,False,True
+740000,apartamento,Vila Velha,Itapuã,120,3,2,2,True,False,True,False,False,False
+330000,apartamento,Vila Velha,Jockey de Itaparica,52,2,1,1,False,False,False,True,False,False
+750000,casa,Vila Velha,Santos Dumont,250,3,2,4,False,False,True,False,False,False
+1100000,apartamento,Vila Velha,Praia da Costa,110,3,2,2,True,False,False,False,False,False
+800000,casa,Vila Velha,IBES,250,4,3,3,True,False,True,False,False,False
+819089,apartamento,Vila Velha,Jockey de Itaparica,63,2,3,1,False,True,False,True,False,True
+899000,apartamento,Vila Velha,Praia de Itaparica,80,3,2,2,True,True,False,True,False,True
+690000,apartamento,Vila Velha,Coqueiral de Itaparica,103,3,2,1,True,False,False,True,False,True
+290000,apartamento,Vila Velha,Ataíde,44,2,1,1,False,True,True,True,False,True
+1249000,apartamento,Vila Velha,Praia da Costa,132,4,1,2,True,False,True,True,False,True
+690000,apartamento,Vila Velha,Itapuã,80,2,2,1,True,True,True,False,False,True
+3000000,casa,Vila Velha,Barra do Jucu,900,5,3,5,True,True,True,False,False,False
+250000,apartamento,Vila Velha,Ilha dos Bentos,60,2,1,0,False,False,True,False,False,False
+850000,apartamento,Vila Velha,Praia de Itaparica,60,2,2,2,True,True,True,True,False,True
+850000,apartamento,Vila Velha,Itapuã,63,2,2,2,False,True,False,True,False,True
+350000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,True,False,True,False,False
+700000,apartamento,Vila Velha,Itapuã,70,2,2,1,True,True,True,True,False,True
+730000,apartamento,Vila Velha,Praia de Itaparica,55,2,2,1,True,True,False,True,False,True
+890000,apartamento,Vila Velha,Praia da Costa,100,3,3,2,False,True,False,True,False,True
+750000,casa,Vila Velha,Santos Dumont,250,3,2,4,False,False,False,False,False,False
+1200000,casa,Vila Velha,Interlagos,180,3,1,2,True,True,True,False,False,False
+899000,apartamento,Vila Velha,Itapuã,65,2,2,2,False,True,False,True,False,True
+990000,apartamento,Vila Velha,Praia de Itaparica,80,3,2,2,True,True,True,True,False,True
+1100000,casa,Vila Velha,Vale Encantado,140,3,1,2,True,True,True,False,False,False
+1600000,apartamento,Vila Velha,Praia de Itaparica,128,3,2,2,True,True,False,True,False,True
+439000,apartamento,Vila Velha,Praia dos Recifes,84,2,2,1,False,False,True,False,False,False
+290000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,False,False,False,False,False
+709000,apartamento,Vila Velha,Praia de Itaparica,71,2,2,1,True,True,True,True,False,True
+1200000,apartamento,Vila Velha,Praia de Itaparica,90,3,2,2,True,True,False,True,True,True
+348000,apartamento,Vila Velha,Aribiri,47,2,1,0,False,True,True,True,False,True
+280000,apartamento,Vila Velha,Cidade da Barra,69,2,2,1,True,False,False,False,False,False
+760000,apartamento,Vila Velha,Itapuã,62,2,2,1,True,True,False,True,True,True
+650000,apartamento,Vila Velha,Praia de Itaparica,60,2,2,1,True,True,False,True,True,False
+1350000,casa,Vila Velha,Interlagos,220,3,1,4,True,True,True,False,False,False
+1199000,casa,Vila Velha,Ilha dos Bentos,255,4,4,2,True,True,False,False,False,False
+790000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,True,True,True,True,False,True
+1300000,apartamento,Vila Velha,Itapuã,90,3,2,2,False,False,True,False,True,True
+1729633,apartamento,Vila Velha,Praia da Costa,112,4,3,3,True,False,False,False,False,False
+869000,apartamento,Vila Velha,Itapuã,90,2,2,2,True,True,False,True,False,True
+850000,casa,Vila Velha,Interlagos,125,2,1,2,True,True,True,False,False,False
+800000,apartamento,Vila Velha,Praia de Itaparica,80,2,2,1,True,True,True,True,False,False
+1300000,apartamento,Vila Velha,Itapuã,110,3,2,2,True,True,False,True,False,True
+1390000,apartamento,Vila Velha,Itapuã,110,3,2,2,True,True,False,False,True,True
+580000,apartamento,Vila Velha,Itapuã,83,3,2,1,True,False,False,False,False,False
+910000,apartamento,Vila Velha,Itapuã,86,2,2,2,True,True,False,True,False,True
+899000,apartamento,Vila Velha,Praia de Itaparica,80,3,2,2,True,True,True,True,False,True
+740000,apartamento,Vila Velha,Praia de Itaparica,61,2,2,1,True,True,True,True,True,True
+770000,casa,Vila Velha,Riviera da Barra,120,3,2,1,True,False,True,False,False,False
+780000,apartamento,Vila Velha,Itapuã,80,3,2,2,True,True,False,True,False,True
+1050000,apartamento,Vila Velha,Itapuã,90,3,2,2,True,True,False,True,False,True
+1790000,apartamento,Vila Velha,Praia da Costa,110,3,2,2,True,True,True,True,True,True
+1680000,apartamento,Vila Velha,Itapuã,110,3,2,2,True,False,False,False,False,False
+900000,apartamento,Vila Velha,Itapuã,85,2,2,1,True,True,False,True,False,True
+800000,apartamento,Vila Velha,Praia de Itaparica,80,2,2,1,True,True,True,False,False,False
+799000,apartamento,Vila Velha,Itapuã,85,3,2,1,True,False,False,True,False,True
+1390000,casa,Vila Velha,Morada do Sol,196,3,4,2,True,True,False,False,False,False
+1090000,apartamento,Vila Velha,Praia da Costa,130,3,3,2,True,False,False,False,False,False
+735000,apartamento,Vila Velha,Praia de Itaparica,65,2,2,1,True,True,True,True,False,True
+871500,apartamento,Vila Velha,Praia de Itaparica,67,3,2,2,True,False,False,False,False,False
+690000,apartamento,Vila Velha,Praia de Itaparica,65,2,2,1,True,True,True,True,False,True
+610000,apartamento,Vila Velha,Praia de Itaparica,60,2,2,1,False,False,False,False,False,False
+1280000,apartamento,Vila Velha,Itapuã,160,3,3,2,True,True,False,True,False,True
+750000,apartamento,Vila Velha,Itapuã,78,3,2,1,True,False,False,False,False,False
+700000,apartamento,Vila Velha,Itapuã,70,2,2,1,True,True,False,False,False,True
+1697147,apartamento,Vila Velha,Praia da Costa,110,4,4,3,True,False,False,False,False,False
+750000,apartamento,Vila Velha,Praia da Costa,75,2,2,1,False,False,True,True,False,True
+1100000,apartamento,Vila Velha,Praia da Costa,155,4,3,1,True,False,True,True,True,True
+1182300,apartamento,Vila Velha,Itapuã,89,3,1,2,True,False,False,False,False,False
+1100000,apartamento,Vila Velha,Itapuã,140,3,3,2,True,False,False,True,False,True
+690000,apartamento,Vila Velha,Itapuã,65,2,2,1,True,False,False,False,False,False
+891000,apartamento,Vila Velha,Itapuã,80,3,2,2,True,False,False,False,False,False
+650000,apartamento,Vila Velha,Praia de Itaparica,62,2,2,1,True,True,True,True,False,True
+890000,apartamento,Vila Velha,Praia de Itaparica,118,3,1,2,True,False,False,False,False,False
+1850000,apartamento,Vila Velha,Praia de Itaparica,150,3,3,2,True,False,False,True,False,True
+1276000,apartamento,Vila Velha,Praia da Costa,110,3,3,2,True,True,False,True,False,True
+1400000,casa,Vila Velha,Morada do Sol,261,3,3,3,True,False,False,False,False,False
+1150000,apartamento,Vila Velha,Praia de Itaparica,92,3,1,4,True,True,True,False,False,False
+670000,apartamento,Vila Velha,Itapuã,70,2,2,1,True,True,False,True,False,True
+1002110,apartamento,Vila Velha,Praia de Itaparica,79,3,2,2,True,False,False,False,False,False
+1300000,casa,Vila Velha,Interlagos,300,4,5,3,True,False,True,False,False,False
+500000,casa,Vila Velha,São Conrado,65,2,2,2,True,False,False,False,False,False
+750000,apartamento,Vila Velha,Praia de Itaparica,65,2,1,2,True,True,True,False,False,False
+577000,apartamento,Vila Velha,Praia de Itaparica,65,2,2,1,True,False,True,True,False,True
+1575000,casa,Vila Velha,Itapuã,270,5,4,4,True,False,False,False,False,False
+900000,apartamento,Vila Velha,Praia de Itaparica,79,3,2,2,True,False,False,True,True,False
+390000,apartamento,Vila Velha,Ataíde,44,2,1,1,False,True,True,True,False,True
+650000,apartamento,Vila Velha,Praia de Itaparica,65,2,2,1,True,True,True,True,False,True
+850000,apartamento,Vila Velha,Itapuã,90,3,2,1,True,False,False,False,False,False
+780000,apartamento,Vila Velha,Itapuã,116,3,2,1,True,False,True,True,False,True
+950000,apartamento,Vila Velha,Praia da Costa,90,3,2,1,True,True,False,True,False,True
+825000,apartamento,Vila Velha,Praia de Itaparica,68,2,2,1,True,True,True,True,False,False
+699000,apartamento,Vila Velha,Praia de Itaparica,55,2,2,1,True,True,True,True,False,True
+760000,apartamento,Vila Velha,Itapuã,62,2,2,1,False,True,True,False,False,False
+670000,apartamento,Vila Velha,Itapuã,70,2,2,1,True,True,True,False,False,True
+800000,casa,Vila Velha,Vale Encantado,100,3,2,2,True,True,False,False,False,False
+630000,casa,Vila Velha,Centro de Vila Velha,247,2,2,3,False,False,True,False,False,False
+795000,apartamento,Vila Velha,Praia de Itaparica,74,3,2,2,True,False,False,False,False,False
+514000,apartamento,Vila Velha,Praia da Costa,60,2,1,1,False,False,False,False,False,False
+496200,apartamento,Vila Velha,Cocal,67,3,2,2,True,True,True,False,False,True
+630000,apartamento,Vila Velha,Praia de Itaparica,56,2,1,1,True,False,True,True,False,True
+850000,apartamento,Vila Velha,Itapuã,154,3,1,2,True,False,True,False,False,False
+850000,apartamento,Vila Velha,Praia de Itaparica,59,2,1,1,True,True,True,True,False,True
+320000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,True,False,True,False,False
+800000,apartamento,Vila Velha,Praia de Itaparica,80,2,2,1,True,True,False,True,False,True
+610000,apartamento,Vila Velha,Praia das Gaivotas,85,3,2,1,True,False,False,False,False,False
+550000,apartamento,Vila Velha,Coqueiral de Itaparica,90,2,2,1,True,False,False,False,False,True
+690000,apartamento,Vila Velha,Itapuã,65,2,2,1,False,True,False,False,False,True
+290000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,True,False,True,False,True
+900000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,False,True,True,True,False,True
+480000,apartamento,Vila Velha,Jockey de Itaparica,73,2,2,1,True,False,True,False,False,False
+795000,apartamento,Vila Velha,Praia de Itaparica,80,3,2,2,True,True,True,True,False,True
+840000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,False,False,False,False,False,False
+1050000,apartamento,Vila Velha,Praia da Costa,66,2,2,1,True,True,True,False,False,True
+480000,apartamento,Vila Velha,Jockey de Itaparica,120,3,1,1,True,False,False,False,False,False
+790000,apartamento,Vila Velha,Praia da Costa,85,2,2,1,False,False,False,False,False,False
+1180000,apartamento,Vila Velha,Praia de Itaparica,120,3,3,2,True,False,False,False,False,False
+871009,apartamento,Vila Velha,Praia de Itaparica,61,2,2,1,True,True,True,False,False,True
+820000,apartamento,Vila Velha,Itapuã,73,3,2,2,True,False,False,False,False,False
+1282000,casa,Vila Velha,Balneário Ponta da Fruta,720,4,4,4,True,True,True,False,False,False
+970000,casa,Vila Velha,Ponta da Fruta,192,3,1,4,True,False,True,False,False,False
+950000,casa,Vila Velha,Cobilândia,350,4,4,4,True,False,True,False,False,False
+1250000,apartamento,Vila Velha,Praia da Costa,111,3,3,2,True,False,False,False,False,False
+340000,apartamento,Vila Velha,Coqueiral de Itaparica,47,2,1,1,False,False,False,True,False,False
+750000,casa,Vila Velha,Riviera da Barra,110,3,3,3,True,False,True,False,False,False
+1100000,casa,Vila Velha,Novo México,320,5,3,3,True,False,True,False,False,False
+1697000,apartamento,Vila Velha,Itapuã,117,3,1,2,True,True,True,False,False,False
+430000,apartamento,Vila Velha,Residencial Coqueiral,52,2,2,1,False,True,False,False,False,False
+680000,apartamento,Vila Velha,Praia de Itaparica,75,2,2,1,True,True,True,True,False,True
+1200000,apartamento,Vila Velha,Itapuã,82,2,2,2,True,True,True,True,True,True
+800000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,False,False,True
+730000,apartamento,Vila Velha,Itapuã,66,2,1,1,False,True,False,True,False,False
+1600000,apartamento,Vila Velha,Praia da Costa,80,2,2,1,True,True,False,False,False,False
+550000,apartamento,Vila Velha,Jockey de Itaparica,65,2,2,1,True,False,False,False,False,False
+795000,apartamento,Vila Velha,Itapuã,74,2,2,1,True,True,False,False,False,False
+709082,apartamento,Vila Velha,Jockey de Itaparica,63,2,2,1,True,False,False,False,False,False
+390000,apartamento,Vila Velha,Ataíde,55,2,1,1,False,True,False,True,False,True
+1250000,apartamento,Vila Velha,Praia de Itaparica,125,3,3,2,True,True,True,True,False,False
+1250000,casa,Vila Velha,Interlagos,140,4,3,4,True,False,True,False,False,False
+650000,apartamento,Vila Velha,Praia de Itaparica,62,2,2,1,True,True,False,True,False,True
+1590000,apartamento,Vila Velha,Praia de Itaparica,130,4,5,2,True,True,False,True,False,True
+1100000,apartamento,Vila Velha,Praia da Costa,110,3,2,2,True,True,True,True,False,True
+750000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,True,True,False,True
+750000,apartamento,Vila Velha,Praia da Costa,86,2,2,1,True,False,True,True,False,False
+695000,apartamento,Vila Velha,Praia de Itaparica,65,2,2,1,True,False,False,False,True,False
+760000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,True,True,True
+695000,apartamento,Vila Velha,Praia da Costa,100,3,2,1,False,False,False,True,False,True
+899000,apartamento,Vila Velha,Praia da Costa,120,3,2,1,True,False,False,False,False,True
+671103,apartamento,Vila Velha,Coqueiral de Itaparica,56,2,2,2,True,False,False,False,False,False
+350000,apartamento,Vila Velha,Ataíde,55,2,1,1,False,True,False,True,False,False
+422118,apartamento,Vila Velha,Aribiri,55,2,1,2,True,True,True,False,False,False
+485000,apartamento,Vila Velha,Residencial Coqueiral,55,2,2,1,True,True,False,False,False,False
+900000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,True,False,False,False,False,False
+350000,apartamento,Vila Velha,Ataíde,45,2,1,1,False,False,False,True,False,False
+1590000,apartamento,Vila Velha,Praia de Itaparica,140,4,4,2,True,True,False,True,True,False
+950000,apartamento,Vila Velha,Praia da Costa,130,3,2,1,True,True,False,True,False,True
+1000000,casa,Vila Velha,Ataíde,360,3,1,2,True,True,True,False,False,False
+600000,apartamento,Vila Velha,Ilha das Flores,235,3,2,1,True,False,True,True,False,False
+740000,apartamento,Vila Velha,Itapuã,120,3,2,2,True,False,True,False,False,False
+1600000,apartamento,Vila Velha,Praia da Costa,154,3,3,2,True,True,False,True,False,False
+780000,apartamento,Vila Velha,Itapuã,116,3,2,1,True,False,False,True,False,True
+1200000,apartamento,Vila Velha,Itapuã,100,3,2,2,True,True,True,False,False,True
+1400000,apartamento,Vila Velha,Praia da Costa,120,3,3,2,True,False,False,True,False,True
+850000,apartamento,Vila Velha,Praia de Itaparica,63,2,2,2,True,True,True,True,False,True
+650000,apartamento,Vila Velha,Praia das Gaivotas,80,3,2,1,True,False,False,True,False,True
+1990000,apartamento,Vila Velha,Praia da Costa,370,5,5,4,True,True,True,True,False,False
+650000,apartamento,Vila Velha,Praia de Itaparica,106,3,2,1,True,False,False,False,False,False
+800000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,True,False,True
+780000,apartamento,Vila Velha,Itapuã,116,3,2,1,True,False,False,True,False,True
+790000,apartamento,Vila Velha,Praia da Costa,100,3,2,1,True,False,False,False,False,False
+1280000,apartamento,Vila Velha,Praia da Costa,188,3,2,1,True,True,False,True,False,True
+649000,apartamento,Vila Velha,Praia de Itaparica,63,2,2,1,True,False,False,False,False,False
+599000,apartamento,Vila Velha,Jockey de Itaparica,58,2,1,1,True,False,False,False,False,False
+800000,apartamento,Vila Velha,Praia da Costa,124,3,2,1,True,False,False,False,False,False
+1370000,casa,Vila Velha,Itapuã,330,3,5,3,True,True,True,False,False,False
+1850000,apartamento,Vila Velha,Praia de Itaparica,150,3,3,2,True,True,False,True,False,True
+769600,apartamento,Vila Velha,Praia de Itaparica,63,2,2,1,True,True,True,True,False,True
+290000,apartamento,Vila Velha,Praia de Itaparica,40,1,1,0,False,True,False,True,False,True
+905000,apartamento,Vila Velha,Praia de Itaparica,90,3,2,1,True,True,True,True,False,True
+990000,apartamento,Vila Velha,Praia da Costa,80,3,3,3,True,False,False,False,False,False
+900000,apartamento,Vila Velha,Itapuã,100,3,3,2,True,False,False,True,False,True
+780000,apartamento,Vila Velha,Itapuã,79,3,2,1,True,False,False,False,False,False
+790000,casa,Vila Velha,Ponta da Fruta,117,3,2,2,True,False,True,False,False,False
+795000,apartamento,Vila Velha,Itapuã,74,2,2,1,True,True,False,True,False,True
+850000,apartamento,Vila Velha,Praia de Itaparica,60,2,2,2,True,True,False,True,False,False
+610000,apartamento,Vila Velha,Praia de Itaparica,60,2,2,1,True,False,False,False,False,False
+900000,casa,Vila Velha,Guaranhuns,250,3,3,2,True,True,True,True,True,False
+950000,casa,Vila Velha,Cobilândia,350,4,4,4,True,False,False,False,False,False
+980000,casa,Vila Velha,Santa Inês,200,3,3,2,True,True,False,False,False,False
+800000,apartamento,Vila Velha,Praia de Itaparica,70,2,2,1,True,True,False,True,False,True
+950000,apartamento,Vila Velha,Praia da Costa,100,3,2,1,True,True,False,True,True,True
+900000,apartamento,Vila Velha,Praia de Itaparica,75,3,2,2,True,False,False,False,False,False
+1420000,apartamento,Vila Velha,Praia da Costa,126,3,2,2,True,True,True,False,False,False
+1375000,apartamento,Vila Velha,Praia da Costa,130,3,3,2,True,False,False,False,False,False
+1100000,casa,Vila Velha,Vale Encantado,120,3,1,2,True,True,True,False,False,False
+690000,apartamento,Vila Velha,Praia das Gaivotas,89,3,2,1,True,False,True,False,False,True
+3700000,apartamento,Vila Velha,Praia de Itaparica,250,3,4,3,True,True,True,False,False,False
+790000,apartamento,Vila Velha,Praia de Itaparica,63,2,2,1,True,True,False,True,False,True
+850000,apartamento,Vila Velha,Praia da Costa,140,3,3,1,True,False,True,True,False,True
+365000,apartamento,Vila Velha,Divino Espírito Santo,55,2,1,1,False,False,True,True,True,True
+1000000,apartamento,Vila Velha,Praia da Costa,110,3,3,2,True,True,True,False,False,False
+2284200,apartamento,Vila Velha,Praia de Itaparica,126,3,2,2,True,True,True,False,False,False
+2024375,apartamento,Vila Velha,Praia de Itaparica,131,3,2,2,True,True,False,True,False,True
+1150000,apartamento,Vila Velha,Praia de Itaparica,90,3,2,2,False,True,True,True,False,True
+449203,apartamento,Vila Velha,Santa Inês,58,2,2,1,True,False,False,False,False,False
+890000,apartamento,Vila Velha,Praia de Itaparica,89,2,2,1,True,True,True,False,True,False
+550000,apartamento,Vila Velha,Itapuã,73,3,2,1,False,False,False,False,False,False
+420000,apartamento,Vila Velha,Coqueiral de Itaparica,75,3,2,1,False,False,False,False,False,False
+1060000,apartamento,Vila Velha,Itapuã,132,3,3,1,True,True,True,False,False,False
+2000000,apartamento,Vila Velha,São Conrado,244,5,4,2,True,False,False,False,False,False
+1699000,apartamento,Vila Velha,Praia da Costa,120,3,3,2,True,True,True,True,False,True
+300000,apartamento,Vila Velha,Alvorada,53,2,1,1,False,True,False,True,False,False
+1815000,apartamento,Vila Velha,Praia de Itaparica,96,3,2,2,True,True,False,True,False,False
+1280000,apartamento,Vila Velha,Praia de Itaparica,123,3,3,2,True,True,False,True,False,True
+477000,apartamento,Vila Velha,Coqueiral de Itaparica,84,3,2,1,True,False,False,False,False,False
+590000,apartamento,Vitória,Jardim Camburi,50,2,1,1,False,False,True,False,False,False
+860000,apartamento,Vitória,Santa Helena,120,3,3,2,True,False,False,False,False,True
+1050000,apartamento,Vitória,Jardim da Penha,115,3,2,1,True,False,False,False,False,True
+620000,apartamento,Vitória,Jardim da Penha,70,2,2,1,False,False,False,False,False,True
+1600000,casa,Vitória,Jardim Camburi,206,3,4,3,False,True,True,False,False,False
+832980,apartamento,Vitória,Jardim Camburi,60,2,2,1,False,False,False,True,False,False
+1100000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,False,False,False,False,False
+750000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,False,False,True,False,False
+570000,apartamento,Vitória,Jardim Camburi,50,2,1,1,False,False,False,True,False,True
+1345000,apartamento,Vitória,Bento Ferreira,132,3,3,1,True,True,False,False,False,True
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,2,True,False,False,False,False,False
+580000,apartamento,Vitória,Jardim Camburi,90,3,2,1,True,False,False,False,True,False
+610000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,True,True
+690000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,True,False,True,True,True
+2500000,apartamento,Vitória,Enseada do Suá,120,3,3,2,False,True,True,True,True,True
+1100000,apartamento,Vitória,Jardim Camburi,117,3,2,1,True,False,True,True,False,True
+810000,apartamento,Vitória,Jardim Camburi,83,3,2,1,True,False,False,False,False,True
+700000,apartamento,Vitória,Jardim da Penha,70,2,3,1,True,False,False,False,False,False
+540000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,False,False,True
+1900000,apartamento,Vitória,Bento Ferreira,150,4,4,3,True,True,True,True,True,True
+895000,casa,Vitória,Fonte Grande,320,3,3,2,True,False,False,False,False,False
+530000,apartamento,Vitória,Barro Vermelho,70,2,2,1,False,True,False,False,False,True
+1000000,apartamento,Vitória,Jardim da Penha,68,2,2,1,True,False,False,False,False,False
+920000,apartamento,Vitória,Jardim Camburi,73,2,1,2,True,False,True,True,False,True
+1072219,apartamento,Vitória,Aeroporto,82,2,2,1,True,False,False,False,False,False
+575000,apartamento,Vitória,Jardim da Penha,82,3,2,1,True,False,False,False,False,False
+699000,apartamento,Vitória,Jardim da Penha,70,2,3,1,True,False,False,False,False,True
+870000,apartamento,Vitória,Jardim Camburi,70,3,2,1,True,False,True,True,False,True
+1290000,apartamento,Vitória,Jardim Camburi,108,2,2,1,True,False,True,False,False,False
+780000,apartamento,Vitória,Boa Vista,70,2,2,1,True,True,False,True,False,True
+750000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,False,False,False,False,False
+840000,apartamento,Vitória,Jardim Camburi,95,3,2,1,True,False,False,False,False,True
+2990000,casa,Vitória,Mata da Praia,283,4,5,4,True,True,True,False,False,False
+620000,apartamento,Vitória,Santa Helena,72,2,2,1,True,True,True,True,False,True
+750000,apartamento,Vitória,Jardim Camburi,78,3,2,1,True,False,False,True,False,True
+1450000,apartamento,Vitória,Jardim da Penha,110,3,1,2,True,False,False,False,False,True
+550000,casa,Vitória,Santo Antônio,375,2,4,3,True,False,False,False,False,False
+695000,apartamento,Vitória,Jardim Camburi,80,3,2,1,True,False,False,False,False,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+957118,apartamento,Vitória,Bento Ferreira,70,2,2,1,True,True,False,False,False,True
+940000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,True,False,True,False,True
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,False,False,True
+678000,apartamento,Vitória,Jardim Camburi,57,2,1,1,False,False,False,False,False,False
+570000,apartamento,Vitória,Tabuazeiro,110,2,2,1,True,False,False,False,False,False
+790000,apartamento,Vitória,Jardim Camburi,57,2,2,1,False,True,False,True,False,True
+863000,apartamento,Vitória,Bento Ferreira,68,2,2,2,True,True,True,True,False,True
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,True,False,True
+630000,apartamento,Vitória,Jardim Camburi,83,3,2,1,True,False,False,False,False,False
+1049000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,True,True,True,False,True
+630000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,False,False,False,False
+728000,apartamento,Vitória,Santa Helena,42,1,1,2,False,False,False,False,False,True
+890000,apartamento,Vitória,Jardim da Penha,100,3,3,2,True,False,True,True,False,True
+745000,apartamento,Vitória,de Lourdes,120,3,2,1,True,False,False,True,False,False
+709000,apartamento,Vitória,Jardim Camburi,64,2,2,1,True,False,False,True,False,True
+890000,apartamento,Vitória,Jardim da Penha,100,3,3,2,True,False,True,False,False,True
+940000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,True,False,True,False,True
+800000,apartamento,Vitória,Jardim Camburi,70,3,2,2,True,True,False,True,False,True
+980000,apartamento,Vitória,Jardim Camburi,90,3,3,2,True,True,False,True,False,True
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+770000,apartamento,Vitória,Praia do Suá,80,2,2,1,False,False,True,True,True,True
+950000,apartamento,Vitória,Praia do Canto,60,2,3,2,True,True,False,True,False,True
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,False,True
+1050000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,False,False,False,False,False
+2200000,apartamento,Vitória,Enseada do Suá,107,3,3,2,False,True,True,True,True,True
+650000,apartamento,Vitória,Jardim da Penha,70,2,2,1,False,True,False,False,False,False
+1483993,apartamento,Vitória,Jardim Camburi,101,2,2,1,False,True,False,True,False,True
+840000,apartamento,Vitória,Jardim Camburi,95,3,2,1,True,False,False,False,False,True
+1580000,apartamento,Vitória,Jardim Camburi,183,4,3,2,True,True,False,True,False,True
+799000,apartamento,Vitória,Jardim Camburi,75,2,2,1,True,True,True,True,False,True
+780000,apartamento,Vitória,Jardim Camburi,70,2,2,1,True,False,True,False,False,True
+863500,apartamento,Vitória,Jardim Camburi,65,2,2,1,False,True,False,True,False,True
+575000,apartamento,Vitória,Jardim da Penha,82,3,2,1,True,False,False,False,False,False
+1980000,apartamento,Vitória,Barro Vermelho,120,3,4,3,True,True,False,True,False,False
+1499900,apartamento,Vitória,Jardim da Penha,148,4,3,2,False,False,True,False,False,True
+590000,apartamento,Vitória,Praia do Suá,84,2,2,1,False,False,True,False,False,False
+680000,apartamento,Vitória,Jardim Camburi,57,2,2,1,True,True,True,True,False,True
+800000,apartamento,Vitória,Jardim Camburi,67,2,2,1,True,True,True,True,False,True
+780000,apartamento,Vitória,Jardim Camburi,70,2,2,1,True,False,False,False,False,True
+770000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,True,True,True,False,True
+580000,apartamento,Vitória,Jardim Camburi,90,3,2,1,True,False,False,False,False,False
+1289533,apartamento,Vitória,Jardim Camburi,84,3,2,2,True,False,False,False,False,False
+469991,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,False,False,False
+2120852,apartamento,Vitória,Jardim Camburi,138,4,3,3,True,False,False,False,False,False
+809800,apartamento,Vitória,Bento Ferreira,80,2,3,2,False,True,False,True,False,False
+750000,apartamento,Vitória,Santa Luíza,74,2,2,1,False,True,False,True,True,True
+1289541,apartamento,Vitória,Jardim Camburi,84,3,2,2,True,False,False,False,False,False
+470000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,False,False,False
+830000,apartamento,Vitória,Jardim Camburi,82,3,1,1,True,False,True,True,False,True
+2573401,apartamento,Vitória,Jardim da Penha,101,3,1,2,True,True,True,False,False,False
+1050000,apartamento,Vitória,Jardim Camburi,86,3,3,2,True,True,False,True,False,True
+930000,casa,Vitória,Jucutuquara,131,3,2,3,False,False,False,False,False,False
+2100516,apartamento,Vitória,Santa Helena,115,2,1,2,True,True,True,False,False,False
+1850000,apartamento,Vitória,Santa Lúcia,100,3,3,3,True,True,True,True,False,True
+825000,apartamento,Vitória,Monte Belo,70,2,2,1,True,True,True,True,False,True
+1290000,casa,Vitória,Fradinhos,324,3,3,3,True,False,False,False,False,False
+750000,apartamento,Vitória,Santa Luíza,74,2,2,1,False,True,False,True,False,True
+1939077,apartamento,Vitória,Jardim Camburi,211,4,4,3,True,True,True,True,False,True
+1083772,apartamento,Vitória,Jardim Camburi,76,2,2,1,False,True,False,True,False,True
+760000,apartamento,Vitória,Jardim Camburi,58,2,2,1,True,True,True,True,False,True
+1060000,apartamento,Vitória,Jardim Camburi,93,3,2,1,True,False,False,False,False,True
+900000,apartamento,Vitória,Bento Ferreira,200,4,3,2,True,False,False,False,False,True
+1072220,apartamento,Vitória,Aeroporto,82,2,2,1,True,False,False,False,False,False
+700000,apartamento,Vitória,Jardim Camburi,55,2,2,2,True,True,True,False,False,True
+1490000,apartamento,Vitória,Jardim da Penha,110,3,3,2,True,False,False,False,False,False
+950000,apartamento,Vitória,Jardim da Penha,115,3,3,1,True,False,False,True,False,True
+1820000,apartamento,Vitória,Jardim da Penha,97,3,3,2,True,True,False,False,False,True
+1950000,apartamento,Vitória,Jardim Camburi,190,4,4,2,True,False,False,False,False,False
+730000,apartamento,Vitória,Barro Vermelho,65,2,2,1,True,True,False,False,False,True
+2100000,apartamento,Vitória,Mata da Praia,110,3,3,2,True,True,False,True,False,True
+920000,apartamento,Vitória,Jardim Camburi,110,3,3,1,True,False,False,True,False,True
+957118,apartamento,Vitória,Bento Ferreira,70,2,2,1,True,True,False,True,False,True
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,True,True
+1950000,apartamento,Vitória,Santa Helena,107,3,2,1,True,False,True,False,False,False
+798110,apartamento,Vitória,Jardim Camburi,59,2,2,1,True,True,False,True,False,True
+933214,apartamento,Vitória,Jardim Camburi,65,2,2,0,False,False,False,False,False,False
+1380000,apartamento,Vitória,Jardim da Penha,98,3,3,3,True,True,False,True,False,True
+957118,apartamento,Vitória,Bento Ferreira,80,2,1,1,False,True,True,False,False,False
+460000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,False,False,False
+878862,apartamento,Vitória,Jardim Camburi,66,2,1,1,True,False,False,False,False,False
+660000,apartamento,Vitória,Jardim Camburi,89,3,3,1,True,False,True,False,False,True
+590000,apartamento,Vitória,Barro Vermelho,70,2,2,1,False,True,False,False,False,True
+950000,apartamento,Vitória,Jardim Camburi,100,3,2,1,True,False,False,False,True,False
+560000,apartamento,Vitória,Jardim da Penha,63,2,2,2,False,True,False,True,False,False
+750000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,False,False,False,False,False
+940000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+1550000,apartamento,Vitória,Enseada do Suá,98,3,2,2,True,True,False,True,False,False
+879999,apartamento,Vitória,Jardim Camburi,56,2,2,1,False,True,False,True,False,True
+709000,apartamento,Vitória,Jardim Camburi,64,2,2,1,True,False,False,False,False,False
+894400,apartamento,Vitória,Jardim Camburi,60,2,2,1,True,True,True,True,False,True
+709000,apartamento,Vitória,Jardim Camburi,64,2,2,1,True,False,False,True,False,True
+1670000,apartamento,Vitória,Bento Ferreira,149,4,3,3,True,True,True,True,False,True
+2100516,apartamento,Vitória,Santa Helena,115,2,1,2,True,True,True,False,False,False
+1715000,apartamento,Vitória,Jardim Camburi,103,3,3,2,True,True,False,False,False,True
+749000,apartamento,Vitória,Bento Ferreira,63,2,2,1,True,True,False,True,False,True
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,False,True
+610000,apartamento,Vitória,Jardim da Penha,39,1,1,1,False,False,False,False,True,False
+933202,apartamento,Vitória,Jardim Camburi,65,2,2,0,False,False,False,False,False,False
+930000,apartamento,Vitória,Praia do Canto,73,2,2,1,True,False,False,True,False,True
+1100000,apartamento,Vitória,Jardim Camburi,67,2,2,2,True,True,True,True,False,True
+1060000,apartamento,Vitória,Jardim da Penha,116,3,3,1,True,True,False,False,True,True
+1690000,apartamento,Vitória,Jardim da Penha,120,3,3,2,True,True,True,True,True,True
+980000,apartamento,Vitória,Jardim Camburi,90,3,3,1,True,True,False,True,False,True
+800000,apartamento,Vitória,Praia do Canto,70,2,2,1,True,False,True,False,False,False
+3104978,apartamento,Vitória,Ilha de Santa Maria,150,3,1,3,False,True,True,False,False,False
+1290000,apartamento,Vitória,Jardim Camburi,92,3,3,2,True,True,False,False,False,True
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,True,False,True,False,True
+649000,apartamento,Vitória,Jardim Camburi,68,2,2,1,True,False,False,False,False,False
+1490000,apartamento,Vitória,Jardim da Penha,106,3,3,2,True,False,False,False,False,True
+1560000,apartamento,Vitória,Jardim da Penha,109,2,3,2,True,False,False,False,False,True
+650000,apartamento,Vitória,Bento Ferreira,57,2,2,2,True,True,False,True,False,True
+820000,apartamento,Vitória,Praia do Canto,70,2,2,2,True,False,True,False,False,True
+1200000,apartamento,Vitória,Jardim Camburi,92,3,3,2,True,False,False,False,False,False
+850000,apartamento,Vitória,Bento Ferreira,90,3,2,1,False,False,False,False,False,False
+961728,apartamento,Vitória,Jardim Camburi,67,2,2,2,True,False,True,True,False,True
+650000,casa,Vitória,Horto,178,3,3,1,False,False,False,False,False,False
+720000,casa,Vitória,Santa Luíza,140,3,1,2,True,False,False,False,True,False
+868325,apartamento,Vitória,Praia do Suá,63,2,1,1,True,False,False,False,False,False
+940000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+750000,apartamento,Vitória,Jardim da Penha,75,2,2,1,True,False,False,False,True,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+500000,apartamento,Vitória,Jardim Camburi,50,2,1,1,False,False,False,True,False,True
+510000,apartamento,Vitória,Jardim Camburi,62,2,2,1,False,False,False,False,False,False
+650000,apartamento,Vitória,Jardim da Penha,65,1,1,1,False,False,True,True,False,False
+1300000,apartamento,Vitória,Jardim Camburi,110,3,2,2,True,False,True,False,False,True
+1390123,apartamento,Vitória,Jardim Camburi,124,2,2,2,True,False,False,False,False,False
+950000,apartamento,Vitória,Praia do Canto,110,3,1,1,True,False,False,False,False,False
+2900000,apartamento,Vitória,Praia do Canto,176,4,4,2,True,True,True,True,False,True
+750000,apartamento,Vitória,Jardim Camburi,56,2,2,1,True,True,True,False,False,True
+850000,apartamento,Vitória,Santa Helena,135,3,2,2,True,False,False,True,False,True
+1650000,apartamento,Vitória,Praia do Canto,93,2,1,2,True,True,True,True,False,False
+780000,apartamento,Vitória,Jardim Camburi,70,2,2,1,True,False,False,False,False,False
+1300000,apartamento,Vitória,Jardim Camburi,89,3,2,2,True,True,True,True,False,True
+1300000,apartamento,Vitória,Jardim Camburi,110,3,2,2,True,False,True,False,False,True
+600000,apartamento,Vitória,Jardim Camburi,55,2,2,1,True,True,True,True,False,True
+990000,apartamento,Vitória,Jardim Camburi,98,3,2,2,True,True,True,True,False,False
+1460000,apartamento,Vitória,Jardim da Penha,105,3,3,2,True,False,True,False,False,True
+729000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,True,False,True,False,True
+580000,apartamento,Vitória,Jardim Camburi,89,3,2,1,True,False,False,False,False,False
+940000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,True,False,True,False,True
+3200000,apartamento,Vitória,Mata da Praia,180,3,5,2,True,True,True,True,False,True
+955000,apartamento,Vitória,Barro Vermelho,107,2,3,1,True,False,False,True,False,True
+1690000,apartamento,Vitória,Praia do Canto,109,3,3,2,True,True,False,True,False,False
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,True,False,False
+680000,apartamento,Vitória,Jardim Camburi,58,2,2,1,True,True,False,True,False,False
+1249004,casa,Vitória,Fradinhos,175,4,5,5,True,False,False,False,False,False
+3668592,apartamento,Vitória,Santa Luíza,162,4,1,3,True,True,True,False,False,False
+590000,apartamento,Vitória,Santa Lúcia,48,1,1,1,False,True,True,True,True,True
+750000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,False,False,False,False,False
+1050000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,False,False,True,False,True
+1252508,apartamento,Vitória,Jardim Camburi,84,3,2,2,True,False,False,False,False,False
+2200000,apartamento,Vitória,Enseada do Suá,107,3,3,2,True,True,True,True,False,True
+590000,apartamento,Vitória,Jardim Camburi,50,2,1,0,False,True,True,True,False,True
+1111171,apartamento,Vitória,Jardim Camburi,82,3,2,2,True,False,False,False,False,False
+699000,apartamento,Vitória,Bento Ferreira,69,2,2,1,True,True,False,True,False,True
+1200000,apartamento,Vitória,Jardim Camburi,103,3,2,2,True,True,False,True,False,True
+1315000,apartamento,Vitória,Jardim da Penha,140,4,3,1,True,False,False,False,False,False
+879999,apartamento,Vitória,Jardim Camburi,56,2,2,1,True,False,False,False,False,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,2,True,False,False,False,False,False
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,True,False,True,False,True
+1489900,apartamento,Vitória,Praia do Canto,115,3,3,1,True,True,False,True,False,True
+810000,apartamento,Vitória,Jardim Camburi,83,3,2,1,True,True,True,True,False,True
+940500,apartamento,Vitória,Jardim Camburi,65,2,2,1,False,False,False,False,False,False
+1260000,apartamento,Vitória,Praia do Suá,108,3,3,2,True,True,True,True,True,True
+590000,apartamento,Vitória,Santa Cecília,84,3,2,1,True,False,True,True,False,True
+860000,apartamento,Vitória,Santa Helena,124,3,3,2,True,False,False,False,False,True
+1385000,apartamento,Vitória,Jardim Camburi,93,3,2,2,True,True,False,False,False,True
+1250000,apartamento,Vitória,Jardim Camburi,93,3,3,2,True,False,False,False,False,True
+557000,apartamento,Vitória,Jardim Camburi,70,3,1,1,True,True,False,True,False,False
+560000,apartamento,Vitória,Pontal de Camburi,63,2,2,1,False,True,False,True,False,False
+790000,apartamento,Vitória,Jardim Camburi,57,2,2,1,False,True,False,True,False,True
+860000,apartamento,Vitória,Santa Helena,120,3,3,2,True,False,True,True,True,True
+536005,apartamento,Vitória,Jardim Camburi,38,1,1,1,False,False,False,False,False,False
+650000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,True
+1810323,apartamento,Vitória,Jardim Camburi,100,3,3,2,True,True,True,True,False,False
+3163646,apartamento,Vitória,Ilha de Santa Maria,150,3,1,3,False,True,True,False,False,False
+1600000,casa,Vitória,Maruípe,170,3,3,4,True,True,True,False,False,False
+550000,apartamento,Vitória,Jardim Camburi,70,2,2,1,False,False,False,False,False,False
+1253000,apartamento,Vitória,Monte Belo,150,3,2,1,True,True,False,True,False,False
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,False,True
+700000,apartamento,Vitória,Jucutuquara,120,3,2,1,True,False,False,False,False,False
+923000,apartamento,Vitória,Jardim Camburi,90,3,1,1,True,True,False,True,False,True
+810000,apartamento,Vitória,Jardim Camburi,83,3,2,1,True,True,True,True,False,True
+1900000,apartamento,Vitória,Mata da Praia,115,3,3,2,False,True,True,True,False,True
+550000,apartamento,Vitória,Parque Moscoso,150,3,3,1,False,False,False,True,False,True
+1350000,apartamento,Vitória,Jardim Camburi,96,3,2,2,True,True,False,True,False,True
+460000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,False,False,False
+1200000,apartamento,Vitória,Enseada do Suá,96,3,2,2,True,True,False,True,True,True
+590000,apartamento,Vitória,Jardim Camburi,50,2,1,1,False,True,True,True,False,False
+1650000,casa,Vitória,República,343,5,4,3,True,False,False,False,False,False
+771977,apartamento,Vitória,Jardim da Penha,111,1,1,1,False,False,False,False,False,True
+1550000,apartamento,Vitória,Jardim Camburi,67,2,1,1,True,True,True,True,True,True
+1100000,apartamento,Vitória,Jardim Camburi,67,2,2,2,True,True,True,True,False,True
+1658786,apartamento,Vitória,Jardim Camburi,103,3,2,2,True,False,False,False,False,False
+530000,apartamento,Vitória,Barro Vermelho,70,2,2,1,False,False,False,False,False,True
+1321484,apartamento,Vitória,Bento Ferreira,96,3,2,2,True,False,False,False,False,False
+630000,apartamento,Vitória,Jardim Camburi,58,2,2,1,True,True,True,True,False,True
+536010,apartamento,Vitória,Jardim Camburi,38,1,1,1,False,False,False,False,False,False
+1950000,apartamento,Vitória,Mata da Praia,120,4,2,2,False,False,False,False,False,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,True,False,True,False,True
+570000,apartamento,Vitória,Monte Belo,80,2,2,1,True,False,True,False,False,True
+1537465,apartamento,Vitória,Santa Luíza,99,2,2,2,True,False,False,False,False,False
+1283572,apartamento,Vitória,Jardim Camburi,88,3,2,1,False,True,False,False,False,True
+644074,apartamento,Vitória,Praia do Suá,46,1,1,1,True,False,False,False,False,False
+989000,apartamento,Vitória,Jardim Camburi,100,3,2,1,True,False,False,False,False,False
+950000,apartamento,Vitória,Jardim Camburi,87,3,2,2,True,True,False,True,True,True
+830000,casa,Vitória,Bento Ferreira,396,3,1,3,False,False,False,False,False,False
+1970000,apartamento,Vitória,Jardim Camburi,184,3,4,2,False,False,False,False,False,False
+800000,apartamento,Vitória,Santa Lúcia,127,3,3,1,True,True,False,True,False,True
+830000,apartamento,Vitória,Jardim da Penha,97,3,3,1,True,False,True,True,False,True
+1790000,apartamento,Vitória,Enseada do Suá,108,3,3,2,True,True,True,True,False,True
+1590000,apartamento,Vitória,Praia do Canto,110,3,3,2,True,False,True,True,False,True
+890000,apartamento,Vitória,Jardim Camburi,74,3,2,2,True,True,True,True,False,True
+1906294,apartamento,Vitória,Ilha de Santa Maria,110,3,3,2,True,False,False,False,False,False
+2990000,casa,Vitória,Mata da Praia,395,4,5,4,True,False,False,False,False,False
+1400000,apartamento,Vitória,Praia do Canto,109,3,3,2,True,True,False,False,False,True
+1390000,apartamento,Vitória,Enseada do Suá,100,2,2,2,True,True,True,True,True,True
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,True,False,True,False,False
+780000,apartamento,Vitória,Jardim Camburi,75,2,2,1,True,False,True,False,False,True
+950000,apartamento,Vitória,Enseada do Suá,80,2,2,1,True,False,False,False,False,False
+450000,apartamento,Vitória,Jardim Camburi,70,3,1,1,True,False,False,False,False,False
+950000,apartamento,Vitória,Jardim da Penha,115,3,3,1,True,False,False,False,False,False
+620000,apartamento,Vitória,Jardim Camburi,55,2,1,2,False,False,False,False,False,False
+2200000,apartamento,Vitória,Enseada do Suá,107,3,2,2,False,True,True,True,False,False
+2573401,apartamento,Vitória,Jardim da Penha,101,3,1,2,True,True,True,False,False,False
+1295000,apartamento,Vitória,Jardim Camburi,88,3,2,2,True,True,False,True,False,True
+950000,apartamento,Vitória,Jardim Camburi,100,3,2,1,True,False,False,True,False,True
+850000,apartamento,Vitória,Jardim Camburi,69,2,2,1,True,True,True,True,False,True
+549000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,False,True,False,True
+1140000,apartamento,Vitória,Jardim Camburi,75,3,2,1,True,True,True,True,False,False
+450000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,True,False,False
+550000,apartamento,Vitória,Jardim Camburi,55,2,1,2,False,False,False,False,False,False
+500000,apartamento,Vitória,Jardim Camburi,50,2,1,1,False,False,False,False,False,False
+990000,apartamento,Vitória,Barro Vermelho,107,3,3,1,True,False,True,True,False,True
+709000,apartamento,Vitória,Jardim Camburi,64,2,2,1,True,False,False,True,False,True
+720000,apartamento,Vitória,Bento Ferreira,61,2,2,2,True,True,True,True,False,True
+880434,apartamento,Vitória,Jardim Camburi,68,2,2,2,True,False,False,False,False,False
+1250000,apartamento,Vitória,Praia do Canto,72,2,2,2,True,True,False,True,False,False
+465000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,False,False,False
+719000,apartamento,Vitória,Jardim Camburi,67,3,2,2,True,False,False,False,False,False
+941699,apartamento,Vitória,Jardim Camburi,66,2,2,1,True,False,False,False,False,False
+933202,apartamento,Vitória,Jardim Camburi,65,2,2,0,False,False,False,False,False,False
+1790000,apartamento,Vitória,Jardim da Penha,132,3,2,2,True,False,True,True,False,True
+590000,apartamento,Vitória,Jardim Camburi,50,2,1,0,False,True,True,True,False,True
+840000,apartamento,Vitória,Jardim Camburi,90,3,1,1,True,False,False,False,False,True
+780000,apartamento,Vitória,Jardim Camburi,100,3,3,1,True,False,False,False,False,False
+1160659,apartamento,Vitória,Jardim Camburi,89,3,3,4,True,False,False,False,False,False
+740000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+750000,casa,Vitória,Ilha do Príncipe,250,3,2,2,True,False,False,False,False,False
+1250000,apartamento,Vitória,Jardim Camburi,93,3,3,2,True,False,False,True,True,True
+1390000,casa,Vitória,Fradinhos,200,4,1,2,True,True,False,False,False,False
+1250663,apartamento,Vitória,Bento Ferreira,100,3,3,2,True,False,False,False,False,False
+941702,apartamento,Vitória,Jardim Camburi,66,2,2,1,True,False,False,False,False,False
+750000,apartamento,Vitória,Jardim Camburi,78,3,2,1,True,False,False,True,False,True
+1100000,apartamento,Vitória,Jardim da Penha,135,3,4,2,True,True,True,True,False,False
+3500000,apartamento,Vitória,Mata da Praia,161,3,5,1,True,True,False,True,False,True
+1060000,apartamento,Vitória,Jardim da Penha,97,3,3,1,True,False,False,False,False,False
+670000,apartamento,Vitória,Jardim Camburi,57,2,1,1,False,True,False,False,False,True
+1290000,casa,Vitória,Maruípe,175,3,2,1,True,False,False,False,False,False
+1250000,apartamento,Vitória,Bento Ferreira,100,3,3,2,True,True,False,True,False,True
+972743,apartamento,Vitória,Jardim Camburi,63,2,2,1,True,False,False,False,False,False
+430000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,False,True,False,False
+870000,apartamento,Vitória,Jardim Camburi,62,2,2,2,True,True,False,True,True,True
+570000,apartamento,Vitória,Jardim Camburi,54,2,1,1,False,False,False,True,False,True
+1750000,apartamento,Vitória,Jardim Camburi,120,3,3,2,True,True,True,True,True,True
+689000,apartamento,Vitória,Jardim da Penha,56,2,2,1,True,False,True,True,False,True
+650000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,False
+1950000,casa,Vitória,Jardim Camburi,215,3,3,5,True,False,False,False,False,False
+1999000,apartamento,Vitória,Santa Lúcia,107,3,4,2,True,False,False,False,False,True
+2500000,apartamento,Vitória,Jardim Camburi,122,4,5,2,True,False,False,True,False,True
+1800000,apartamento,Vitória,Santa Lúcia,99,3,3,2,True,True,False,True,False,True
+2150000,apartamento,Vitória,Santa Helena,230,4,5,2,True,True,False,True,False,True
+1100000,apartamento,Vitória,Jardim Camburi,87,3,2,2,False,True,False,False,False,False
+680000,apartamento,Vitória,Jardim Camburi,58,2,2,1,True,False,False,False,False,False
+1000000,apartamento,Vitória,Jardim Camburi,95,3,3,1,True,True,False,True,False,True
+1119000,apartamento,Vitória,Jardim da Penha,134,2,2,1,True,False,False,True,False,True
+1400000,apartamento,Vitória,Bento Ferreira,100,3,3,2,True,False,False,True,False,False
+540000,apartamento,Vitória,Jardim Camburi,55,2,1,1,False,False,True,False,False,True
+1300000,apartamento,Vitória,Jardim Camburi,110,3,2,2,False,False,True,False,False,True
+1490000,apartamento,Vitória,Jardim da Penha,110,3,3,2,True,True,True,True,False,False
+1190000,casa,Vitória,Tabuazeiro,225,3,5,3,True,True,True,False,False,False
+790000,apartamento,Vitória,Praia do Suá,84,2,2,1,True,False,True,False,True,True
+670000,apartamento,Vitória,Jardim Camburi,70,3,1,1,True,False,False,True,False,True
+1900000,apartamento,Vitória,Jardim Camburi,100,3,2,2,True,True,False,True,False,True
+1906296,apartamento,Vitória,Ilha de Santa Maria,110,3,3,2,True,False,False,False,False,False
+1050000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,False,False,False,False,False
+1980000,apartamento,Vitória,Barro Vermelho,120,3,4,3,True,True,True,True,False,True
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,False,False,True
+663158,apartamento,Vitória,Jardim Camburi,59,2,1,1,False,False,True,False,False,False
+1990000,apartamento,Vitória,Ilha de Santa Maria,110,3,3,2,True,True,False,True,False,False
+355000,casa,Vitória,Ilha do Príncipe,200,5,4,0,True,False,False,False,False,False
+590000,apartamento,Vitória,Jardim Camburi,50,2,1,1,True,True,False,True,False,True
+1250000,apartamento,Vitória,Jardim Camburi,93,3,3,2,True,False,False,True,False,True
+1990000,apartamento,Vitória,Jardim da Penha,142,3,3,2,True,False,True,False,False,True
+275000,casa,Vitória,Tabuazeiro,110,3,1,3,False,False,False,False,False,False
+1100000,apartamento,Vitória,Bento Ferreira,140,3,2,1,True,False,True,True,False,True
+950000,apartamento,Vitória,Jardim da Penha,115,3,2,1,True,False,False,True,False,False
+600000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,False,True,False,True
+320000,casa,Vitória,Itararé,110,3,1,1,False,False,True,False,False,False
+1250000,apartamento,Vitória,Barro Vermelho,97,2,3,2,True,True,False,True,False,False
+941709,apartamento,Vitória,Jardim Camburi,66,2,2,1,True,False,False,False,False,False
+1540000,apartamento,Vitória,Enseada do Suá,97,3,3,2,True,True,False,True,False,False
+1600000,apartamento,Vitória,Monte Belo,117,3,3,2,True,True,True,True,False,False
+470000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,False,False,False,False,False
+1290000,casa,Vitória,Fradinhos,175,3,3,3,True,False,False,False,False,False
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,True,False,True
+1289536,apartamento,Vitória,Jardim Camburi,84,3,2,2,True,False,False,False,False,False
+1000000,apartamento,Vitória,Jardim da Penha,59,2,2,1,True,True,True,True,False,False
+1500000,apartamento,Vitória,Jardim da Penha,97,3,3,2,True,True,False,False,False,True
+710000,apartamento,Vitória,Jardim da Penha,100,2,2,1,False,False,False,False,False,False
+1100000,apartamento,Vitória,Jardim Camburi,110,3,2,1,True,False,True,True,False,True
+1393200,apartamento,Vitória,Jardim Camburi,86,3,3,2,True,True,False,True,False,True
+630000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,False,False,False,False
+1990000,apartamento,Vitória,Enseada do Suá,107,3,3,2,True,True,False,True,False,False
+600000,apartamento,Vitória,Jardim Camburi,70,2,1,1,False,True,False,True,False,False
+1300000,apartamento,Vitória,Jardim Camburi,88,3,2,2,True,True,False,True,False,False
+610000,apartamento,Vitória,Jardim Camburi,55,2,1,1,True,False,False,True,False,True
+1400000,apartamento,Vitória,Mata da Praia,115,3,3,1,True,False,False,False,False,False
+708000,apartamento,Vitória,Bento Ferreira,62,2,2,1,True,True,True,True,False,True
+890000,apartamento,Vitória,Praia do Canto,90,2,3,1,True,False,True,True,False,True
+3450000,apartamento,Vitória,Praia do Canto,134,4,2,3,True,False,True,True,False,False
+950000,apartamento,Vitória,Mata da Praia,104,3,3,2,True,True,False,True,False,True
+860000,casa,Vitória,Bonfim,200,3,3,1,True,False,False,False,False,False
+953000,apartamento,Vitória,Mata da Praia,60,1,1,1,False,True,True,False,False,False
+1321482,apartamento,Vitória,Bento Ferreira,96,3,1,2,False,True,True,False,False,False
+1890000,apartamento,Vitória,Jardim da Penha,140,3,4,2,True,False,False,False,False,False
+890000,apartamento,Vitória,Jardim Camburi,65,2,2,2,True,True,False,False,False,True
+880000,apartamento,Vitória,Bento Ferreira,69,2,2,1,True,True,True,False,False,True
+1250000,apartamento,Vitória,Jardim Camburi,93,3,3,2,False,True,True,False,False,True
+1150000,apartamento,Vitória,Jardim Camburi,92,3,2,2,True,False,True,False,False,True
+980000,apartamento,Vitória,Jardim da Penha,100,3,2,1,True,False,True,True,False,False
+2554559,apartamento,Vitória,Bento Ferreira,150,3,1,3,True,True,True,False,False,False
+957118,apartamento,Vitória,Bento Ferreira,70,2,2,1,True,True,True,True,False,True
+695000,apartamento,Vitória,Jardim Camburi,80,3,2,1,True,False,False,False,False,False
+1350000,apartamento,Vitória,Praia do Suá,115,3,2,2,True,True,False,True,False,False
+1000000,casa,Vitória,Centro,300,4,1,2,True,False,True,False,False,False
+1600000,casa,Vitória,Jardim Camburi,216,4,3,3,True,False,True,False,True,False
+1599900,casa,Vitória,Jardim Camburi,206,4,4,3,True,True,True,True,False,False
+1460000,apartamento,Vitória,Jardim da Penha,105,3,3,2,True,False,False,True,False,True
+1000000,casa,Vitória,Santo Antônio,490,5,3,2,True,False,False,False,True,False
+1060000,apartamento,Vitória,Jardim da Penha,97,3,3,1,True,False,False,False,False,True
+1080000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,False,False,True,False,True
+1790000,apartamento,Vitória,Praia do Canto,115,3,2,2,False,True,False,True,False,False
+1790000,apartamento,Vitória,Barro Vermelho,120,3,3,2,True,False,True,False,False,False
+1100000,apartamento,Vitória,Bento Ferreira,138,3,3,1,True,False,False,True,False,True
+1550000,apartamento,Vitória,Barro Vermelho,105,3,2,2,True,True,True,True,False,True
+890000,apartamento,Vitória,Jardim da Penha,110,3,3,2,False,False,False,False,False,False
+1201627,apartamento,Vitória,Jardim Camburi,97,3,1,2,True,True,True,False,False,False
+1290000,casa,Vitória,Fradinhos,324,3,3,3,True,False,False,False,False,False
+700000,apartamento,Vitória,Jardim Camburi,65,2,2,1,True,False,False,True,False,False
+800000,apartamento,Vitória,Bento Ferreira,67,2,2,1,True,True,False,True,False,True
+1305000,apartamento,Vitória,Jardim Camburi,81,3,2,1,True,False,False,False,False,False
+2090000,apartamento,Vitória,Jardim Camburi,133,4,4,2,True,True,False,False,False,True
+1000000,apartamento,Vitória,Jardim da Penha,120,3,3,2,True,False,False,True,False,True
+860000,casa,Vitória,Bonfim,200,3,2,1,True,False,False,False,False,False
+1150000,casa,Vitória,Jardim Camburi,120,3,3,1,True,True,False,False,False,False
+965200,apartamento,Vitória,Jardim Camburi,66,2,2,1,True,True,False,True,False,True
+591100,apartamento,Vitória,Jardim Camburi,38,1,1,1,False,False,False,False,False,False
+1200000,casa,Vitória,Nazareth,145,3,4,3,True,False,False,False,False,False
+595000,apartamento,Vitória,Bento Ferreira,100,3,1,1,True,False,False,True,False,False
+1980000,apartamento,Vitória,Enseada do Suá,96,3,3,2,True,False,False,False,False,False
+1186205,apartamento,Vitória,Jardim Camburi,78,3,2,2,True,False,False,False,False,False
+1600000,casa,Vitória,Jardim Camburi,206,4,4,1,True,False,False,False,False,False
+1290000,apartamento,Vitória,Jardim da Penha,95,3,2,2,True,False,True,False,False,True
+1800000,apartamento,Vitória,Bento Ferreira,151,4,4,3,True,True,True,True,False,True
+2200000,casa,Vitória,Fradinhos,328,4,5,3,True,False,False,False,False,False
+890000,apartamento,Vitória,Jardim da Penha,95,3,3,2,True,False,True,False,False,False
+2000000,casa,Vitória,Jardim Camburi,300,3,2,3,True,False,False,False,False,False
+650000,casa,Vitória,Fradinhos,187,5,4,2,True,False,False,False,False,False
+1050000,apartamento,Vitória,Jardim Camburi,75,3,2,2,True,False,False,False,False,False
+680000,apartamento,Vitória,Bento Ferreira,100,3,2,1,False,False,False,True,False,False
+1385000,apartamento,Vitória,Jardim Camburi,93,3,2,2,False,True,True,True,False,True
+1191000,apartamento,Vitória,Jardim Camburi,69,2,3,2,True,True,False,True,False,True
+630000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,False,False,False,True
+1660338,apartamento,Vitória,Jardim da Penha,86,3,4,4,True,False,False,False,False,False
+700000,apartamento,Vitória,Jardim Camburi,56,2,2,2,True,True,True,True,False,False
+550000,apartamento,Vitória,Jardim Camburi,70,2,2,1,True,False,False,False,False,False
+930000,apartamento,Vitória,Praia do Canto,73,2,2,1,True,False,True,True,False,True
+950000,apartamento,Vitória,Jardim Camburi,96,3,2,1,True,False,False,True,False,True
+3400000,apartamento,Vitória,Jardim da Penha,238,5,3,5,True,False,False,False,False,False
+550000,apartamento,Vitória,Jardim da Penha,62,2,2,1,False,False,False,False,True,False
+615000,apartamento,Vitória,Jardim da Penha,75,3,2,1,False,False,False,False,False,False
+700000,apartamento,Vitória,Jucutuquara,100,3,3,1,True,False,False,False,False,False
+1140000,apartamento,Vitória,Jardim Camburi,75,3,2,1,True,True,True,True,False,True
+1200000,apartamento,Vitória,Jardim Camburi,92,3,2,2,True,False,False,False,False,False
+940000,apartamento,Vitória,Jardim Camburi,62,2,2,1,True,False,False,False,False,True
+1450000,apartamento,Vitória,Santa Luíza,105,3,3,2,True,True,True,True,False,True
+2150000,apartamento,Vitória,Santa Helena,230,4,4,2,True,True,True,True,False,False
+1028748,apartamento,Vitória,Jardim Camburi,68,2,2,1,False,False,False,False,False,False
+1060000,apartamento,Vitória,Jardim Camburi,67,2,2,2,True,True,False,True,False,True
+1600000,casa,Vitória,Jardim Camburi,135,4,4,2,True,False,False,False,False,False
+2360000,apartamento,Vitória,Barro Vermelho,115,3,3,2,True,False,True,False,False,True
+1119700,apartamento,Vitória,Jardim Camburi,88,3,1,2,False,True,False,True,False,False
+590000,casa,Vitória,Pontal de Camburi,140,3,2,1,True,False,False,False,False,False
+820000,apartamento,Vitória,Jardim da Penha,70,3,2,2,True,False,False,True,False,True
+680000,casa,Vitória,São Cristóvão,276,5,4,0,True,False,False,False,False,False
+1495000,apartamento,Vitória,Praia do Canto,109,3,3,2,True,False,False,False,False,True
+1300000,apartamento,Vitória,Jardim Camburi,88,3,2,2,True,True,False,True,True,True
+2105793,apartamento,Vitória,Jardim Camburi,112,3,4,2,True,False,False,False,False,False
+1280000,apartamento,Vitória,Jardim da Penha,120,3,3,2,True,False,False,False,False,True
+590000,apartamento,Vitória,Jardim Camburi,60,2,1,1,False,False,True,True,False,True
+1500000,casa,Vitória,Santa Cecília,450,3,2,3,True,False,True,False,False,False
+1050000,casa,Vitória,Centro,133,4,4,0,True,True,True,False,False,False
+560000,apartamento,Vitória,Jardim da Penha,60,2,2,1,False,True,False,True,False,False
+600000,apartamento,Vitória,Centro,134,3,2,1,True,False,False,False,False,False
+1180000,apartamento,Vitória,Praia do Canto,94,3,3,2,True,True,True,True,False,True
+1690000,apartamento,Vitória,Praia do Canto,109,3,3,2,True,False,False,False,False,True
+1028753,apartamento,Vitória,Jardim Camburi,68,2,2,1,False,False,False,False,False,False
+450000,apartamento,Vitória,Jardim Camburi,70,3,1,1,False,False,False,True,False,False
+1250000,casa,Vitória,Centro,164,4,3,0,False,False,False,False,False,False
+972748,apartamento,Vitória,Jardim Camburi,63,2,2,1,True,False,False,False,False,False
+1315000,apartamento,Vitória,Jardim da Penha,140,4,3,1,True,False,False,False,False,False
+1300000,apartamento,Vitória,Jardim Camburi,82,2,1,2,True,False,True,False,True,False
+430000,apartamento,Vitória,Jardim Camburi,64,2,1,1,False,False,False,True,False,False
+1495000,apartamento,Vitória,Praia do Canto,109,3,3,2,True,True,False,True,False,True
+1300000,apartamento,Vitória,Enseada do Suá,96,3,3,2,True,True,False,True,False,False
+575000,apartamento,Vitória,Jardim da Penha,82,3,2,1,True,False,False,False,False,False
+1150000,apartamento,Vitória,Jardim Camburi,112,3,2,2,True,False,False,False,False,False
+2300000,apartamento,Vitória,Santa Lúcia,160,4,3,2,True,False,True,False,False,False
+475000,apartamento,Vitória,Jardim Camburi,67,2,2,1,False,False,False,False,False,False

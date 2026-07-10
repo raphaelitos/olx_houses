@@ -1,0 +1,111 @@
+RELATÓRIO DE FUSÃO FINAL
+
+Dataset base: dataset_modelagem_consolidado.csv
+Dataset agregado: dataset_modelagem_agregado.csv
+Duplicatas exatas: duplicatas_candidatas_chave_exata.csv
+
+==========================================================================================
+RESUMO
+==========================================================================================
+Registros na base original: 14103
+Registros no agregado original: 6098
+Pares no arquivo de duplicatas exatas: 4294
+Registros únicos removidos do agregado: 1830
+Registros restantes do agregado: 4268
+Total final auditável: 18371
+Total final para modelagem: 18371
+
+Total esperado após fusão: 18371
+Diferença: 0
+
+==========================================================================================
+COLUNAS
+==========================================================================================
+Colunas presentes apenas na base original antes do alinhamento:
+(vazio)
+
+Colunas presentes apenas no agregado antes do alinhamento:
+(vazio)
+
+Colunas do dataset final auditável:
+preco_venda, tipo_imovel, cidade, bairro, area_m2, quartos, banheiros, vagas, tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador, fonte_dataset
+
+Colunas do dataset final de modelagem:
+preco_venda, tipo_imovel, cidade, bairro, area_m2, quartos, banheiros, vagas, tem_suite, tem_piscina, tem_varanda, tem_lazer, tem_mobiliado, tem_elevador
+
+==========================================================================================
+DISTRIBUIÇÃO POR FONTE
+==========================================================================================
+fonte_dataset
+base_original        14103
+agregado_filtrado     4268
+Name: count, dtype: int64
+
+==========================================================================================
+COBERTURA POR CIDADE
+==========================================================================================
+cidade
+Vila Velha    4906
+Serra         4557
+Guarapari     4003
+Vitória       3952
+Cariacica      802
+Fundão          89
+Viana           62
+Name: count, dtype: int64
+
+==========================================================================================
+COBERTURA POR TIPO
+==========================================================================================
+tipo_imovel
+apartamento    11740
+casa            6631
+Name: count, dtype: int64
+
+==========================================================================================
+COBERTURA POR CIDADE E TIPO
+==========================================================================================
+cidade      tipo_imovel
+Vila Velha  apartamento    3102
+Vitória     apartamento    2858
+Guarapari   apartamento    2799
+Serra       apartamento    2633
+            casa           1924
+Vila Velha  casa           1804
+Guarapari   casa           1204
+Vitória     casa           1094
+Cariacica   casa            476
+            apartamento     326
+Fundão      casa             85
+Viana       casa             44
+            apartamento      18
+Fundão      apartamento       4
+dtype: int64
+
+==========================================================================================
+AUSÊNCIAS EM QUARTOS, BANHEIROS E VAGAS
+==========================================================================================
+quartos:
+  ausentes: 8
+  zeros: 0
+  dtype em memória: Int64
+
+banheiros:
+  ausentes: 18
+  zeros: 0
+  dtype em memória: Int64
+
+vagas:
+  ausentes: 508
+  zeros: 1917
+  dtype em memória: Int64
+
+==========================================================================================
+POLÍTICA APLICADA
+==========================================================================================
+1. Registros do agregado presentes em duplicatas_candidatas_chave_exata.csv foram removidos.
+2. Candidatos por preço arredondado não foram removidos automaticamente.
+3. Candidatos por aproximação estrutural não foram removidos automaticamente.
+4. A base original foi preservada integralmente.
+5. A coluna fonte_dataset foi mantida no dataset auditável.
+6. A coluna fonte_dataset foi removida do dataset final de modelagem.
